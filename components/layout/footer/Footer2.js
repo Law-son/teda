@@ -116,7 +116,7 @@ export default function Footer2() {
             <div className="footer-bottom">
                 <div className="auto-container">
                     <div className="bottom-inner">
-                        <p>Copyright {new Date().getFullYear()} <Link href="/">ForTradex</Link> All Rights Reserved.</p>
+                        <p>Copyright {new Date().getFullYear()} <Link href="/">TEDA</Link> All Rights Reserved.</p>
                         <ul className="social-links">
                             <li><h5>Follow Us On:</h5></li>
                             <li><Link href="/"><i className="icon-12"></i></Link></li>

@@ -13,7 +13,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="option-block">
                                 <div className="support-box">
                                     <div className="icon-box"><i className="icon-07"></i></div>
-                                    <a href="tel:912345678">91 2345 678</a>
+                                    <a href="tel:02079461234">020 7946 1234</a>
                                 </div>
                             </div>
                             <ul className="info-list clearfix">
