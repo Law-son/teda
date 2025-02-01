@@ -8,11 +8,11 @@ export default function Menu() {
             <ul className="navigation clearfix">
                 <li className="dropdown"><Link href="/">Home</Link>
                     <ul>
-                        <li><Link href="/">Home Page One</Link></li>
-                        <li><Link href="/index-2">Home Page Two</Link></li>
-                        <li><Link href="/index-3">Home Page Three</Link></li>
-                        <li><Link href="/index-4">Home Page Four</Link></li>
-                        <li><Link href="/index-5">Home Page Five</Link></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/index-2">Trading Platforms</Link></li>
+                        <li><Link href="/index-3">Create Account</Link></li>
+                        <li><Link href="/index-4">Market Spreads</Link></li>
+                        <li><Link href="/index-5">Trading Proficiency</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="#">Trading</Link>
