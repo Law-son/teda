@@ -6,14 +6,14 @@ export default function Menu() {
         <>
 
             <ul className="navigation clearfix">
-                <li className="dropdown"><Link href="/">Home</Link>
-                    <ul>
+                <li><Link href="/">Home</Link>
+                    {/* <ul>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/index-2">Trading Platforms</Link></li>
                         <li><Link href="/index-3">Create Account</Link></li>
                         <li><Link href="/index-4">Market Spreads</Link></li>
                         <li><Link href="/index-5">Trading Proficiency</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className="dropdown"><Link href="#">Trading</Link>
                     <ul>
@@ -44,7 +44,7 @@ export default function Menu() {
                         </li>
                         <li><Link href="/about">About Us</Link></li>
                         <li><Link href="/faq">FAQ's</Link></li>
-                        <li><Link href="/error">404</Link></li>
+                        {/* <li><Link href="/error">404</Link></li> */}
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="#">Blog</Link>
