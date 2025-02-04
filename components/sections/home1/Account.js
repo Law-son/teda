@@ -25,7 +25,7 @@ export default function Account() {
                             <div className="inner-box">
                                 <div className="icon-box"><i className="icon-02"></i></div>
                                 <h3><Link href="/account-details">Overview Account</Link></h3>
-                                <p>The primary feature of a trading overview account is its ability to aggregate information from multiple accounts and</p>
+                                <p>The primary feature of a trading overview account is its ability to aggregate information from multiple accounts.</p>
                             </div>
                         </div>
                     </div>

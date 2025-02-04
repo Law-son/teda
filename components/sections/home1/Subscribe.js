@@ -5,7 +5,7 @@ export default function Subscribe() {
     <>
       <section className="subscribe-section">
             <div className="bg-color"></div>
-            <div className="auto-container">
+            {/* <div className="auto-container">
                 <div className="inner-container">
                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
                     <div className="row align-items-center">
@@ -26,7 +26,7 @@ export default function Subscribe() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     </>
   )

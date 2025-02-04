@@ -30,30 +30,30 @@ export default function Menu() {
                 </li>
                 <li className="dropdown"><Link href="#">Pages</Link>
                     <ul>
-                        <li className="dropdown"><Link href="#">Education</Link>
+                        {/* <li className="dropdown"><Link href="#">Education</Link>
                             <ul>
                                 <li><Link href="/education">Education</Link></li>
                                 <li><Link href="/education-details">Book Details</Link></li>
                             </ul>
-                        </li>
-                        <li className="dropdown"><Link href="#">Team</Link>
+                        </li> */}
+                        {/* <li className="dropdown"><Link href="#">Team</Link>
                             <ul>
                                 <li><Link href="/team">Our Expert Team</Link></li>
                                 <li><Link href="/team-details">Team Deatils</Link></li>
                             </ul>
-                        </li>
+                        </li> */}
                         <li><Link href="/about">About Us</Link></li>
-                        <li><Link href="/faq">FAQ's</Link></li>
+                        {/* <li><Link href="/faq">FAQ's</Link></li> */}
                         {/* <li><Link href="/error">404</Link></li> */}
                     </ul>
                 </li>
-                <li className="dropdown"><Link href="#">Blog</Link>
+                {/* <li className="dropdown"><Link href="#">Blog</Link>
                     <ul>
                         <li><Link href="/blog">Blog Grid</Link></li>
                         <li><Link href="/blog-2">Blog Standard</Link></li>
                         <li><Link href="/blog-details">Blog Details</Link></li>
                     </ul>
-                </li> 
+                </li>  */}
                 <li><Link href="/contact">Contact</Link></li>
             </ul>
         </>

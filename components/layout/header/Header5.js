@@ -48,7 +48,7 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
                         </div>
                         <div className="menu-right-content">
                             <div className="search-btn mr_25"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
-                            <div className="btn-box"><Link href="/index-5" className="theme-btn btn-one">Open Account</Link></div>
+                            {/* <div className="btn-box"><Link href="/index-5" className="theme-btn btn-one">Open Account</Link></div> */}
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
                         </div>
                         <div className="menu-right-content">
                             <div className="search-btn mr_25"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
-                            <div className="btn-box"><Link href="/index-5" className="theme-btn btn-one">Open Account</Link></div>
+                            {/* <div className="btn-box"><Link href="/index-5" className="theme-btn btn-one">Open Account</Link></div> */}
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ export default function News() {
   return (
     <>
         <section className="news-section pt_100 pb_70">
-            <div className="auto-container">
+            {/* <div className="auto-container">
                 <div className="sec-title centred pb_60">
                     <span className="sub-title mb_14">Media Center</span>
                     <h2>Latest News Update</h2>
@@ -53,7 +53,7 @@ export default function News() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     </>
   )

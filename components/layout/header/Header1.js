@@ -17,10 +17,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="icon-box"><i className="icon-07"></i></div>
                             <a href="tel:02079461234">020 7946 1234</a>
                         </div>
-                        <div className="option-block">
+                        {/* <div className="option-block">
                             <a href="index.html" className="theme-btn btn-one mr_10">Open Account</a>
                             <a href="index.html" className="theme-btn btn-two">Login</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
