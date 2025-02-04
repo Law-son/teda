@@ -52,10 +52,10 @@ export default function Platform() {
                                                     <h2>Financial Markets</h2>
                                                     <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <div className="btn-box">
+                                                    {/* <div className="btn-box">
                                                         <Link href="/account-details" className="theme-btn btn-one mr_20">Start Trading</Link>
                                                         <Link href="/index-2" className="theme-btn btn-two">Learn More</Link>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -74,10 +74,10 @@ export default function Platform() {
                                                     <h2>What is Forex</h2>
                                                     <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <div className="btn-box">
+                                                    {/* <div className="btn-box">
                                                         <Link href="/account-details" className="theme-btn btn-one mr_20">Start Trading</Link>
                                                         <Link href="/index-2" className="theme-btn btn-two">Learn More</Link>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -96,10 +96,10 @@ export default function Platform() {
                                                     <h2>Tools Overview</h2>
                                                     <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <div className="btn-box">
+                                                    {/* <div className="btn-box">
                                                         <Link href="/account-details" className="theme-btn btn-one mr_20">Start Trading</Link>
                                                         <Link href="/index-2" className="theme-btn btn-two">Learn More</Link>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -118,10 +118,10 @@ export default function Platform() {
                                                     <h2>Platform Comparison</h2>
                                                     <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <div className="btn-box">
+                                                    {/* <div className="btn-box">
                                                         <Link href="/account-details" className="theme-btn btn-one mr_20">Start Trading</Link>
                                                         <Link href="/index-2" className="theme-btn btn-two">Learn More</Link>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -203,7 +203,7 @@ export default function Platform() {
                     </div>
                 </section>
 
-                <section className="testimonial-style-two pt_0 pb_70">
+                {/* <section className="testimonial-style-two pt_0 pb_70">
                     <div className="auto-container">
                         <div className="sec-title centred pb_60">
                             <span className="sub-title mb_14">Testimonials</span>
@@ -272,7 +272,7 @@ export default function Platform() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 
                 <Subscribe />
 

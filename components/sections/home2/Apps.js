@@ -21,12 +21,12 @@ export default function Apps() {
                                     <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
                                 </div>
                                 <div className="btn-box">
-                                    <Link href="/index-2" className="apple-store">
+                                    <Link href="https://apps.apple.com/at/app/easelaundry/id6740855121" className="apple-store">
                                         <img src="assets/images/icons/icon-7.png" alt=""/>
                                         <span>Download on</span>
                                         App Store
                                     </Link>
-                                    <Link href="/index-2" className="play-store">
+                                    <Link href="https://play.google.com/store/apps/details?id=com.sleepflow.sleepapp" className="play-store">
                                         <img src="assets/images/icons/icon-8.png" alt=""/>
                                         <span>Get it on</span>
                                         Google Play

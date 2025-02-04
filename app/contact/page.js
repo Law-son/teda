@@ -6,11 +6,11 @@ export default function Contact() {
 
     return (
         <div className="boxed_wrapper">
-        <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Contact Us">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Contact Us">
 
-        <section className="contact-section pt_90 pb_100">
-            <div className="auto-container">
-                <div className="info-inner pb_25">
+                <section className="contact-section pt_90 pb_100">
+                    <div className="auto-container">
+                        {/* <div className="info-inner pb_25">
                     <div className="row clearfix">
                         <div className="col-lg-3 col-md-6 col-sm-12 info-column">
                             <div className="single-info">
@@ -41,45 +41,53 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="form-inner pb_70">
-                    <form method="post" action="sendemail.php" id="contact-form">
-                        <div className="row clearfix">
-                            <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                <label>Your Name <span>*</span></label>
-                                <input type="text" name="username" placeholder="" required/>
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                <label>Phone <span>*</span></label>
-                                <input type="text" name="phone" placeholder="" required/>
-                            </div>
-                            <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                                <label>Email Address <span>*</span></label>
-                                <input type="email" name="email" placeholder="" required/>
-                            </div>
-                            <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                                <label>Subject <span>*</span></label>
-                                <input type="text" name="subject" placeholder="" required/>
-                            </div>
-                            <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                                <label>Write Message <span>*</span></label>
-                                <textarea name="message" placeholder=""></textarea>
-                            </div>
-                            <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn pt_18">
-                                <button type="submit" className="theme-btn btn-one" name="submit-form">Send Message</button>
-                            </div>
+                </div> */}
+                        <div className="form-inner pb_70">
+                            <form method="post" action="sendemail.php" id="contact-form">
+                                <div className="row clearfix">
+                                    <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Your Name <span>*</span></label>
+                                        <input type="text" name="username" placeholder="" required />
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Phone <span>*</span></label>
+                                        <input type="text" name="phone" placeholder="" required />
+                                    </div>
+                                    <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <label>Email Address <span>*</span></label>
+                                        <input type="email" name="email" placeholder="" required />
+                                    </div>
+                                    <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <label>Subject <span>*</span></label>
+                                        <input type="text" name="subject" placeholder="" required />
+                                    </div>
+                                    <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <label>Write Message <span>*</span></label>
+                                        <textarea name="message" placeholder=""></textarea>
+                                    </div>
+                                    <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn pt_18">
+                                        <button type="submit" className="theme-btn btn-one" name="submit-form">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                    </form>
-                </div>
-                <div className="map-inner">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                </div>
-            </div>
-        </section>
+                        <div className="map-inner">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.7789219520146!2d-1.4694768235733852!3d52.42832097197185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48774b85902eb1df%3A0xa7c75c81f08c64b2!2s7%20Copperfield%20Rd%2C%20Coventry%20CV2%204AQ%2C%20UK!5e0!3m2!1sen!2s!4v1707068242825!5m2!1sen!2s"
+                                height={570}
+                                style={{ border: 0, width: "100%" }}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
 
-        <Subscribe/>
+                    </div>
+                </section>
 
-        </Layout>
-    </div>
+                <Subscribe />
+
+            </Layout>
+        </div>
     )
 }

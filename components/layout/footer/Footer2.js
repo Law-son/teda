@@ -102,10 +102,10 @@ export default function Footer2() {
                                     <figure className="footer-logo mb_15"><Link href="/"><img src="assets/images/logo-5.png" alt=""/></Link></figure>
                                     <p>Trade multipliers on our app.</p>
                                     <div className="scanner-box mb_30"><img src="assets/images/icons/icon-15.png" alt=""/></div>
-                                    <ul className="download-list flex justify-between clearfix">
-                                        <li><Link href="/"><i className="fab fa-apple"></i></Link></li>
-                                        <li><Link href="/"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
-                                        <li><Link href="/"><i className="fab fa-android"></i></Link></li>
+                                    <ul className="flex justify-between download-list clearfix">
+                                        <li className="ms-5"><Link href="/" onClick={disableClick}><i className="fab fa-apple"></i></Link></li>
+                                        <li style={{ display: "none" }}><Link href="/"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
+                                        <li className="me-5"><Link href="/" onClick={disableClick}><i className="fab fa-android"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>

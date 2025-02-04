@@ -1,6 +1,11 @@
+"use client";
 import Link from "next/link"
 
 export default function Footer1() {
+    const disableClick = (event) => {
+        event.preventDefault();
+      };
+
     return (
         <>
         <footer className="main-footer">
@@ -102,9 +107,9 @@ export default function Footer1() {
                                     <p>Trade multipliers on our app.</p>
                                     <div className="scanner-box mb_30"><img src="assets/images/icons/icon-3.png" alt=""/></div>
                                     <ul className="flex justify-between download-list clearfix">
-                                        <li><Link href="/"><i className="fab fa-apple"></i></Link></li>
-                                        {/* <li><Link href="/"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li> */}
-                                        <li><Link href="/"><i className="fab fa-android"></i></Link></li>
+                                        <li className="ms-5"><Link href="/" onClick={disableClick}><i className="fab fa-apple"></i></Link></li>
+                                        <li style={{ display: "none" }}><Link href="/"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
+                                        <li className="me-5"><Link href="/" onClick={disableClick}><i className="fab fa-android"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>
