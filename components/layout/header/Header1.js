@@ -43,7 +43,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     <Menu />
                                 </div>
                             </nav>
-                            <div className="search-btn ml_30"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
+                            {/* <div className="search-btn ml_30"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div> */}
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     <Menu />
                                 </div>
                             </nav>
-                            <div className="search-btn ml_30"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
+                            {/* <div className="search-btn ml_30"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div> */}
                         </div>
                     </div>
                 </div>

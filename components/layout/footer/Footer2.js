@@ -85,7 +85,7 @@ export default function Footer2() {
                             </div>
                             <div className="footer-lower">
                                 <figure className="footer-logo"><Link href="/"><img src="assets/images/logo-4.png" alt=""/></Link></figure>
-                                <ul className="footer-card clearfix">
+                                {/* <ul className="footer-card clearfix">
                                     <li><h4>We Accept:</h4></li>
                                     <li><Link href="/"><img src="assets/images/icons/card-1.png" alt=""/></Link></li>
                                     <li><Link href="/"><img src="assets/images/icons/card-2.png" alt=""/></Link></li>
@@ -93,7 +93,7 @@ export default function Footer2() {
                                     <li><Link href="/"><img src="assets/images/icons/card-4.png" alt=""/></Link></li>
                                     <li><Link href="/"><img src="assets/images/icons/card-5.png" alt=""/></Link></li>
                                     <li><Link href="/"><img src="assets/images/icons/card-6.png" alt=""/></Link></li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
@@ -102,7 +102,7 @@ export default function Footer2() {
                                     <figure className="footer-logo mb_15"><Link href="/"><img src="assets/images/logo-5.png" alt=""/></Link></figure>
                                     <p>Trade multipliers on our app.</p>
                                     <div className="scanner-box mb_30"><img src="assets/images/icons/icon-15.png" alt=""/></div>
-                                    <ul className="download-list clearfix">
+                                    <ul className="download-list flex justify-between clearfix">
                                         <li><Link href="/"><i className="fab fa-apple"></i></Link></li>
                                         <li><Link href="/"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
                                         <li><Link href="/"><i className="fab fa-android"></i></Link></li>
@@ -117,13 +117,13 @@ export default function Footer2() {
                 <div className="auto-container">
                     <div className="bottom-inner">
                         <p>Copyright {new Date().getFullYear()} <Link href="/">TEDA</Link> All Rights Reserved.</p>
-                        <ul className="social-links">
+                        {/* <ul className="social-links">
                             <li><h5>Follow Us On:</h5></li>
                             <li><Link href="/"><i className="icon-12"></i></Link></li>
                             <li><Link href="/"><i className="icon-13"></i></Link></li>
                             <li><Link href="/"><i className="icon-14"></i></Link></li>
                             <li><Link href="/"><i className="icon-15"></i></Link></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>

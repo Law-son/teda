@@ -67,9 +67,9 @@ export default function Banner() {
                         <div className="content-box">
                             <h2>Trading for Anyone. Anywhere. Anytime.</h2>
                             <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
-                            <div className="btn-box">
+                            {/* <div className="btn-box">
                                 <Link href="/" className="theme-btn btn-one">Create Account</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
@@ -77,9 +77,9 @@ export default function Banner() {
                         <div className="content-box">
                             <h2>Trading for Anyone. Anywhere. Anytime.</h2>
                             <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
-                            <div className="btn-box">
+                            {/* <div className="btn-box">
                                 <Link href="/" className="theme-btn btn-one">Create Account</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
@@ -87,9 +87,9 @@ export default function Banner() {
                         <div className="content-box">
                             <h2>Trading for Anyone. Anywhere. Anytime.</h2>
                             <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
-                            <div className="btn-box">
+                            {/* <div className="btn-box">
                                 <Link href="/" className="theme-btn btn-one">Create Account</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
 

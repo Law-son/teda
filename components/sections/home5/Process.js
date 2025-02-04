@@ -57,7 +57,7 @@ export default function Process() {
                                         <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
                                                 <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
-                                                <Link href="/faq">Learn More</Link>
+                                                {/* <Link href="/faq">Learn More</Link> */}
                                             </div>
                                         </div>
                                     </li>
@@ -69,7 +69,7 @@ export default function Process() {
                                         <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
                                                 <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
-                                                <Link href="/faq">Learn More</Link>
+                                                {/* <Link href="/faq">Learn More</Link> */}
                                             </div>
                                         </div>
                                     </li>
@@ -81,7 +81,7 @@ export default function Process() {
                                         <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
                                                 <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
-                                                <Link href="/faq">Learn More</Link>
+                                                {/* <Link href="/faq">Learn More</Link> */}
                                             </div>
                                         </div>
                                     </li>
