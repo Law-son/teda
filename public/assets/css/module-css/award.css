@@ -16,41 +16,45 @@
   width: 100%;
 }
 
-.award-section .award-table tr{
+.award-section .award-table tr {
   position: relative;
-  display: flex;
   align-items: center;
   border-bottom: 1px solid #e5e5e5;
   padding: 15px 0px;
-  justify-content: space-between;
+  display: table-row;  /* Change from flex to table-row */
 }
 
-.award-section .award-table tr td{
+.award-section .award-table tr td {
   position: relative;
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
   color: var(--title-color);
+  text-align: left;  /* Ensure text aligns to the left */
 }
 
-.award-section .award-table tr td h3{
+.award-section .award-table tr td h3 {
   display: block;
   font-size: 24px;
   line-height: 34px;
   font-weight: 500;
+  width: 50%;
+  margin-left: 110px;
 }
 
-.award-section .award-table tr td h3 a{
+.award-section .award-table tr td h3 a {
   display: inline-block;
   color: var(--title-color);
 }
 
-.award-section .award-table tr td h3 a:hover{
-
+.award-section .award-table tr td h3 a:hover {
+  /* Add hover styles if needed */
 }
 
-.award-section .award-table tr td span{
+.award-section .award-table tr td span {
   color: #6A6A6A;
+  text-align: left;
+  margin-right: 110px;
 }
 
 

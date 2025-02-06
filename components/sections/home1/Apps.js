@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Apps() {
   const disableClick = (event) => {
     event.preventDefault();
-  };
+  }; 
 
   return (
     <>

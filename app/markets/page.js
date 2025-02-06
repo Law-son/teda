@@ -12,6 +12,10 @@ export default function Markets() {
         setActiveIndex(index)
     }
 
+    const disableClick = (event) => {
+        event.preventDefault();
+      }; 
+
     return (
         <div className="boxed_wrapper">
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Markets Place">
@@ -97,8 +101,8 @@ export default function Markets() {
                                     </div>
                                     <div className="lower-content">
                                         <h3><a href="markets-details.html">Trade Forex</a></h3>
-                                        <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p>
-                                        <div className="btn-box">
+                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                        <div className="btn-box mt-3">
                                             <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
                                         </div>
                                     </div>
@@ -114,8 +118,8 @@ export default function Markets() {
                                     </div>
                                     <div className="lower-content">
                                         <h3><a href="markets-details.html">Indices</a></h3>
-                                        <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p>
-                                        <div className="btn-box">
+                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                        <div className="btn-box mt-3">
                                             <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
                                         </div>
                                     </div>
@@ -131,8 +135,8 @@ export default function Markets() {
                                     </div>
                                     <div className="lower-content">
                                         <h3><a href="markets-details.html">Cryptocurrenciesices</a></h3>
-                                        <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p>
-                                        <div className="btn-box">
+                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                        <div className="btn-box mt-3">
                                             <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
                                         </div>
                                     </div>
@@ -148,8 +152,8 @@ export default function Markets() {
                                     </div>
                                     <div className="lower-content">
                                         <h3><a href="markets-details.html">Commodities</a></h3>
-                                        <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p>
-                                        <div className="btn-box">
+                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                        <div className="btn-box mt-3">
                                             <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
                                         </div>
                                     </div>
@@ -172,10 +176,10 @@ export default function Markets() {
                                 <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
                             </div>
                             <ul className="download-list clearfix">
-                                <li><Link href="/markets"><i className="fab fa-apple"></i></Link></li>
-                                <li><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
-                                <li><Link href="/markets"><i className="fab fa-android"></i></Link></li>
-                                <li><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt=""/></Link></li>
+                                <li><Link href="/markets" onClick={disableClick}><i className="fab fa-apple"></i></Link></li>
+                                <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
+                                <li><Link href="/markets" onClick={disableClick}><i className="fab fa-android"></i></Link></li>
+                                <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt=""/></Link></li>
                             </ul>
                         </div>
                     </div>

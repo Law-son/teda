@@ -5,7 +5,7 @@ export default function Account_details() {
 
     return (
         <div className="boxed_wrapper">
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Account Deatils">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Account Details">
 
             <section className="account-details account-style-two account-page clear-bg pt_100 pb_100">
                 <div className="auto-container">
@@ -55,7 +55,7 @@ export default function Account_details() {
                     <figure className="image-box mb_60"><img src="assets/images/resource/account-1.jpg" alt=""/></figure>
                     <div className="account-info">
                         <h2>Professional Account Info</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lobortis tortor, sit amet congue purus. Maecenas pharetra lacus quis nisi porta facilisis. Morbi fermentum bibendum arcu, a porttitor eros volutpat et. Praesent nec magna tincidunt, placerat justo non, egestas quam.</p>
+                        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lobortis tortor, sit amet congue purus. Maecenas pharetra lacus quis nisi porta facilisis. Morbi fermentum bibendum arcu, a porttitor eros volutpat et. Praesent nec magna tincidunt, placerat justo non, egestas quam.</p> */}
                         <div className="info-inner">
                             <ul className="info-list clearfix">
                                 <li><span>Initial Deposit</span><span>$100</span></li>

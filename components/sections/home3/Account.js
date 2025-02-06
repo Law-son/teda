@@ -58,7 +58,7 @@ export default function Account() {
                                         <li>Seamlessly manage your account and portfolio</li>
                                         <li>Stay ahead with real-time charts and indicators</li>
                                     </ul>
-                                    <Link href="/index-3" className="theme-btn btn-one">Create Account</Link>
+                                    {/* <Link href="/index-3" className="theme-btn btn-one">Create Account</Link> */}
                                 </div>
                             </div>
                         </div>
