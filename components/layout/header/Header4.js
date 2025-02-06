@@ -13,7 +13,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                             <figure className="logo-box">
-                                <Link href="/index-4">
+                                <Link href="/">
                                 <img src="assets/images/logo-4.png" alt="/" />
                                 </Link>
                             </figure>
@@ -43,7 +43,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                             <figure className="logo-box">
-                                <Link href="/index-4">
+                                <Link href="/">
                                 <img src="assets/images/logo-4.png" alt="/" />
                                 </Link>
                             </figure>

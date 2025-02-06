@@ -1,9 +1,9 @@
 'use client'
-import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import {  Navigation } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
-    modules: [Autoplay, Pagination, Navigation],
+    modules: [ Navigation],
     slidesPerView: 1,
     spaceBetween: 30,
     autoplay: {
@@ -98,9 +98,9 @@ export default function Testimonial() {
                             </div>
                         </SwiperSlide>
 
-                        <div className="dots-style-one">
+                        {/* <div className="dots-style-one">
                             <div className="swiper-pagination"></div>
-                        </div>
+                        </div> */}
 
                     </Swiper>
                 </div>

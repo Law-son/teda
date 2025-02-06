@@ -78,7 +78,7 @@
 
 .testimonial-section .inner-container .thumb-box .thumb-2{
   left: 0px;
-  top: 135px;
+  top: 1px;
   -webkit-animation: zoom-fade 2s infinite linear;
   animation: zoom-fade 2s infinite linear;
 }
@@ -92,7 +92,7 @@
 
 .testimonial-section .inner-container .thumb-box .thumb-4{
   left: 210px;
-  top: 200px;
+  top: 120px;
   -webkit-animation: zoom-fade 2s infinite linear;
   animation: zoom-fade 2s infinite linear;
 }
@@ -106,14 +106,14 @@
 
 .testimonial-section .inner-container .thumb-box .thumb-6{
   top: 120px;
-  right: 0px;
+  right: 10px;
   -webkit-animation: zoom-fade 4s infinite linear;
   animation: zoom-fade 4s infinite linear;
 }
 
 .testimonial-section .inner-container .thumb-box .thumb-7{
   bottom: 0px;
-  right: 12px;
+  right: 100px;
   -webkit-animation: zoom-fade 3s infinite linear;
   animation: zoom-fade 3s infinite linear;
 }

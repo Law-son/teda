@@ -28,7 +28,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="large-container">
                         <div className="outer-box">
                             <figure className="logo-box">
-                                <Link href="/index-2">
+                                <Link href="/">
                                 <img src="assets/images/logo.png" alt="/" />
                                 </Link>
                             </figure>
@@ -58,7 +58,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="large-container">
                         <div className="outer-box">
                             <figure className="logo-box">
-                                <Link href="/index-2">
+                                <Link href="/">
                                 <img src="assets/images/logo.png" alt="/" />
                                 </Link>
                             </figure>
