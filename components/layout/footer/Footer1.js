@@ -84,7 +84,7 @@ export default function Footer1() {
                                     </div>
                                 </div>
                                 <div style={{ fontWeight: 'lighter' }} className="text-black medium mt-5">
-                                    TEDA GIObal Limited is a company regulated by the Money
+                                    TEDA Global Limited is a company regulated by the Money
                                     Services Business (MSB) in the United States, with registration
                                     number 31000280102867. Its registered office is located at 7
                                     Copperfield Road, Coventry, West Midlands, England, CV2 4AQ
