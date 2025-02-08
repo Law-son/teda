@@ -1,4 +1,4 @@
-import Link from "next/link"
+import { Link } from '../../../navigation';
 import Layout from "@/components/layout/Layout"
 import Apps from "@/components/sections/home2/Apps"
 import Subscribe from "@/components/sections/home1/Subscribe"

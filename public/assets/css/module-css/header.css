@@ -13,6 +13,10 @@
   justify-content: space-between;
 }
 
+.translator {
+  z-index: 999999;
+}
+
 .header-top{
   position: relative;
   background: #131615;

@@ -1,0 +1,9 @@
+{
+    "Home": {
+        "Hero": {
+            "Title": "交易適合任何人。隨時隨地。",
+            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
+            "CallToAction": "Read about us"
+        }
+    }
+}

@@ -1,6 +1,8 @@
-import Link from "next/link"
+import { Link } from '../../../navigation';
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import { LanguageSelector } from "@/components/elements/LanguageTranslator"
+
 export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
         <>
@@ -16,10 +18,9 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     <a href="tel:02079461234">020 7946 1234</a>
                                 </div>
                             </div>
-                            {/* <ul className="info-list clearfix">
-                                <li><i className="icon-28"></i><span>£20 Discount</span> & Get 24/7 Free Assistance</li>
-                                <li><i className="icon-27"></i>Free Trading Guides</li>
-                            </ul> */}
+                            <div className="position-relative z-index-1000">
+                                <LanguageSelector />
+                            </div>
                         </div>
                     </div>
                 </div>

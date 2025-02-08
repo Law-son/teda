@@ -2,6 +2,7 @@
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import Link from "next/link"
+import { useTranslations } from 'next-intl';
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -55,27 +56,25 @@ const swiperOptions = {
 
 
 export default function Banner() {
+
+    const t = useTranslations('Home.Hero');
+
     return (
         <> 
-
-
         <section className="banner-section p_relative pt_20">
             <div className="large-container">
                 <Swiper {...swiperOptions} className="theme_carousel owl-theme banner-carousel">
                     <SwiperSlide className="slide-item p_relative">
                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-1.jpg)" }}></div>
                         <div className="content-box">
-                            <h2>Trading for Anyone. Anywhere. Anytime.</h2>
+                            <h2>{t('Title')}</h2>
                             <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
-                            {/* <div className="btn-box">
-                                <Link href="/" className="theme-btn btn-one">Create Account</Link>
-                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-2.jpg)" }}></div>
                         <div className="content-box">
-                            <h2>Trading for Anyone. Anywhere. Anytime.</h2>
+                            <h2>{t('Title')}</h2>
                             <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
                             {/* <div className="btn-box">
                                 <Link href="/" className="theme-btn btn-one">Create Account</Link>
@@ -85,7 +84,7 @@ export default function Banner() {
                     <SwiperSlide className="slide-item p_relative">
                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-3.jpg)" }}></div>
                         <div className="content-box">
-                            <h2>Trading for Anyone. Anywhere. Anytime.</h2>
+                            <h2>{t('Title')}</h2>
                             <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
                             {/* <div className="btn-box">
                                 <Link href="/" className="theme-btn btn-one">Create Account</Link>

@@ -1,6 +1,7 @@
-import Link from "next/link"
+import { Link } from '../../../navigation';
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import { LanguageSelector } from "@/components/elements/LanguageTranslator"
 
 export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
@@ -16,6 +17,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     <a href="tel:02079461234">020 7946 1234</a>
                                 </div>
                             </div>
+                            <div className="position-relative z-index-1000">
+                                <LanguageSelector />
+                            </div>
                             <ul className="info-list clearfix">
                                 <li><i className="icon-28"></i><span>£20 Discount</span> & Get 24/7 Free Assistance</li>
                                 <li><i className="icon-27"></i>Free Trading Guides</li>
@@ -29,7 +33,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/">
-                                <img src="assets/images/logo.png" alt="/" />
+                                    <img src="assets/images/logo.png" alt="/" />
                                 </Link>
                             </figure>
                             <div className="menu-area clearfix">
@@ -59,7 +63,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/">
-                                <img src="assets/images/logo.png" alt="/" />
+                                    <img src="assets/images/logo.png" alt="/" />
                                 </Link>
                             </figure>
                             <div className="menu-area clearfix">

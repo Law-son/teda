@@ -1,6 +1,8 @@
-import Link from "next/link"
+import { Link } from '../../../navigation';
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import { LanguageSelector } from "@/components/elements/LanguageTranslator"
+
 export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
         <>
@@ -30,10 +32,9 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     </div>
                                 </nav>
                             </div>
-                            {/* <div className="menu-right-content">
-                                <div className="search-btn mr_25"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
-                                <div className="btn-box"><Link href="/index-4" className="theme-btn btn-one">Open Account</Link></div>
-                            </div> */}
+                            <div className="position-relative z-index-1000">
+                                <LanguageSelector />
+                            </div>
                         </div>
                     </div>
                 </div>

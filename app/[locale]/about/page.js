@@ -1,5 +1,5 @@
 'use client'
-import Link from "next/link"
+import { Link } from '../../../navigation';
 import { useState } from "react"
 import Layout from "@/components/layout/Layout"
 import VideoPopup from "@/components/elements/VideoPopup"
