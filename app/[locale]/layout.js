@@ -1,5 +1,4 @@
-"use client";
-import { NextIntlClientProvider } from "next-intl";
+import ClientProviders from "@/components/ClientProviders";
 import "@/node_modules/react-modal-video/css/modal-video.css";
 import "public/assets/css/bootstrap.css";
 import "public/assets/css/style.css";
@@ -56,9 +55,9 @@ export default function RootLayout({ children, params }) {
   return (
     <html lang={locale} className={`${firaSans.variable} ${barlow.variable}`}>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messagesForLocale}>
+        <ClientProviders locale={locale} messages={messagesForLocale}>
           {children}
-        </NextIntlClientProvider>
+        </ClientProviders>
       </body>
     </html>
   );
