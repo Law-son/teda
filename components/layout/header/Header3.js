@@ -7,9 +7,9 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
     return (
         <>
             {/* <header className="main-header header-style-three"> */}
-            
+
             <header className={`main-header header-style-three ${scroll ? "fixed-header" : ""}`}>
-                <div className="header-top">
+                {/* <div className="header-top">
                     <div className="outer-container">
                         <div className="top-inner">
                             <div className="option-block">
@@ -23,28 +23,34 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+
+
                 {/* header lower */}
                 <div className="header-lower">
                     <div className="outer-container">
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/">
-                                <img src="assets/images/logo.png" alt="/" />
+                                    <img src="/assets/images/logo.png" alt="/" />
                                 </Link>
                             </figure>
-                            <div className="menu-area clearfix">
-                                {/* mobile navigation toggler */}
-                                <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
-                                    <i className="icon-bar"></i>
-                                    <i className="icon-bar"></i>
-                                    <i className="icon-bar"></i>
-                                </div>
-                                <nav className="main-menu navbar-expand-md navbar-light">
-                                    <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                        <Menu />
+                            <div className="d-flex flex-row align-items-center">
+                                    <LanguageSelector />
+                                    <div style={{ marginRight: '20px' }}></div>
+                                <div className="menu-area clearfix">
+                                    {/* mobile navigation toggler */}
+                                    <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
+                                        <i className="icon-bar"></i>
+                                        <i className="icon-bar"></i>
+                                        <i className="icon-bar"></i>
                                     </div>
-                                </nav>
+                                    <nav className="main-menu navbar-expand-md navbar-light">
+                                        <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                            <Menu />
+                                        </div>
+                                    </nav>
+                                </div>
                             </div>
                             {/* <div className="menu-right-content">
                                 <div className="search-btn mr_25"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
@@ -60,7 +66,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/">
-                                <img src="assets/images/logo.png" alt="/" />
+                                    <img src="assets/images/logo.png" alt="/" />
                                 </Link>
                             </figure>
                             <div className="menu-area clearfix">
@@ -86,9 +92,9 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
             </header>
 
             <MobileMenu handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} />
-            
 
-            
+
+
         </>
     )
 }

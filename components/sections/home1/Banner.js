@@ -68,14 +68,14 @@ export default function Banner() {
                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-1.jpg)" }}></div>
                         <div className="content-box">
                             <h2>{t('Title')}</h2>
-                            <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
+                            <p>Trade with a wide range of instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-2.jpg)" }}></div>
                         <div className="content-box">
                             <h2>{t('Title')}</h2>
-                            <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
+                            <p>Trade with a wide range of instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
                             {/* <div className="btn-box">
                                 <Link href="/" className="theme-btn btn-one">Create Account</Link>
                             </div> */}
@@ -85,7 +85,7 @@ export default function Banner() {
                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-3.jpg)" }}></div>
                         <div className="content-box">
                             <h2>{t('Title')}</h2>
-                            <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
+                            <p>Trade with a wide range of instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
                             {/* <div className="btn-box">
                                 <Link href="/" className="theme-btn btn-one">Create Account</Link>
                             </div> */}

@@ -64,19 +64,29 @@ export function LanguageSelector() {
 
   return (
     <div className="translator position-relative" ref={dropdownRef}>
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="btn p-0 border-2 rounded-circle d-flex align-items-center justify-content-center"
-        style={{ width: "50px", height: "50px" }}
-      >
-        <Image
-          src={`/flags/${selectedLang.code}.png`}
-          alt={selectedLang.name}
-          width={32}
-          height={32}
-          className="rounded-circle object-cover"
-        />
-      </button>
+      <div className="d-flex align-items-center">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="btn p-0 border-2 rounded-circle d-flex align-items-center justify-content-center"
+          style={{ width: "50px", height: "50px" }}
+        >
+          <Image
+            src={`/flags/${selectedLang.code}.png`}
+            alt={selectedLang.name}
+            width={32}
+            height={32}
+            className="rounded-circle object-cover"
+          />
+        </button>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="btn rounded dropdown-toggle px-2 py-1"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+        </button>
+      </div>
 
       {isOpen && (
         <div

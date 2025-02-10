@@ -21,9 +21,9 @@ export default function About() {
                         <div className="col-lg-5 col-md-12 col-sm-12 btn-column">
                             <ul className="tab-btns tab-buttons clearfix">
                                 <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>FXT Application <i className="icon-26"></i></li>
-                                <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Meta Trader 4 <i className="icon-26"></i></li>
+                                <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Web <i className="icon-26"></i></li>
                                 <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>FBS Personal Area <i className="icon-26"></i></li>
-                                <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>Meta Trader 5 <i className="icon-26"></i></li>
+                                {/* <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>Meta Trader 5 <i className="icon-26"></i></li> */}
                             </ul>
                         </div>
                         <div className="col-lg-7 col-md-12 col-sm-12 content-column">
@@ -37,25 +37,25 @@ export default function About() {
                                 </div>
                                 <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="trader">
                                     <div className="content-box">
-                                        <h2>Meta Trader 4</h2>
-                                        <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
+                                        <h2>Web</h2>
+                                        <p>Ride the financial waves with a top-tier trading platform, crafted to give you full control of the markets at your fingertips. </p>
                                         <figure className="image-box"><Link href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox='gallery'><img src="assets/images/resource/dashboard-1.png" alt=""/></Link></figure>
                                     </div>
                                 </div>
                                 <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="personal">
                                     <div className="content-box">
                                         <h2>FBS Personal Area</h2>
-                                        <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
+                                        <p>Steer through the financial waves with FXT’s elite trading app, built to put the market’s power right in your hands. </p>
                                         <figure className="image-box"><Link href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox='gallery'><img src="assets/images/resource/dashboard-1.png" alt=""/></Link></figure>
                                     </div>
                                 </div>
-                                <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="meta">
+                                {/* <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="meta">
                                     <div className="content-box">
                                         <h2>Meta Trader 5</h2>
                                         <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
                                         <figure className="image-box"><Link href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox='gallery'><img src="assets/images/resource/dashboard-1.png" alt=""/></Link></figure>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

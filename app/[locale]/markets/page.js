@@ -43,7 +43,7 @@ export default function Markets() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
+                                    {/* <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
                                         <div className="content-box">
                                             <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
                                             <h2>MT4/MT</h2>
@@ -55,8 +55,8 @@ export default function Markets() {
                                                 <li>Trade with confidence through encrypted</li>
                                             </ul>
                                         </div>
-                                    </div>
-                                    <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="cpoy">
+                                    </div> */}
+                                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="cpoy">
                                         <div className="content-box">
                                             <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
                                             <h2>FXT Cpoy</h2>
@@ -74,8 +74,8 @@ export default function Markets() {
                             <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
                                 <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
                                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>FXT Webtrader</li>
-                                    <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT4/MT</li>
-                                    <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>FXT Cpoy</li>
+                                    <li style={{display: "none"}} onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT4/MT</li>
+                                    <li onClick={() => handleOnClick(3)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>FXT Cpoy</li>
                                 </ul>
                             </div>
                         </div>
@@ -176,9 +176,9 @@ export default function Markets() {
                                 <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
                             </div>
                             <ul className="download-list clearfix">
-                                <li><Link href="/markets" onClick={disableClick}><i className="fab fa-apple"></i></Link></li>
+                                <li><Link href=" https://apps.apple.com/cn/app/exchangespaw/id6741582233"><i className="fab fa-apple"></i></Link></li>
                                 <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
-                                <li><Link href="/markets" onClick={disableClick}><i className="fab fa-android"></i></Link></li>
+                                <li><Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"><i className="fab fa-android"></i></Link></li>
                                 <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt=""/></Link></li>
                             </ul>
                         </div>

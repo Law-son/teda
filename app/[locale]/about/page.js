@@ -115,13 +115,9 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details">Olivia Quinn</Link></h3>
+                                        <h3><Link href="/team-details/olivia-quinn">Olivia Quinn</Link></h3>
                                             <span className="designation">Forex Trader</span>
-                                            {/* <ul className="social-links">
-                                        <li><Link href="/team-details"><i className="icon-13"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-15"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-14"></i></Link></li>
-                                    </ul> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -131,13 +127,9 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details">Nathan Hayes</Link></h3>
+                                            <h3><Link href="/team-details/nathan-hayes">Nathan Hayes</Link></h3>
                                             <span className="designation">Consultant</span>
-                                            {/* <ul className="social-links">
-                                        <li><Link href="/team-details"><i className="icon-13"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-15"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-14"></i></Link></li>
-                                    </ul> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -147,13 +139,9 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details">Ava Jensen</Link></h3>
+                                            <h3><Link href="/team-details/ava-jensen">Ava Jensen</Link></h3>
                                             <span className="designation">Trading Assistant</span>
-                                            {/* <ul className="social-links">
-                                        <li><Link href="/team-details"><i className="icon-13"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-15"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-14"></i></Link></li>
-                                    </ul> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -163,13 +151,9 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details">Sophia Knight</Link></h3>
+                                            <h3><Link href="/team-details/sophia-knight">Sophia Knight</Link></h3>
                                             <span className="designation">President of Trade</span>
-                                            {/* <ul className="social-links">
-                                        <li><Link href="/team-details"><i className="icon-13"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-15"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-14"></i></Link></li>
-                                    </ul> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -179,13 +163,9 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-5.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details">Ethan brooks</Link></h3>
+                                            <h3><Link href="/team-details/ethan-brooks">Ethan brooks</Link></h3>
                                             <span className="designation">Marketing Coordinator</span>
-                                            {/* <ul className="social-links">
-                                        <li><Link href="/team-details"><i className="icon-13"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-15"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-14"></i></Link></li>
-                                    </ul> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -195,13 +175,9 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-6.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details">Aronic kehan</Link></h3>
+                                            <h3><Link href="/team-details/aronic-kehan">Aronic kehan</Link></h3>
                                             <span className="designation">Business Assistant</span>
-                                            {/* <ul className="social-links">
-                                        <li><Link href="/team-details"><i className="icon-13"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-15"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-14"></i></Link></li>
-                                    </ul> */}
+                                            
                                         </div>
                                     </div>
                                 </div>

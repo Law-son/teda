@@ -7,10 +7,10 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
     return (
         <>
 
-        {/* main header */}
-        <header className={`main-header header-style-five ${scroll ? "fixed-header" : ""}`}>
+            {/* main header */}
+            <header className={`main-header header-style-five ${scroll ? "fixed-header" : ""}`}>
 
-            <div className="header-top">
+                {/* <div className="header-top">
                 <div className="large-container">
                     <div className="top-inner">
                         <div className="option-block">
@@ -24,57 +24,61 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
-            {/* header lower */}
-            <div className="header-lower">
-                <div className="large-container">
-                    <div className="outer-box">
-                        <figure className="logo-box"><Link href="/"><img src="assets/images/logo.png" alt=""/></Link></figure>
-                        <div className="menu-area clearfix">
-                            {/* mobile navigation toggler */}
-                            <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
-                                <i className="icon-bar"></i>
-                                <i className="icon-bar"></i>
-                                <i className="icon-bar"></i>
+                {/* header lower */}
+                <div className="header-lower">
+                    <div className="large-container">
+                        <div className="outer-box">
+                            <figure className="logo-box"><Link href="/"><img src="/assets/images/logo.png" alt="" /></Link></figure>
+                            <div className="d-flex flex-row align-items-center">
+                                <LanguageSelector />
+                                <div style={{ marginRight: '20px' }}></div>
+                                <div className="menu-area clearfix">
+                                    {/* mobile navigation toggler */}
+                                    <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
+                                        <i className="icon-bar"></i>
+                                        <i className="icon-bar"></i>
+                                        <i className="icon-bar"></i>
+                                    </div>
+                                    <nav className="main-menu navbar-expand-md navbar-light">
+                                        <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                            <Menu />
+                                        </div>
+                                    </nav>
+                                </div>
                             </div>
-                            <nav className="main-menu navbar-expand-md navbar-light">
-                                <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <Menu />
-                                </div>
-                            </nav>
-                        </div>
-                        {/* <div className="menu-right-content">
+                            {/* <div className="menu-right-content">
                             <div className="search-btn mr_25"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
                             <div className="btn-box"><Link href="/index-5" className="theme-btn btn-one">Open Account</Link></div>
                         </div> */}
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            {/* sticky header */}
-            <div className={`sticky-header ${scroll ? "animated slideInDown" : ""}`}>
-                <div className="large-container">
-                    <div className="outer-box">
-                        <figure className="logo-box"><Link href="/"><img src="assets/images/logo.png" alt=""/></Link></figure>
-                        <div className="menu-area clearfix">
-                            <nav className="main-menu clearfix">
-                                <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <Menu />
-                                </div>
-                            </nav>
-                        </div>
-                        {/* <div className="menu-right-content">
+                {/* sticky header */}
+                <div className={`sticky-header ${scroll ? "animated slideInDown" : ""}`}>
+                    <div className="large-container">
+                        <div className="outer-box">
+                            <figure className="logo-box"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                            <div className="menu-area clearfix">
+                                <nav className="main-menu clearfix">
+                                    <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                        <Menu />
+                                    </div>
+                                </nav>
+                            </div>
+                            {/* <div className="menu-right-content">
                             <div className="search-btn mr_25"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
                             <div className="btn-box"><Link href="/index-5" className="theme-btn btn-one">Open Account</Link></div>
                         </div> */}
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <MobileMenu handleMobileMenu={handleMobileMenu} />
-        </header>
+                <MobileMenu handleMobileMenu={handleMobileMenu} />
+            </header>
         </>
     )
 }

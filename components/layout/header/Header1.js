@@ -11,33 +11,35 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
             {/* main header */}
             <header className={`main-header header-style-one ${scroll ? "fixed-header" : ""}`}>
 
-                <div className="header-top">
+                {/* <div className="header-top">
                     <div className="large-container">
                         <div className="top-inner d-flex align-items-center justify-content-between">
                             <div className="support-box">
                                 <div className="icon-box"><i className="icon-07"></i></div>
                                 <a href="tel:02079461234">020 7946 1234</a>
                             </div>
-                            <div className="position-relative z-index-1000">
-                                <LanguageSelector />
-                            </div>
+
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* header lower */}
                 <div className="header-lower">
                     <div className="large-container">
                         <div className="outer-box">
-                            <figure className="logo-box"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                            <figure className="logo-box"><Link href="/"><img src="/assets/images/logo.png" alt="" /></Link></figure>
                             <div className="menu-area clearfix">
+                                <div className="position-relative z-index-1000" style={{ marginRight: '20px' }}>
+                                    <LanguageSelector />
+                                </div>
                                 {/* mobile navigation toggler */}
                                 <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
                                     <i className="icon-bar"></i>
                                     <i className="icon-bar"></i>
                                     <i className="icon-bar"></i>
                                 </div>
+
                                 <nav className="main-menu navbar-expand-md navbar-light">
                                     <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <Menu />
