@@ -42,7 +42,6 @@ export default function About() {
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
                                                     <p>A team of experts passionate about cryptocurrency investment, dedicated to helping individuals and businesses thrive in the digital asset space.</p>
-                                                    {/* <a href="faq.html">Learn More</a> */}
                                                 </div>
                                             </div>
                                         </li>
@@ -54,7 +53,6 @@ export default function About() {
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
                                                     <p>We offer strategic guidance and insights to help clients make informed decisions and maximize returns in the ever-evolving crypto market.</p>
-                                                    {/* <a href="faq.html">Learn More</a> */}
                                                 </div>
                                             </div>
                                         </li>
@@ -66,7 +64,6 @@ export default function About() {
                                             <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
                                                     <p>Through data-driven analysis and tailored strategies, we identify profitable opportunities and optimize risk to grow our clients' crypto portfolios.</p>
-                                                    {/* <a href="faq.html">Learn More</a> */}
                                                 </div>
                                             </div>
                                         </li>
@@ -80,9 +77,7 @@ export default function About() {
                                 <div className="video-box z_1 p_relative ml_70 centred">
                                     <div className="video-inner">
                                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-1.jpg)" }}></div>
-                                        {/* <div className="video-content">
-                                            <VideoPopup />
-                                        </div> */}
+                                        
                                     </div>
                                 </div>
                             </div>

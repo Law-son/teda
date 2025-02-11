@@ -16,8 +16,8 @@ export default function Apps() {
               className="shape"
               style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}
             ></div>
-            <figure className="image-layer">
-              <img src="assets/images/resource/mockup-1.png" alt="" />
+            <figure className="image-layer1 d-none d-md-block">
+              <img src="assets/images/resource/uno01.png" style={{ width: "550px" }} alt="" />
             </figure>
             <div className="content_block_two">
               <div className="content-box">

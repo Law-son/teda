@@ -2,7 +2,6 @@
 import { Link } from '../../../navigation';
 import { useState } from "react"
 import Layout from "@/components/layout/Layout"
-import VideoPopup from "@/components/elements/VideoPopup"
 import Funfact from "@/components/sections/home2/Funfact"
 import Cta from "@/components/sections/home3/Cta"
 import Account from "@/components/sections/home3/Account"
@@ -115,9 +114,8 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                        <h3><Link href="/team-details/olivia-quinn">Olivia Quinn</Link></h3>
+                                            <h3>Olivia Quinn</h3>
                                             <span className="designation">Forex Trader</span>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -127,9 +125,8 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details/nathan-hayes">Nathan Hayes</Link></h3>
+                                            <h3>Nathan Hayes</h3>
                                             <span className="designation">Consultant</span>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -139,9 +136,8 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details/ava-jensen">Ava Jensen</Link></h3>
+                                            <h3>Ava Jensen</h3>
                                             <span className="designation">Trading Assistant</span>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -151,9 +147,8 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details/sophia-knight">Sophia Knight</Link></h3>
+                                            <h3>Sophia Knight</h3>
                                             <span className="designation">President of Trade</span>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -163,9 +158,8 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-5.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details/ethan-brooks">Ethan brooks</Link></h3>
+                                            <h3>Ethan brooks</h3>
                                             <span className="designation">Marketing Coordinator</span>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -175,9 +169,8 @@ export default function About() {
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/team/team-6.jpg" alt="" /></figure>
                                         <div className="content-box">
-                                            <h3><Link href="/team-details/aronic-kehan">Aronic kehan</Link></h3>
+                                            <h3>Aronic kehan</h3>
                                             <span className="designation">Business Assistant</span>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -185,12 +178,9 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-
                 <Apps />
                 <Testimonial />
-
                 <Subscribe />
-
             </Layout>
         </div>
     )

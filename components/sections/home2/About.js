@@ -49,13 +49,6 @@ export default function About() {
                                         <figure className="image-box"><Link href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox='gallery'><img src="assets/images/resource/dashboard-1.png" alt=""/></Link></figure>
                                     </div>
                                 </div>
-                                {/* <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="meta">
-                                    <div className="content-box">
-                                        <h2>Meta Trader 5</h2>
-                                        <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
-                                        <figure className="image-box"><Link href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox='gallery'><img src="assets/images/resource/dashboard-1.png" alt=""/></Link></figure>
-                                    </div>
-                                </div> */}
                             </div>
                         </div>
                     </div>

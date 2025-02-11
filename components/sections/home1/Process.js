@@ -41,7 +41,7 @@ export default function Process() {
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div className="image-box">
-                                <figure className="image image-hov-two"><img src="assets/images/resource/process-1.jpg" alt=""/></figure>
+                                <figure className="image image-hov-two"><img src="assets/images/resource/process-2.jpg" alt=""/></figure>
                             </div>
                         </div>
                     </div>

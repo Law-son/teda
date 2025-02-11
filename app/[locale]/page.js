@@ -5,7 +5,6 @@ import Account from "@/components/sections/home1/Account"
 import About from "@/components/sections/home1/About"
 import Funfact from "@/components/sections/home1/Funfact"
 import Trading from "@/components/sections/home1/Trading"
-import Trading_two from "@/components/sections/home1/Trading_two"
 import Process from "@/components/sections/home1/Process"
 import Award from "@/components/sections/home1/Award"
 import Apps from "@/components/sections/home1/Apps"
@@ -22,7 +21,6 @@ export default function Home() {
                 <About />
                 <Funfact />
                 <Trading />
-                <Trading_two />
                 <Process />
                 <Award />
                 <Apps />

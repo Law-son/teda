@@ -21,7 +21,7 @@ export default function Apps() {
                                     <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
                                 </div>
                                 <div className="btn-box">
-                                    <Link href="https://apps.apple.com/at/app/easelaundry/id6740855121" className="apple-store">
+                                    <Link href="https://apps.apple.com/cn/app/exchangespaw/id6741582233" className="apple-store">
                                         <img src="assets/images/icons/icon-7.png" alt=""/>
                                         <span>Download on</span>
                                         App Store

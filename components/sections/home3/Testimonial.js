@@ -78,7 +78,7 @@ export default function Testimonial() {
                                 <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
                                 <h3>Roger Federal</h3>
-                                <span className="designation">Uses Saxolvestor</span>
+                                <span className="designation">Premier</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="slide-item p_relative">
@@ -86,7 +86,7 @@ export default function Testimonial() {
                                 <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
                                 <h3>Roger Federal</h3>
-                                <span className="designation">Uses Saxolvestor</span>
+                                <span className="designation">Premier</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="slide-item p_relative">
@@ -94,7 +94,7 @@ export default function Testimonial() {
                                 <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
                                 <h3>Roger Federal</h3>
-                                <span className="designation">Uses Saxolvestor</span>
+                                <span className="designation">Premier</span>
                             </div>
                         </SwiperSlide>
 
