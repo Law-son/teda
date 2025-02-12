@@ -74,7 +74,7 @@ export default function Footer2() {
                                         </h5>
                                         <ul className="list-unstyled">
                                             <li>
-                                                <Link href="/contact" style={{ color: '#6c6e72', transition: 'color 0.3s' }}
+                                                <Link href="https://direct.lc.chat/18997386/" style={{ color: '#6c6e72', transition: 'color 0.3s' }}
                                                     onMouseEnter={(e) => e.target.style.color = '#22823a'}
                                                     onMouseLeave={(e) => e.target.style.color = '#6c6e72'}>
                                                     Contact us
@@ -115,13 +115,6 @@ export default function Footer2() {
                     <div className="auto-container">
                         <div className="bottom-inner">
                             <p>Copyright {new Date().getFullYear()} <Link href="/">TEDA</Link> All Rights Reserved.</p>
-                            {/* <ul className="social-links">
-                            <li><h5>Follow Us On:</h5></li>
-                            <li><Link href="/"><i className="icon-12"></i></Link></li>
-                            <li><Link href="/"><i className="icon-13"></i></Link></li>
-                            <li><Link href="/"><i className="icon-14"></i></Link></li>
-                            <li><Link href="/"><i className="icon-15"></i></Link></li>
-                        </ul> */}
                         </div>
                     </div>
                 </div>

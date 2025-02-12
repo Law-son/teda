@@ -1,6 +1,5 @@
 'use client'
 import { useState } from "react"
-import VideoPopup from "@/components/elements/VideoPopup"
 export default function About() {
 
     const [isActive, setIsActive] = useState({

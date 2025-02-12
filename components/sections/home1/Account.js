@@ -20,15 +20,7 @@ export default function Account() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                        <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <div className="icon-box"><i className="icon-02"></i></div>
-                                <h3><Link href="/account-details">Overview Account</Link></h3>
-                                <p>The primary feature of a trading overview account is its ability to aggregate information from multiple accounts.</p>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                     <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                         <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="inner-box">
@@ -38,15 +30,7 @@ export default function Account() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                        <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <div className="icon-box"><i className="icon-04"></i></div>
-                                <h3><Link href="/account-details">Islamic Account</Link></h3>
-                                <p>Islamic accounts also adhere to ethical guidelines that prohibit trading certain financial instruments deemed</p>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                 </div>
             </div>
         </section>

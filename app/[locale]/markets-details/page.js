@@ -599,10 +599,7 @@ export default function Markets_details() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="lower-content">
-                            <div className="btn-box mr_20"><Link href="/index-3" className="theme-btn btn-one">Get Started</Link></div>
-                            <p><Link href="/index-3">Sing up now</Link> to create your own portfolio for free!</p>
-                        </div> */}
+                    
                     </div>
                 </div>
             </section>

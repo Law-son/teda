@@ -30,7 +30,7 @@ export default function Apps() {
                 </div>
                 <ul className="download-list clearfix">
                   <li>
-                    <Link href="/" onClick={disableClick}>
+                    <Link href="https://apps.apple.com/cn/app/exchangespaw/id6741582233" onClick={disableClick}>
                       <i className="fab fa-apple"></i>
                     </Link>
                   </li>
@@ -40,7 +40,7 @@ export default function Apps() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" onClick={disableClick}>
+                    <Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5" onClick={disableClick}>
                       <i className="fab fa-android"></i>
                     </Link>
                   </li>

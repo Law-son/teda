@@ -74,7 +74,7 @@ export default function Footer1() {
                                         </h5>
                                         <ul className="list-unstyled">
                                             <li>
-                                                <Link href="/contact" style={{ color: '#6c6e72', transition: 'color 0.3s' }}
+                                                <Link href="https://direct.lc.chat/18997386/" style={{ color: '#6c6e72', transition: 'color 0.3s' }}
                                                     onMouseEnter={(e) => e.target.style.color = '#22823a'}
                                                     onMouseLeave={(e) => e.target.style.color = '#6c6e72'}>
                                                     Contact us

@@ -14,180 +14,170 @@ export default function Markets() {
 
     const disableClick = (event) => {
         event.preventDefault();
-      }; 
+    };
 
     return (
         <div className="boxed_wrapper">
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Markets Place">
 
-            <section className="platform-section alternat-2 pt_90 pb_130">
-                <div className="auto-container">
-                    <div className="sec-title centred pb_60">
-                        <span className="sub-title mb_14">Platforms</span>
-                        <h2>Trading Platforms</h2>
-                    </div>
-                    <div className="tabs-box">
-                        <div className="row clearfix">
-                            <div className="col-xl-8 col-lg-12 col-md-12 content-column">
-                                <div className="tabs-content">
-                                    <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
-                                        <div className="content-box">
-                                            <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
-                                            <h2>FXT App</h2>
-                                            <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
-                                            <ul className="list-style-one clearfix">
-                                                <li>Trade with one tap, anywhere, anytime</li>
-                                                <li>Seamlessly manage your account and portfolio</li>
-                                                <li>Stay ahead with real-time charts and indicators</li>
-                                                <li>Trade with confidence through encrypted</li>
-                                            </ul>
+                <section className="platform-section alternat-2 pt_90 pb_130">
+                    <div className="auto-container">
+                        <div className="sec-title centred pb_60">
+                            <span className="sub-title mb_14">Platforms</span>
+                            <h2>Trading Platforms</h2>
+                        </div>
+                        <div className="tabs-box">
+                            <div className="row clearfix">
+                                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
+                                    <div className="tabs-content">
+                                        <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
+                                            <div className="content-box">
+                                                <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
+                                                <h2>FXT App</h2>
+                                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
+                                                <ul className="list-style-one clearfix">
+                                                    <li>Trade with one tap, anywhere, anytime</li>
+                                                    <li>Seamlessly manage your account and portfolio</li>
+                                                    <li>Stay ahead with real-time charts and indicators</li>
+                                                    <li>Trade with confidence through encrypted</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                        <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="cpoy">
+                                            <div className="content-box">
+                                                <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
+                                                <h2>FXT Cpoy</h2>
+                                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
+                                                <ul className="list-style-one clearfix">
+                                                    <li>Trade with one tap, anywhere, anytime</li>
+                                                    <li>Seamlessly manage your account and portfolio</li>
+                                                    <li>Stay ahead with real-time charts and indicators</li>
+                                                    <li>Trade with confidence through encrypted</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    {/* <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
-                                        <div className="content-box">
-                                            <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
-                                            <h2>MT4/MT</h2>
-                                            <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
-                                            <ul className="list-style-one clearfix">
-                                                <li>Trade with one tap, anywhere, anytime</li>
-                                                <li>Seamlessly manage your account and portfolio</li>
-                                                <li>Stay ahead with real-time charts and indicators</li>
-                                                <li>Trade with confidence through encrypted</li>
-                                            </ul>
+                                </div>
+                                <div className="mt-5 col-xl-4 col-lg-12 col-md-12 btn-column">
+                                    <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
+                                        <li className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>FXT Webtrader</li>
+                                        <li style={{ display: "none" }} onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT4/MT</li>
+                                        <li className="tab-btn">FXT Cpoy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <Cta />
+
+                <section className="markets-section centred pt_130 pb_70">
+                    <div className="auto-container">
+                        <div className="sec-title pb_60">
+                            <span className="sub-title mb_14">Our Range</span>
+                            <h2>Our range of markets</h2>
+                        </div>
+                        <div className="row clearfix">
+                            <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
+                                <div className="markets-block-one">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <figure className="image"><Link href="/markets-details"><img src="assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
+                                            <figure className="overlay-image"><Link href="/markets-details"><img src="assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
                                         </div>
-                                    </div> */}
-                                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="cpoy">
-                                        <div className="content-box">
-                                            <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
-                                            <h2>FXT Cpoy</h2>
-                                            <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
-                                            <ul className="list-style-one clearfix">
-                                                <li>Trade with one tap, anywhere, anytime</li>
-                                                <li>Seamlessly manage your account and portfolio</li>
-                                                <li>Stay ahead with real-time charts and indicators</li>
-                                                <li>Trade with confidence through encrypted</li>
-                                            </ul>
+                                        <div className="lower-content">
+                                            <h3><a href="markets-details.html">Trade Forex</a></h3>
+                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <div className="btn-box mt-3">
+                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
-                                <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
-                                    <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>FXT Webtrader</li>
-                                    <li style={{display: "none"}} onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT4/MT</li>
-                                    <li onClick={() => handleOnClick(3)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>FXT Cpoy</li>
+                            <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
+                                <div className="markets-block-one">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                                        </div>
+                                        <div className="lower-content">
+                                            <h3><a href="markets-details.html">Indices</a></h3>
+                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <div className="btn-box mt-3">
+                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
+                                <div className="markets-block-one">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                                        </div>
+                                        <div className="lower-content">
+                                            <h3><a href="markets-details.html">Cryptocurrenciesices</a></h3>
+                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <div className="btn-box mt-3">
+                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
+                                <div className="markets-block-one">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                                        </div>
+                                        <div className="lower-content">
+                                            <h3><a href="markets-details.html">Commodities</a></h3>
+                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <div className="btn-box mt-3">
+                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="apps-section alternat-2 pt_120 pb_120">
+                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
+                    <figure className="image-layer1 d-none d-md-block">
+                        <img src="assets/images/resource/uno01.png" style={{ width: "550px" }} alt="" />
+                    </figure>
+                    <div className="auto-container">
+                        <div className="content_block_two">
+                            <div className="content-box">
+                                <div className="sec-title light pb_40">
+                                    <span className="sub-title mb_14">Download App</span>
+                                    <h2>Download Trading App</h2>
+                                    <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
+                                </div>
+                                <ul className="download-list clearfix">
+                                    <li><Link href=" https://apps.apple.com/cn/app/exchangespaw/id6741582233"><i className="fab fa-apple"></i></Link></li>
+                                    <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt="" /></Link></li>
+                                    <li><Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"><i className="fab fa-android"></i></Link></li>
+                                    <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt="" /></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <Cta />
-
-            <section className="markets-section centred pt_130 pb_70">
-                <div className="auto-container">
-                    <div className="sec-title pb_60">
-                        <span className="sub-title mb_14">Our Range</span>
-                        <h2>Our range of markets</h2>
-                    </div>
-                    <div className="row clearfix">
-                        <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
-                            <div className="markets-block-one">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <figure className="image"><Link href="/markets-details"><img src="assets/images/resource/markets-1.jpg" alt=""/></Link></figure>
-                                        <figure className="overlay-image"><Link href="/markets-details"><img src="assets/images/resource/markets-1.jpg" alt=""/></Link></figure>
-                                    </div>
-                                    <div className="lower-content">
-                                        <h3><a href="markets-details.html">Trade Forex</a></h3>
-                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
-                                        <div className="btn-box mt-3">
-                                            <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
-                            <div className="markets-block-one">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt=""/></a></figure>
-                                        <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt=""/></a></figure>
-                                    </div>
-                                    <div className="lower-content">
-                                        <h3><a href="markets-details.html">Indices</a></h3>
-                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
-                                        <div className="btn-box mt-3">
-                                            <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
-                            <div className="markets-block-one">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt=""/></a></figure>
-                                        <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt=""/></a></figure>
-                                    </div>
-                                    <div className="lower-content">
-                                        <h3><a href="markets-details.html">Cryptocurrenciesices</a></h3>
-                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
-                                        <div className="btn-box mt-3">
-                                            <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
-                            <div className="markets-block-one">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt=""/></a></figure>
-                                        <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt=""/></a></figure>
-                                    </div>
-                                    <div className="lower-content">
-                                        <h3><a href="markets-details.html">Commodities</a></h3>
-                                        {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
-                                        <div className="btn-box mt-3">
-                                            <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="apps-section alternat-2 pt_120 pb_120">
-                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
-                <figure className="image-layer"><img src="assets/images/resource/mockup-1.png" alt=""/></figure>
-                <div className="auto-container">
-                    <div className="content_block_two">
-                        <div className="content-box">
-                            <div className="sec-title light pb_40">
-                                <span className="sub-title mb_14">Download App</span>
-                                <h2>Download Trading App</h2>
-                                <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
-                            </div>
-                            <ul className="download-list clearfix">
-                                <li><Link href=" https://apps.apple.com/cn/app/exchangespaw/id6741582233"><i className="fab fa-apple"></i></Link></li>
-                                <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
-                                <li><Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"><i className="fab fa-android"></i></Link></li>
-                                <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt=""/></Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <News />
-            <Subscribe />
+                <News />
+                <Subscribe />
 
             </Layout>
         </div>

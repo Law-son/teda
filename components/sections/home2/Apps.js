@@ -9,7 +9,7 @@ export default function Apps() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div className="image-box">
-                            <figure className="image"><img src="assets/images/resource/apps-1.png" alt=""/></figure>
+                            <figure className="image"><img src="assets/images/resource/finance-image2.png" alt=""/></figure>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -26,7 +26,7 @@ export default function Apps() {
                                         <span>Download on</span>
                                         App Store
                                     </Link>
-                                    <Link href="https://play.google.com/store/apps/details?id=com.sleepflow.sleepapp" className="play-store">
+                                    <Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5" className="play-store">
                                         <img src="assets/images/icons/icon-8.png" alt=""/>
                                         <span>Get it on</span>
                                         Google Play
