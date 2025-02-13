@@ -35,12 +35,12 @@ export default function Apps() {
                     </Link>
                   </li>
                   <li style={{ display: "none" }}>
-                    <Link href="/">
+                    <Link href="/" onClick={disableClick}>
                       <img src="assets/images/icons/icon-2.png" alt="" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5" onClick={disableClick}>
+                    <Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
                       <i className="fab fa-android"></i>
                     </Link>
                   </li>
