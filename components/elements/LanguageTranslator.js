@@ -63,7 +63,7 @@ export function LanguageSelector() {
   };
 
   return (
-    <div className="translator position-relative" ref={dropdownRef}>
+    <div className="translator position-relative d-none" ref={dropdownRef}>
       <div className="d-flex align-items-center">
         <button
           onClick={() => setIsOpen(!isOpen)}
