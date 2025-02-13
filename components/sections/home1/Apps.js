@@ -30,12 +30,12 @@ export default function Apps() {
                 </div>
                 <ul className="download-list clearfix">
                   <li>
-                    <Link href="https://apps.apple.com/cn/app/exchangespaw/id6741582233" onClick={disableClick}>
+                    <Link href="https://apps.apple.com/cn/app/exchangespaw/id6741582233">
                       <i className="fab fa-apple"></i>
                     </Link>
                   </li>
                   <li style={{ display: "none" }}>
-                    <Link href="/" onClick={disableClick}>
+                    <Link href="/">
                       <img src="assets/images/icons/icon-2.png" alt="" />
                     </Link>
                   </li>
