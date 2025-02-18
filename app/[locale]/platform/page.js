@@ -32,7 +32,7 @@ export default function Platform() {
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
                                                     <h2>Financial Markets</h2>
-                                                    <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
+                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
                                                 </div>
                                             </div>
@@ -50,7 +50,7 @@ export default function Platform() {
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
                                                     <h2>What is Forex</h2>
-                                                    <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
+                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
                                                     {/* <div className="btn-box">
                                                         <Link href="/account-details" className="theme-btn btn-one mr_20">Start Trading</Link>
@@ -72,7 +72,7 @@ export default function Platform() {
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
                                                     <h2>Tools Overview</h2>
-                                                    <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
+                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
                                                 </div>
                                             </div>
@@ -90,7 +90,7 @@ export default function Platform() {
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
                                                     <h2>Platform Comparison</h2>
-                                                    <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
+                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
                                                     <p>Check out our handy platform comparison table which will show you all the differences.</p>
                                                 </div>
                                             </div>

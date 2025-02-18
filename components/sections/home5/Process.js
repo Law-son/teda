@@ -30,7 +30,7 @@ export default function Process() {
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div className="image_block_one">
                                 <div className="image-box pr_130 mr_40 pl_150">
-                                    <figure className="image image-1"><img src="/assets/images/resource/mock-up.jpg" alt="" style={{ width: '1800px', height: '500px' }}/></figure>                                    
+                                    <figure className="image image-1"><img src="/assets/images/resource/mock-up.jpg" alt="" style={{ width: '1800px', height: '500px' }} /></figure>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export default function Process() {
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>A team of experts passionate about cryptocurrency investment, dedicated to helping individuals and businesses thrive in the digital asset space.</p>
+                                                    <p>As a brokerage firm or trading platform. We are dedicated to providing innovative and user-friendly trading.</p>
                                                     {/* <a href="faq.html">Learn More</a> */}
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ export default function Process() {
                                             </div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>We offer strategic guidance and insights to help clients make informed decisions and maximize returns in the ever-evolving crypto market.</p>
+                                                    <p>We are a professional forex trading platform dedicated to providing comprehensive forex investment services. With advanced technological support, a secure trading environment, and global market coverage, we offer clients flexible trading tools and high-quality customer service to help them achieve steady growth in the forex market. </p>
                                                     {/* <a href="faq.html">Learn More</a> */}
                                                 </div>
                                             </div>
@@ -73,7 +73,7 @@ export default function Process() {
                                             </div>
                                             <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Through data-driven analysis and tailored strategies, we identify profitable opportunities and optimize risk to grow our clients' crypto portfolios.</p>
+                                                    <p>Through in-depth analysis and precise strategic guidance, we help clients make informed decisions in a complex market environment, maximizing their investment returns. Our goal is to provide practical solutions for each client, helping them maintain a competitive edge in an increasingly competitive industry.</p>
                                                     {/* <a href="faq.html">Learn More</a> */}
                                                 </div>
                                             </div>

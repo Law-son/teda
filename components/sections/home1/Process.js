@@ -33,8 +33,8 @@ export default function Process() {
                                     <div className="inner-box">
                                         <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
                                         <span className="count-text">3</span>
-                                        <h3>Get you profit back</h3>
-                                        <p>View market, reviews, and rosters before forex arrive on the site, and post reviews and pay, effortlessly.</p>
+                                        <h3>Get your profit back</h3>
+                                        <p>Relying on professional technical analysis and precise trading strategies, we help seize market opportunities, optimize risk management, improve trading efficiency, and steadily recover while achieving continuous profitability.</p>
                                     </div>
                                 </div>
                             </div>

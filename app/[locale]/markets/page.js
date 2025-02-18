@@ -33,8 +33,8 @@ export default function Markets() {
                                         <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                                             <div className="content-box">
                                                 <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
-                                                <h2>FXT App</h2>
-                                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
+                                                <h2>App</h2>
+                                                <p>Navigate the financial waves with the TEDA platform's trading application, designed to put the power of the market in your hands. Our cutting-edge app combines complex features with a user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                                 <ul className="list-style-one clearfix">
                                                     <li>Trade with one tap, anywhere, anytime</li>
                                                     <li>Seamlessly manage your account and portfolio</li>
@@ -47,7 +47,7 @@ export default function Markets() {
                                         <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="cpoy">
                                             <div className="content-box">
                                                 <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
-                                                <h2>FXT Cpoy</h2>
+                                                <h2>TEDA Copy</h2>
                                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                                 <ul className="list-style-one clearfix">
                                                     <li>Trade with one tap, anywhere, anytime</li>

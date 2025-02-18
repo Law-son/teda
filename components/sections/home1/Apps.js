@@ -44,6 +44,11 @@ export default function Apps() {
                       <i className="fab fa-android"></i>
                     </Link>
                   </li>
+                  <li>
+                    <Link href="https://pc.tedafx.com/">
+                      <i className="fas fa-globe"></i>
+                    </Link>
+                  </li>
                   <li style={{ display: "none" }}>
                     <Link href="/" onClick={disableClick}>
                       <img src="assets/images/icons/icon-6.png" alt="" />

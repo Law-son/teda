@@ -12,7 +12,7 @@ export default function Funfact() {
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={10} /><span>k</span>
+                                        <CounterUp end={5} /><span>M+</span>
                                     </div>
                                     <p>Client World Wide</p>
                                 </div>
@@ -34,7 +34,7 @@ export default function Funfact() {
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={15} /><span>m+</span>
+                                        <CounterUp end={80} /><span>M+</span>
                                     </div>
                                     <p>Money Invested</p>
                                 </div>

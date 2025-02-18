@@ -54,22 +54,22 @@ export default function Markets_details() {
     const symbolIcons = {
         "BTCUSDT_1m_Kline": "assets/images/icons/icon-9.png",
         "ETHUSDT_1m_Kline": "assets/images/icons/icon-10.png",
-        "GOLD_1m_Kline": "assets/images/icons/gold.png",
-        "Silver_1m_Kline": "assets/images/icons/silver.png",
-        "AAPL.US_1m_Kline": "assets/images/icons/aapl.png",
-        "MSFT.US_1m_Kline": "assets/images/icons/msft.png",
-        "GOOGL.US_1m_Kline": "assets/images/icons/googl.png",
-        "TSLA.US_1m_Kline": "assets/images/icons/tsla.png",
-        "NVDA.US_1m_Kline": "assets/images/icons/nvda.png",
-        "EUSTX50_1m_Kline": "assets/images/icons/eustx50.png",
-        "FRA40_1m_Kline": "assets/images/icons/fra40.png",
-        "UK100_1m_Kline": "assets/images/icons/uk100.png",
-        "JPN225_1m_Kline": "assets/images/icons/jpn225.png",
-        "US30_1m_Kline": "assets/images/icons/us30.png",
-        "AUS200_1m_Kline": "assets/images/icons/aus200.png",
-        "NAS100_1m_Kline": "assets/images/icons/nas100.png",
-        "HK50_1m_Kline": "assets/images/icons/hk50.png",
-        "US500_1m_Kline": "assets/images/icons/us500.png",
+        "GOLD_1m_Kline": "assets/images/icons/icon-13.png",
+        "Silver_1m_Kline": "assets/images/icons/silver.jpg",
+        "AAPL.US_1m_Kline": "assets/images/icons/currency.jpg",
+        "MSFT.US_1m_Kline": "assets/images/icons/currency.jpg",
+        "GOOGL.US_1m_Kline": "assets/images/icons/currency.jpg",
+        "TSLA.US_1m_Kline": "assets/images/icons/currency.jpg",
+        "NVDA.US_1m_Kline": "assets/images/icons/currency.jpg",
+        "EUSTX50_1m_Kline": "assets/images/icons/currency.jpg",
+        "FRA40_1m_Kline": "assets/images/icons/currency.jpg",
+        "UK100_1m_Kline": "assets/images/icons/currency.jpg",
+        "JPN225_1m_Kline": "assets/images/icons/currency.jpg",
+        "US30_1m_Kline": "assets/images/icons/currency.jpg",
+        "AUS200_1m_Kline": "assets/images/icons/currency.jpg",
+        "NAS100_1m_Kline": "assets/images/icons/currency.jpg",
+        "HK50_1m_Kline": "assets/images/icons/currency.jpg",
+        "US500_1m_Kline": "assets/images/icons/currency.jpg",
     };
 
     useEffect(() => {
@@ -242,7 +242,7 @@ export default function Markets_details() {
                                         className={activeIndex === 2 ? "p-tab-btn active-btn" : "tab-btn"}
                                     >
                                         Forex
-                                    </li>
+                                    </li> */}
                                     <li
                                         onClick={() => handleOnClick(3)}
                                         className={activeIndex === 3 ? "p-tab-btn active-btn" : "tab-btn"}
@@ -255,7 +255,7 @@ export default function Markets_details() {
                                     >
                                         Metals
                                     </li>
-                                    <li
+                                    {/* <li
                                         onClick={() => handleOnClick(5)}
                                         className={activeIndex === 5 ? "p-tab-btn active-btn" : "tab-btn"}
                                     >
@@ -382,7 +382,7 @@ export default function Markets_details() {
                     </div>
                 </section>
 
-                <Trading />
+                {/* <Trading /> */}
                 <Process />
                 <Subscribe />
             </Layout>
