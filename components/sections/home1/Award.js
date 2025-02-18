@@ -16,21 +16,21 @@ export default function Award() {
                                 <td>01</td>
                                 <td><h3><Link href="/">The Best Trading Platform, UK</Link></h3></td>
                                 <td><span>x1</span></td>
-                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/award-1.png" alt=""/></Link></figure></td>
+                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/Award_1.png" alt=""/></Link></figure></td>
                                 <td>2023</td>
                             </tr>
                             <tr>
                                 <td>02</td>
                                 <td><h3><Link href="/">The Best Trading Platform, UK</Link></h3></td>
                                 <td><span>x4</span></td>
-                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/award-3.png" alt=""/></Link></figure></td>
+                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/AWARD_3.png" alt=""/></Link></figure></td>
                                 <td>2022</td>
                             </tr>
                             <tr>
                                 <td>03</td>
                                 <td><h3><Link href="/">The Best Trading Platform, London</Link></h3></td>
                                 <td><span>x4</span></td>
-                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/award-5.png" alt=""/></Link></figure></td>
+                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/Award_5.png" alt=""/></Link></figure></td>
                                 <td>2018</td>
                             </tr>
                         </tbody>    
