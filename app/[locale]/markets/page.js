@@ -61,9 +61,9 @@ export default function Markets() {
                                 </div>
                                 <div className="mt-5 col-xl-4 col-lg-12 col-md-12 btn-column">
                                     <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
-                                        <li className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>FXT Webtrader</li>
+                                        <li className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>TEDA Webtrader</li>
                                         <li style={{ display: "none" }} onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT4/MT</li>
-                                        <li className="tab-btn">FXT Cpoy</li>
+                                        <li className="tab-btn">TEDA Copy</li>
                                     </ul>
                                 </div>
                             </div>

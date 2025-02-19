@@ -195,7 +195,7 @@ export default function Markets_details() {
                 <tr key={symbol}>
                     <td>
                         <div className="single-item">
-                            <img src={symbolIcons[symbol] || "assets/images/icons/default.png"} alt="" />
+                            {/* <img src={symbolIcons[symbol] || "assets/images/icons/default.png"} alt="" /> */}
                             <span>{data.code}</span>
                         </div>
                     </td>
