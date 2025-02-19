@@ -32,8 +32,8 @@ export default function Platform() {
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
                                                     <h2>Financial Markets</h2>
-                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <p>Check out our handy platform comparison table which will show you all the differences.</p>
+                                                    <p>The financial markets are the cornerstone of global capital flows, offering diverse trading opportunities across equities, forex, and commodities. Our platform delivers real-time price discovery, deep liquidity access, and advanced execution technology, ensuring that traders and investors operate with maximum efficiency in a highly competitive landscape.</p>
+                                                    <p>Whether you are a seasoned institutional trader or an emerging market participant, our suite of cutting-edge analytical tools, AI-driven insights, and risk management solutions enables you to make data-driven decisions with confidence.</p>
                                                 </div>
                                             </div>
                                         </div>

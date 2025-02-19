@@ -40,7 +40,7 @@ export default function About() {
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>A team of experts passionate about cryptocurrency investment, dedicated to helping individuals and businesses thrive in the digital asset space.</p>
+                                                    <p>As a brokerage firm or trading platform. We are dedicated to providing innovative and user-friendly trading.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -51,7 +51,7 @@ export default function About() {
                                             </div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>We offer strategic guidance and insights to help clients make informed decisions and maximize returns in the ever-evolving crypto market.</p>
+                                                    <p>We are a professional forex trading platform dedicated to providing comprehensive forex investment services. With advanced technological support, a secure trading environment, and global market coverage, we offer flexible trading tools and high-quality customer service to help clients achieve steady growth in the forex market.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -62,7 +62,7 @@ export default function About() {
                                             </div>
                                             <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Through data-driven analysis and tailored strategies, we identify profitable opportunities and optimize risk to grow our clients' crypto portfolios.</p>
+                                                    <p>Through in-depth analysis and precise strategic guidance, we help clients make informed decisions in complex market environments, maximizing their return on investment. Our goal is to provide each client with practical solutions, helping them maintain a leading position in increasingly competitive industries.</p>
                                                 </div>
                                             </div>
                                         </li>

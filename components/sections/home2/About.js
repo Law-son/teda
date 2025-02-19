@@ -20,7 +20,7 @@ export default function About() {
                     <div className="row clearfix">
                         <div className="col-lg-5 col-md-12 col-sm-12 btn-column">
                             <ul className="tab-btns tab-buttons clearfix">
-                                <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>FXT Application <i className="icon-26"></i></li>
+                                <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Application <i className="icon-26"></i></li>
                                 <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Web <i className="icon-26"></i></li>
                                 <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>FBS Personal Area <i className="icon-26"></i></li>
                                 {/* <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>Meta Trader 5 <i className="icon-26"></i></li> */}
@@ -30,8 +30,8 @@ export default function About() {
                             <div className="tabs-content">
                                 <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                                     <div className="content-box">
-                                        <h2>FXT App</h2>
-                                        <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
+                                        <h2>App</h2>
+                                        <p>Navigate the financial waves with premier trading app, designed to put the power of the markets in your palm.</p>
                                         <figure className="image-box"><Link href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox='gallery'><img src="assets/images/resource/dashboard-1.png" alt=""/></Link></figure>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ export default function About() {
                                 <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="personal">
                                     <div className="content-box">
                                         <h2>FBS Personal Area</h2>
-                                        <p>Steer through the financial waves with FXT’s elite trading app, built to put the market’s power right in your hands. </p>
+                                        <p>Steer through the financial waves with elite trading app, built to put the market’s power right in your hands. </p>
                                         <figure className="image-box"><Link href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox='gallery'><img src="assets/images/resource/dashboard-1.png" alt=""/></Link></figure>
                                     </div>
                                 </div>

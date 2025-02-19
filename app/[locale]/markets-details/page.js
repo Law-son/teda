@@ -43,7 +43,7 @@ export default function Markets_details() {
 
     // Mapping for category icons (adjust as needed)
     const categoryIcons = {
-        share: "assets/images/icons/icon-9.png",
+        cryptocurrency: "assets/images/icons/icon-9.png",
         forex: "assets/images/icons/icon-9.png",
         indices: "assets/images/icons/icon-12.png",
         metals: "assets/images/icons/icon-10.png",
@@ -196,7 +196,7 @@ export default function Markets_details() {
                     <td>
                         <div className="single-item">
                             {/* <img src={symbolIcons[symbol] || "assets/images/icons/default.png"} alt="" /> */}
-                            <span>{data.code}</span>
+                            <span>{data.code === "Silver" ? "XAGUSD" : data.code === "GOLD" ? "XAUUSD" : data.code}</span>
                         </div>
                     </td>
                     <td>{bid.toFixed(2)}</td>
@@ -235,7 +235,7 @@ export default function Markets_details() {
                                         onClick={() => handleOnClick(1)}
                                         className={activeIndex === 1 ? "p-tab-btn active-btn" : "tab-btn"}
                                     >
-                                        Share
+                                        Cryptocurrency
                                     </li>
                                     {/* <li
                                         onClick={() => handleOnClick(2)}
@@ -276,7 +276,7 @@ export default function Markets_details() {
                                                         <td>Spread</td>
                                                     </tr>
                                                 </thead>
-                                                <tbody>{renderRows(shareSymbols, "share")}</tbody>
+                                                <tbody>{renderRows(shareSymbols, "cryptocurrency")}</tbody>
                                             </table>
                                         </div>
                                     </div>

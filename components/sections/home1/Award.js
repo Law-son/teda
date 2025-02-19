@@ -16,7 +16,7 @@ export default function Award() {
                                 <td>01</td>
                                 <td><h3><Link href="/">The Best Trading Platform, UK</Link></h3></td>
                                 <td><span>x1</span></td>
-                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/Award_1.png" alt=""/></Link></figure></td>
+                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/Awards_1.png" alt=""/></Link></figure></td>
                                 <td>2023</td>
                             </tr>
                             <tr>

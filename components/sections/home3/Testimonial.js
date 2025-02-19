@@ -76,19 +76,19 @@ export default function Testimonial() {
                             <SwiperSlide className="slide-item p_relative">
                                 <div className="testimonial-content">
                                     <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
-                                    <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
+                                    <p>Navigate the financial waves with premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="slide-item p_relative">
                                 <div className="testimonial-content">
                                     <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
-                                    <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
+                                    <p>Navigate the financial waves with premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="slide-item p_relative">
                                 <div className="testimonial-content">
                                     <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
-                                    <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
+                                    <p>Navigate the financial waves with premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
                                 </div>
                             </SwiperSlide>
 
