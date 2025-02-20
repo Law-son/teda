@@ -54,22 +54,22 @@ export default function Markets_details() {
     const symbolIcons = {
         "BTCUSDT_1m_Kline": "assets/images/icons/icon-9.png",
         "ETHUSDT_1m_Kline": "assets/images/icons/icon-10.png",
-        "GOLD_1m_Kline": "assets/images/icons/icon-13.png",
-        "Silver_1m_Kline": "assets/images/icons/silver.jpg",
+        "GOLD_1m_Kline": "assets/images/icons/xauusd.svg",
+        "Silver_1m_Kline": "assets/images/icons/xagusd.svg",
         "AAPL.US_1m_Kline": "assets/images/icons/currency.jpg",
         "MSFT.US_1m_Kline": "assets/images/icons/currency.jpg",
         "GOOGL.US_1m_Kline": "assets/images/icons/currency.jpg",
         "TSLA.US_1m_Kline": "assets/images/icons/currency.jpg",
         "NVDA.US_1m_Kline": "assets/images/icons/currency.jpg",
-        "EUSTX50_1m_Kline": "assets/images/icons/currency.jpg",
-        "FRA40_1m_Kline": "assets/images/icons/currency.jpg",
-        "UK100_1m_Kline": "assets/images/icons/currency.jpg",
-        "JPN225_1m_Kline": "assets/images/icons/currency.jpg",
-        "US30_1m_Kline": "assets/images/icons/currency.jpg",
-        "AUS200_1m_Kline": "assets/images/icons/currency.jpg",
-        "NAS100_1m_Kline": "assets/images/icons/currency.jpg",
-        "HK50_1m_Kline": "assets/images/icons/currency.jpg",
-        "US500_1m_Kline": "assets/images/icons/currency.jpg",
+        "EUSTX50_1m_Kline": "assets/images/icons/hk50.svg",
+        "FRA40_1m_Kline": "assets/images/icons/fra40.svg",
+        "UK100_1m_Kline": "assets/images/icons/uk100.svg",
+        "JPN225_1m_Kline": "assets/images/icons/jpn225.svg",
+        "US30_1m_Kline": "assets/images/icons/us30.svg",
+        "AUS200_1m_Kline": "assets/images/icons/aus200.svg",
+        "NAS100_1m_Kline": "assets/images/icons/nas100.svg",
+        "HK50_1m_Kline": "assets/images/icons/hk50.svg",
+        "US500_1m_Kline": "assets/images/icons/sp500.svg",
     };
 
     useEffect(() => {
@@ -195,7 +195,7 @@ export default function Markets_details() {
                 <tr key={symbol}>
                     <td>
                         <div className="single-item">
-                            {/* <img src={symbolIcons[symbol] || "assets/images/icons/default.png"} alt="" /> */}
+                            <img src={symbolIcons[symbol] || "assets/images/icons/default.png"} alt="" style={{ borderRadius: "50%", width: "24px", height: "24px" }} />
                             <span>{data.code === "Silver" ? "XAGUSD" : data.code === "GOLD" ? "XAUUSD" : data.code}</span>
                         </div>
                     </td>
