@@ -30,7 +30,7 @@ export default function Award() {
                                 <td>03</td>
                                 <td><h3><Link href="/">The Best Trading Platform, London</Link></h3></td>
                                 <td><span>x4</span></td>
-                                <td><figure className="image-box"><Link href="/"><img src="assets/images/icons/Award_5.png" alt=""/></Link></figure></td>
+                                <td><figure className="image-box" style={{ display: "flex", justifyContent: "start" }}><Link href="/"><img src="assets/images/icons/Award_5.png" alt="" style={{ maxWidth: "95px", marginLeft: "10px" }}/></Link></figure></td>
                                 <td>2018</td>
                             </tr>
                         </tbody>    

@@ -10,22 +10,13 @@ export default function Account_details() {
             <section className="account-details account-style-two account-page clear-bg pt_100 pb_100">
                 <div className="auto-container">
                     <div className="upper-box centred mb_65">
-                        <div className="row clearfix">
+                        <div className="row clearfix justify-content-center">
                             <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                                 <div className="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="icon-box"><i className="icon-16"></i></div>
                                         <h3><Link href="/account-details">Professional Account</Link></h3>
                                         <p>Traders with professional accounts gain access to a wide</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                                <div className="account-block-two wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="icon-box"><i className="icon-17"></i></div>
-                                        <h3><Link href="/account-details">Overview Account</Link></h3>
-                                        <p>The primary feature of a trading overview account is its ability to</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,18 +29,9 @@ export default function Account_details() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                                <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="icon-box"><i className="icon-19"></i></div>
-                                        <h3><Link href="/account-details">Islamic Account</Link></h3>
-                                        <p>Islamic accounts also adhere to ethical guidelines that prohibit</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div className="text-box align-1 pt_65">
-                            <p>Trading accounts can vary widely based on the investor's needs and preferences. Common types include cash accounts, margin accounts, retirement accounts and specialty accounts for options or futures trading. Each trading account is assigned a unique identification number by the brokerage firm or financial institution. This number serves as a reference for all transactions and communications related to the account.</p>
+                            <p>Trading accounts can be categorized into professional accounts and demo accounts based on the trading needs and market experience of investors. Professional accounts are designed for experienced traders, offering faster execution speeds, deeper market liquidity, and more flexible trading conditions to facilitate the implementation of efficient strategies. Demo accounts, on the other hand, allow investors to test trading strategies, familiarize themselves with market fluctuations, and enhance their trading skills in a risk-free environment. Each trading account is assigned a unique identification number by the broker or financial institution, which is used for all transactions, fund settlements, and customer support related to that account, ensuring security and transparency.</p>
                         </div>
                     </div>
                     <figure className="image-box mb_60"><img src="assets/images/resource/account-1.jpg" alt=""/></figure>
@@ -58,8 +40,8 @@ export default function Account_details() {
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lobortis tortor, sit amet congue purus. Maecenas pharetra lacus quis nisi porta facilisis. Morbi fermentum bibendum arcu, a porttitor eros volutpat et. Praesent nec magna tincidunt, placerat justo non, egestas quam.</p> */}
                         <div className="info-inner">
                             <ul className="info-list clearfix">
-                                <li><span>Initial Deposit</span><span>$100</span></li>
-                                <li><span>Leverage</span><span>Upto 1:3000</span></li>
+                                <li><span>Initial Deposit</span><span>$1000</span></li>
+                                <li><span>Leverage</span><span>Upto 1:400</span></li>
                                 <li><span>Spread</span><span>Fixed from 5 pis</span></li>
                                 <li><span>Multi Language CC</span><span>Yes</span></li>
                             </ul>
