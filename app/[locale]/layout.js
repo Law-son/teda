@@ -46,6 +46,11 @@ export const metadata = {
   title: "TEDA GLOBAL LIMITED",
   description:
     "Discover TEDA GLOBAL LIMITED, a trusted crypto investment firm established on August 6, 2024. Specializing in financial market management, we empower clients with expert strategies and secure solutions for navigating the digital economy",
+  icons: {
+    icon: "/assets/images/favicon.ico", // Standard favicon
+    shortcut: "/assets/images/favicon.ico",
+    apple: "/assets/images/apple-touch-icon.png", // Optional Apple Touch Icon
+  },
 };
 
 export default function RootLayout({ children, params }) {
