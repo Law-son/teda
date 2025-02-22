@@ -49,7 +49,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                 </li>
                                 <li><Link href="/about" onClick={handleMobileMenu}>About Us</Link></li>
                                 
-                                <li><Link href="/https://direct.lc.chat/18997386/" onClick={handleMobileMenu}>Contact</Link></li>
+                                <li><Link href="https://direct.lc.chat/18997386/" onClick={handleMobileMenu}>Contact</Link></li>
                             </ul>
                         </div>
                     </div>
