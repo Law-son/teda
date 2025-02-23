@@ -1,8 +1,10 @@
 'use client'
 import { Link } from '../../navigation';
-import { useState } from "react"
+import { useState } from "react";
+import { useTranslations } from 'next-intl';
 
 export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar }) {
+    const t = useTranslations('Navbar');
     const [isActive, setIsActive] = useState({
         status: false,
         key: "",
@@ -31,25 +33,25 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
-                                <li><Link href="/" onClick={handleMobileMenu}> Home</Link></li>
+                                <li><Link href="/" onClick={handleMobileMenu}> {t('home')}</Link></li>
                                 
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#" onClick={handleMobileMenu}>Trading</Link>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#" onClick={handleMobileMenu}>{t('trading')}</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                    <li><Link href="/platform" onClick={handleMobileMenu}>Platform</Link></li>
+                                    <li><Link href="/platform" onClick={handleMobileMenu}>{t('platform')}</Link></li>
                                     
                                     </ul>
                                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/#" onClick={handleMobileMenu}>Market</Link>
+                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/#" onClick={handleMobileMenu}>{t('market')}</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                        <li><Link href="/markets" onClick={handleMobileMenu}>Markets Place</Link></li>
-                                        <li><Link href="/markets-details" onClick={handleMobileMenu}>Markets Details</Link></li>
+                                        <li><Link href="/markets" onClick={handleMobileMenu}>{t('marketsPlace')}</Link></li>
+                                        <li><Link href="/markets-details" onClick={handleMobileMenu}>{t('marketsDetails')}</Link></li>
                                     </ul>
                                     <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li><Link href="/about" onClick={handleMobileMenu}>About Us</Link></li>
+                                <li><Link href="/about" onClick={handleMobileMenu}>{t('aboutUs')}</Link></li>
                                 
-                                <li><Link href="https://direct.lc.chat/18997386/" onClick={handleMobileMenu}>Contact</Link></li>
+                                <li><Link href="https://direct.lc.chat/18997386/" onClick={handleMobileMenu}>{t('contact')}</Link></li>
                             </ul>
                         </div>
                     </div>

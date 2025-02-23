@@ -64,30 +64,13 @@ export default function Banner() {
         <section className="banner-section p_relative pt_20">
             <div className="large-container">
                 <Swiper {...swiperOptions} className="theme_carousel owl-theme banner-carousel">
-                    {/* <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-1.jpg)" }}></div>
-                        <div className="content-box">
-                            <h2>{t('Title')}</h2>
-                            <p>Trade with a wide range of instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
-                        </div>
-                    </SwiperSlide> */}
                     <SwiperSlide className="slide-item p_relative">
                         <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-2.jpg)" }}></div>
                         <div className="content-box">
-                            <h2>{t('Title')}</h2>
-                            <p>Trade with a wide range of instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
-                        
+                            <h2>{t('title')}</h2>
+                            <p>{t('description')}</p>
                         </div>
                     </SwiperSlide>
-                    {/* <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-3.jpg)" }}></div>
-                        <div className="content-box">
-                            <h2>{t('Title')}</h2>
-                            <p>Trade with a wide range of instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
-                            
-                        </div>
-                    </SwiperSlide> */}
-
                     <div className="owl-dots">
                         <div className="swiper-pagination"></div>
                     </div>

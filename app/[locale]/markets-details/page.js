@@ -5,28 +5,25 @@ import Layout from "@/components/layout/Layout";
 import Trading from "@/components/sections/inner-page/Trading";
 import Process from "@/components/sections/home5/Process";
 import Subscribe from "@/components/sections/home1/Subscribe";
+import { useTranslations } from "next-intl";
 
 export default function Markets_details() {
     const [activeIndex, setActiveIndex] = useState(1);
     const [ws, setWs] = useState(null);
     const [marketData, setMarketData] = useState({});
 
+    const t = useTranslations("Market_Details.Details");
+    const s = useTranslations('Navbar');
+
     const handleOnClick = (index) => {
         setActiveIndex(index);
     };
 
-    // Grouping the subscribed symbols into the five categories.
-    // NOTE: We now include crypto symbols (BTCUSDT & ETHUSDT) in the Share tab
     const shareSymbols = [
         "BTCUSDT_1m_Kline",
         "ETHUSDT_1m_Kline",
-        // "AAPL.US_1m_Kline",
-        // "MSFT.US_1m_Kline",
-        // "GOOGL.US_1m_Kline",
-        // "TSLA.US_1m_Kline",
-        // "NVDA.US_1m_Kline",
     ];
-    const forexSymbols = []; // no symbols for Forex in this grouping
+    const forexSymbols = [];
     const indicesSymbols = [
         "EUSTX50_1m_Kline",
         "FRA40_1m_Kline",
@@ -39,9 +36,8 @@ export default function Markets_details() {
         "US500_1m_Kline",
     ];
     const metalsSymbols = ["GOLD_1m_Kline", "Silver_1m_Kline"];
-    const commoditiesSymbols = []; // no symbols for Commodities in this grouping
+    const commoditiesSymbols = [];
 
-    // Mapping for category icons (adjust as needed)
     const categoryIcons = {
         cryptocurrency: "assets/images/icons/icon-9.png",
         forex: "assets/images/icons/icon-9.png",
@@ -50,7 +46,6 @@ export default function Markets_details() {
         commodities: "assets/images/icons/icon-11.png",
     };
 
-    // New mapping: Mapping for symbol specific icons.
     const symbolIcons = {
         "BTCUSDT_1m_Kline": "assets/images/icons/icon-9.png",
         "ETHUSDT_1m_Kline": "assets/images/icons/icon-10.png",
@@ -90,7 +85,6 @@ export default function Markets_details() {
                     }
                 }, 10000);
 
-                // Send subscription request after connection is established
                 socket.send(
                     JSON.stringify({
                         action: "subscribe",
@@ -160,7 +154,6 @@ export default function Markets_details() {
         };
     }, []);
 
-    // Helper function to render table rows given an array of symbols and the category key for icons
     const renderRows = (symbols, categoryKey) => {
         return symbols.map((symbol) => {
             const data = marketData[symbol];
@@ -220,60 +213,39 @@ export default function Markets_details() {
             <Layout
                 headerStyle={3}
                 footerStyle={1}
-                breadcrumbTitle="Markets Details"
+                breadcrumbTitle={s('marketsDetails')}
             >
                 <section className="trading-style-five pt_90 pb_100">
                     <div className="auto-container">
                         <div className="sec-title centred pb_60">
-                            <span className="sub-title mb_14">Trade Now</span>
-                            <h2>Market Spreads and Swaps</h2>
+                            <span className="sub-title mb_14">{t("title")}</span>
+                            <h2>{t("subtitle")}</h2>
                         </div>
                         <div className="inner-container">
                             <div className="tabs-box">
                                 <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
-                                    <li
-                                        onClick={() => handleOnClick(1)}
-                                        className={activeIndex === 1 ? "p-tab-btn active-btn" : "tab-btn"}
-                                    >
-                                        Cryptocurrency
+                                    <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "p-tab-btn active-btn" : "tab-btn"}>
+                                        {t("tabs.cryptocurrency")}
                                     </li>
-                                    {/* <li
-                                        onClick={() => handleOnClick(2)}
-                                        className={activeIndex === 2 ? "p-tab-btn active-btn" : "tab-btn"}
-                                    >
-                                        Forex
-                                    </li> */}
-                                    <li
-                                        onClick={() => handleOnClick(3)}
-                                        className={activeIndex === 3 ? "p-tab-btn active-btn" : "tab-btn"}
-                                    >
-                                        Indices
+                                    <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "p-tab-btn active-btn" : "tab-btn"}>
+                                        {t("tabs.indices")}
                                     </li>
-                                    <li
-                                        onClick={() => handleOnClick(4)}
-                                        className={activeIndex === 4 ? "p-tab-btn active-btn" : "tab-btn"}
-                                    >
-                                        Metals
+                                    <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "p-tab-btn active-btn" : "tab-btn"}>
+                                        {t("tabs.metals")}
                                     </li>
-                                    {/* <li
-                                        onClick={() => handleOnClick(5)}
-                                        className={activeIndex === 5 ? "p-tab-btn active-btn" : "tab-btn"}
-                                    >
-                                        Commodities
-                                    </li> */}
                                 </ul>
                                 <div className="tabs-content">
-                                    {/* Share Tab */}
+                                    {/* Cryptocurrency Tab */}
                                     <div className={activeIndex === 1 ? "tab p-tab active-tab" : "tab"}>
                                         <div className="table-outer">
                                             <table className="trading-table">
                                                 <thead>
                                                     <tr>
-                                                        <td>Markets</td>
-                                                        <td>Bid</td>
-                                                        <td>Ask</td>
-                                                        <td>Action</td>
-                                                        <td>Spread</td>
+                                                        <td>{t("table_headers.markets")}</td>
+                                                        <td>{t("table_headers.bid")}</td>
+                                                        <td>{t("table_headers.ask")}</td>
+                                                        <td>{t("table_headers.action")}</td>
+                                                        <td>{t("table_headers.spread")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>{renderRows(shareSymbols, "cryptocurrency")}</tbody>
@@ -281,19 +253,16 @@ export default function Markets_details() {
                                         </div>
                                     </div>
                                     {/* Forex Tab */}
-                                    <div
-                                        className={activeIndex === 2 ? "tab p-tab active-tab" : "tab"}
-                                        id="forex"
-                                    >
+                                    <div className={activeIndex === 2 ? "tab p-tab active-tab" : "tab"}>
                                         <div className="table-outer">
                                             <table className="trading-table">
                                                 <thead>
                                                     <tr>
-                                                        <td>Markets</td>
-                                                        <td>Bid</td>
-                                                        <td>Ask</td>
-                                                        <td>Action</td>
-                                                        <td>Spread</td>
+                                                        <td>{t("table_headers.markets")}</td>
+                                                        <td>{t("table_headers.bid")}</td>
+                                                        <td>{t("table_headers.ask")}</td>
+                                                        <td>{t("table_headers.action")}</td>
+                                                        <td>{t("table_headers.spread")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -301,7 +270,7 @@ export default function Markets_details() {
                                                         renderRows(forexSymbols, "forex")
                                                     ) : (
                                                         <tr>
-                                                            <td colSpan="5">No Forex data available</td>
+                                                            <td colSpan="5">{t("no_data_messages.forex")}</td>
                                                         </tr>
                                                     )}
                                                 </tbody>
@@ -309,19 +278,16 @@ export default function Markets_details() {
                                         </div>
                                     </div>
                                     {/* Indices Tab */}
-                                    <div
-                                        className={activeIndex === 3 ? "tab p-tab active-tab" : "tab"}
-                                        id="indices"
-                                    >
+                                    <div className={activeIndex === 3 ? "tab p-tab active-tab" : "tab"}>
                                         <div className="table-outer">
                                             <table className="trading-table">
                                                 <thead>
                                                     <tr>
-                                                        <td>Markets</td>
-                                                        <td>Bid</td>
-                                                        <td>Ask</td>
-                                                        <td>Action</td>
-                                                        <td>Spread</td>
+                                                        <td>{t("table_headers.markets")}</td>
+                                                        <td>{t("table_headers.bid")}</td>
+                                                        <td>{t("table_headers.ask")}</td>
+                                                        <td>{t("table_headers.action")}</td>
+                                                        <td>{t("table_headers.spread")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>{renderRows(indicesSymbols, "indices")}</tbody>
@@ -329,19 +295,16 @@ export default function Markets_details() {
                                         </div>
                                     </div>
                                     {/* Metals Tab */}
-                                    <div
-                                        className={activeIndex === 4 ? "tab p-tab active-tab" : "tab"}
-                                        id="metals"
-                                    >
+                                    <div className={activeIndex === 4 ? "tab p-tab active-tab" : "tab"}>
                                         <div className="table-outer">
                                             <table className="trading-table">
                                                 <thead>
                                                     <tr>
-                                                        <td>Markets</td>
-                                                        <td>Bid</td>
-                                                        <td>Ask</td>
-                                                        <td>Action</td>
-                                                        <td>Spread</td>
+                                                        <td>{t("table_headers.markets")}</td>
+                                                        <td>{t("table_headers.bid")}</td>
+                                                        <td>{t("table_headers.ask")}</td>
+                                                        <td>{t("table_headers.action")}</td>
+                                                        <td>{t("table_headers.spread")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>{renderRows(metalsSymbols, "metals")}</tbody>
@@ -349,19 +312,16 @@ export default function Markets_details() {
                                         </div>
                                     </div>
                                     {/* Commodities Tab */}
-                                    <div
-                                        className={activeIndex === 5 ? "tab p-tab active-tab" : "tab"}
-                                        id="commodities"
-                                    >
+                                    <div className={activeIndex === 5 ? "tab p-tab active-tab" : "tab"}>
                                         <div className="table-outer">
                                             <table className="trading-table">
                                                 <thead>
                                                     <tr>
-                                                        <td>Markets</td>
-                                                        <td>Bid</td>
-                                                        <td>Ask</td>
-                                                        <td>Action</td>
-                                                        <td>Spread</td>
+                                                        <td>{t("table_headers.markets")}</td>
+                                                        <td>{t("table_headers.bid")}</td>
+                                                        <td>{t("table_headers.ask")}</td>
+                                                        <td>{t("table_headers.action")}</td>
+                                                        <td>{t("table_headers.spread")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -369,7 +329,7 @@ export default function Markets_details() {
                                                         renderRows(commoditiesSymbols, "commodities")
                                                     ) : (
                                                         <tr>
-                                                            <td colSpan="5">No Commodities data available</td>
+                                                            <td colSpan="5">{t("no_data_messages.commodities")}</td>
                                                         </tr>
                                                     )}
                                                 </tbody>
@@ -381,8 +341,6 @@ export default function Markets_details() {
                         </div>
                     </div>
                 </section>
-
-                {/* <Trading /> */}
                 <Process />
                 <Subscribe />
             </Layout>

@@ -1,9 +1,470 @@
 {
-    "Home": {
-        "Hero": {
-            "Title": "Trading for Anyone. Anywhere. Anytime.",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+  "Navbar": {
+    "home": "Home",
+    "trading": "Trading",
+    "platform": "Platform",
+    "market": "Market",
+    "marketsPlace": "Markets Place",
+    "marketsDetails": "Markets Details",
+    "aboutUs": "About Us",
+    "contact": "Contact"
+  },
+  "Home": {
+    "Hero": {
+      "title": "Trading for Anyone. Anywhere. Anytime.",
+      "description": "Trade with a wide range of instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies."
+    },
+    "Trading_Accounts": {
+      "sectionTitle": "Trading Accounts",
+      "subTitle": "Account",
+      "questions": {
+        "who_we_are": {
+          "title": "Who We Are",
+          "answer": "As a brokerage firm or trading platform. We are dedicated to providing innovative and user-friendly trading."
+        },
+        "what_we_do": {
+          "title": "What We Do",
+          "answer": "We are a professional forex trading platform dedicated to providing comprehensive forex investment services. With advanced technological support, a secure trading environment, and global market coverage, we offer flexible trading tools and high-quality customer service to help clients achieve steady growth in the forex market."
+        },
+        "how_it_works": {
+          "title": "How It Works",
+          "answer": "Through in-depth analysis and precise strategic guidance, we help clients make informed decisions in complex market environments, maximizing their return on investment. Our goal is to provide each client with practical solutions, helping them maintain a leading position in increasingly competitive industries."
         }
+      }
+    },
+    "Account": {
+      "sectionTitle": "Trading Accounts",
+      "subTitle": "Account",
+      "professionalAccount": {
+        "title": "Professional Account",
+        "description": "Traders with professional accounts gain access to a wide range of benefits, including enhanced trading platforms."
+      },
+      "demoAccount": {
+        "title": "Demo Account",
+        "description": "Trading demo accounts are particularly valuable for novice traders who are new to the world of investing."
+      }
+    },
+    "Funfact": {
+      "countries": {
+        "count": "150+",
+        "label": "Countries",
+        "description": "Trade policies and agreements shape the trading landscape of countries."
+      },
+      "investment": {
+        "count": "40+",
+        "label": "Million Invest",
+        "description": "Investing a million dollars in trading represents a significant opportunity."
+      },
+      "awards": {
+        "count": "90+",
+        "label": "Awards",
+        "description": "Trading awards recognize excellence and achievement within the financial sector."
+      }
+    },
+    "ThingsWeTrade": {
+      "sectionTitle": "Things We Trade",
+      "subTitle": "Trading Platforms",
+      "crypto": {
+        "title": "Crypto Trading",
+        "buttonText": "Start Trading Now"
+      },
+      "shares": {
+        "title": "Shares Trading",
+        "buttonText": "Start Trading Now"
+      },
+      "gold": {
+        "title": "Gold Trading",
+        "buttonText": "Start Trading Now"
+      },
+      "currency": {
+        "title": "Currency Trading",
+        "buttonText": "Start Trading Now"
+      },
+      "silver": {
+        "title": "Silver Trading",
+        "buttonText": "Start Trading Now"
+      }
+    },
+    "Process": {
+      "sectionTitle": "The Process",
+      "subTitle": "How It Works",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Sign up, It's Free!",
+          "description": "Our team will set up your account and help you build job to easy-to-use web dashboard."
+        },
+        {
+          "step": "2",
+          "title": "Find best Deals and Invest",
+          "description": "Create and Trade anywhere from 1-100% openings with just a few clicks. Customize your own."
+        },
+        {
+          "step": "3",
+          "title": "Get your profit back",
+          "description": "Relying on professional technical analysis and precise trading strategies, we help seize market opportunities, optimize risk management, improve trading efficiency, and steadily recover while achieving continuous profitability."
+        }
+      ]
+    },
+    "Award": {
+      "sectionTitle": "AWARDED BY THE BEST",
+      "subTitle": "Globally Awarded",
+      "awards": [
+        {
+          "year": "2023",
+          "title": "The Best Trading Platform, UK",
+          "timesAwarded": "x1"
+        },
+        {
+          "year": "2022",
+          "title": "The Best Trading Platform, UK",
+          "timesAwarded": "x4"
+        },
+        {
+          "year": "2018",
+          "title": "The Best Trading Platform, London",
+          "timesAwarded": "x4"
+        }
+      ]
+    },
+    "Apps": {
+      "sectionTitle": "Download App",
+      "subTitle": "Download Trading App",
+      "description": "We use cookies to understand how you use our website and to give you the best possible experience.",
+      "downloadLinks": {
+        "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+        "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+        "web": "https://pc.tedafx.com/"
+      }
     }
+  },
+  "Footer": {
+    "trading": "Trading",
+    "platforms": "Platforms",
+    "market": "Market",
+    "market_place": "Market Place",
+    "market_details": "Market Details",
+    "about": "About",
+    "about_us": "About Us",
+    "contact": "Contact",
+    "contact_us": "Contact Us",
+    "company_info": "TEDA Global Limited is a company regulated by the Money Services Business (MSB) in the United States, with registration number 31000280102867. Its registered office is located at 7 Copperfield Road, Coventry, West Midlands, England, CV2 4AQ.",
+    "company_description": "TEDA offers a diverse selection of financial instruments for trading, including CFDs on currency pairs, energies, commodities, and indices. Our main goal is to deliver accessible services that cater to our clients' trading and investment needs. With a client-focused business model, we are committed to continually enhancing our offerings based on client feedback and demands.",
+    "copyright": "Copyright {year}",
+    "rights_reserved": "All Rights Reserved."
+  },
+  "Platforms": {
+    "About": {
+      "platforms": "Platforms",
+      "trading_platforms": "Trading Platforms",
+      "tabs": {
+        "application": "Application",
+        "web": "Web",
+        "fbs_personal_area": "FBS Personal Area"
+      },
+      "content": {
+        "app": {
+          "title": "App",
+          "description": "Navigate the financial waves with premier trading app, designed to put the power of the markets in your palm."
+        },
+        "web": {
+          "title": "Web",
+          "description": "Ride the financial waves with a top-tier trading platform, crafted to give you full control of the markets at your fingertips."
+        },
+        "fbs_personal_area": {
+          "title": "FBS Personal Area",
+          "description": "Steer through the financial waves with elite trading app, built to put the market’s power right in your hands."
+        }
+      }
+    },
+    "Main": {
+      "learn_more": "Learn More",
+      "what_is_trading": "What is Trading",
+      "financial_markets": {
+        "title": "Financial Markets",
+        "description_1": "The financial markets are the cornerstone of global capital flows, offering diverse trading opportunities across equities, forex, and commodities. Our platform delivers real-time price discovery, deep liquidity access, and advanced execution technology, ensuring that traders and investors operate with maximum efficiency in a highly competitive landscape.",
+        "description_2": "Whether you are a seasoned institutional trader or an emerging market participant, our suite of cutting-edge analytical tools, AI-driven insights, and risk management solutions enables you to make data-driven decisions with confidence."
+      },
+      "what_is_forex": {
+        "title": "What is Forex",
+        "description_1": "Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.",
+        "description_2": "Check out our handy platform comparison table which will show you all the differences."
+      },
+      "tools_overview": {
+        "title": "Tools Overview",
+        "description_1": "Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.",
+        "description_2": "Check out our handy platform comparison table which will show you all the differences."
+      },
+      "platform_comparison": {
+        "title": "Platform Comparison",
+        "description_1": "Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.",
+        "description_2": "Check out our handy platform comparison table which will show you all the differences."
+      }
+    },
+    "Apps": {
+      "download_app": "Download App",
+      "download_trading_app": "Download Trading App",
+      "cookie_notice": "We use cookies to understand how you use our website and to give you the best possible experience.",
+      "download_on": "Download on",
+      "app_store": "App Store",
+      "get_it_on": "Get it on",
+      "google_play": "Google Play",
+      "access_on": "Access it on the",
+      "web": "Web"
+    },
+    "Accounts": {
+      "title": "Accounts",
+      "level_up_trading": "Level up your trading with Account",
+      "trade_anywhere": "Trade with one tap, anywhere, anytime",
+      "manage_portfolio": "Seamlessly manage your account and portfolio",
+      "real_time_charts": "Stay ahead with real-time charts and indicators",
+      "professional_account": "Professional Account",
+      "professional_account_description": "Traders with professional accounts gain access to a wide range of benefits, including enhanced trading platforms.",
+      "demo_account": "Demo Account",
+      "demo_account_description": "Trading demo accounts are particularly valuable for novice traders who are new to the world of investing."
+    }
+  },
+  "About": {
+    "AboutUs": {
+      "title": "About Us",
+      "reputation_experience": "Our reputation is built on",
+      "experience": "Experience",
+      "who_we_are": "Who We Are",
+      "who_we_are_description": "A team of experts passionate about cryptocurrency investment, dedicated to helping individuals and businesses thrive in the digital asset space.",
+      "what_we_do": "What We Do",
+      "what_we_do_description": "We offer strategic guidance and insights to help clients make informed decisions and maximize returns in the ever-evolving crypto market.",
+      "how_it_works": "How It Works",
+      "how_it_works_description": "Through data-driven analysis and tailored strategies, we identify profitable opportunities and optimize risk to grow our clients' crypto portfolios."
+    },
+    "FunFact": {
+      "clients_worldwide": {
+        "value": "M+",
+        "description": "Clients Worldwide"
+      },
+      "satisfied_clients": {
+        "value": "%",
+        "description": "Satisfied Clients"
+      },
+      "money_invested": {
+        "value": "M+",
+        "description": "Money Invested"
+      },
+      "expert_traders": {
+        "value": "+",
+        "description": "Expert Traders"
+      }
+    },
+    "CTA": {
+      "headline": "Trade for less, with low prices and transparent fees"
+    },
+    "Accounts": {
+      "section_title": "Level up your trading with Account",
+      "sub_title": "Accounts",
+      "professional_account": {
+        "title": "Professional Account",
+        "description": "Traders with professional accounts gain access to a wide range of benefits, including enhanced trading platforms."
+      },
+      "demo_account": {
+        "title": "Demo Account",
+        "description": "Trading demo accounts are particularly valuable for novice traders who are new to the world of investing."
+      },
+      "features": {
+        "trade_anywhere": "Trade with one tap, anywhere, anytime",
+        "manage_portfolio": "Seamlessly manage your account and portfolio",
+        "real_time_charts": "Stay ahead with real-time charts and indicators"
+      }
+    },
+    "Team": {
+      "section_title": "Our Talented Team Member",
+      "sub_title": "Our expert team",
+      "members": {
+        "olivia_quinn": {
+          "name": "Olivia Quinn",
+          "designation": "Forex Trader"
+        },
+        "nathan_hayes": {
+          "name": "Nathan Hayes",
+          "designation": "Consultant"
+        },
+        "ava_jensen": {
+          "name": "Ava Jensen",
+          "designation": "Trading Assistant"
+        },
+        "sophia_knight": {
+          "name": "Sophia Knight",
+          "designation": "President of Trade"
+        },
+        "ethan_brooks": {
+          "name": "Ethan Brooks",
+          "designation": "Marketing Coordinator"
+        },
+        "aronic_kehan": {
+          "name": "Aronic Kehan",
+          "designation": "Business Assistant"
+        }
+      }
+    },
+    "Apps": {
+      "section_title": "Download Trading App",
+      "sub_title": "Download App",
+      "description": "We use cookies to understand how you use our website and to give you the best possible experience.",
+      "download_buttons": {
+        "app_store": {
+          "text": "Download on App Store",
+          "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+        },
+        "google_play": {
+          "text": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+        }
+      }
+    },
+    "Testimonials": {
+      "section_title": "Love from Clients",
+      "sub_title": "Testimonials",
+      "testimonial_1": {
+        "quote": "Crypto investor makes my investment work efficient and pleasant",
+        "description": "Navigate the financial waves with a premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality anywhere."
+      }
+    }
+  },
+  "Market": {
+    "Platforms": {
+      "section_title": "Trading Platforms",
+      "sub_title": "Platforms",
+      "app": {
+        "title": "App",
+        "description": "Navigate the financial waves with the TEDA platform's trading application, designed to put the power of the market in your hands. Our cutting-edge app combines complex features with a user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.",
+        "features": [
+          "Trade with one tap, anywhere, anytime",
+          "Seamlessly manage your account and portfolio",
+          "Stay ahead with real-time charts and indicators",
+          "Trade with confidence through encrypted security"
+        ]
+      },
+      "teda_copy": {
+        "title": "TEDA Copy",
+        "description": "Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.",
+        "features": [
+          "Trade with one tap, anywhere, anytime",
+          "Seamlessly manage your account and portfolio",
+          "Stay ahead with real-time charts and indicators",
+          "Trade with confidence through encrypted security"
+        ]
+      },
+      "tab_buttons": {
+        "webtrader": "TEDA Webtrader",
+        "mt4_mt": "MT4/MT",
+        "copy": "TEDA Copy"
+      }
+    },
+    "Range": {
+      "title": "Our Range",
+      "subtitle": "Our range of markets",
+      "markets": {
+        "forex": {
+          "title": "Trade Forex",
+          "button": "Forex Trading"
+        },
+        "indices": {
+          "title": "Indices",
+          "button": "Forex Trading"
+        },
+        "cryptocurrencies": {
+          "title": "Cryptocurrencies",
+          "button": "Forex Trading"
+        },
+        "commodities": {
+          "title": "Commodities",
+          "button": "Forex Trading"
+        }
+      }
+    },
+    "Apps": {
+      "title": "Download App",
+      "subtitle": "Download Trading App",
+      "description": "We use cookies to understand how you use our website and to give you the best possible experience.",
+      "download_links": {
+        "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+        "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+      }
+    }
+  },
+  "Market_Details": {
+    "Details": {
+      "title": "Trade Now",
+      "subtitle": "Market Spreads and Swaps",
+      "tabs": {
+        "cryptocurrency": "Cryptocurrency",
+        "indices": "Indices",
+        "metals": "Metals",
+        "forex": "Forex",
+        "commodities": "Commodities"
+      },
+      "table_headers": {
+        "markets": "Markets",
+        "bid": "Bid",
+        "ask": "Ask",
+        "action": "Action",
+        "spread": "Spread"
+      },
+      "no_data_messages": {
+        "forex": "No Forex data available",
+        "commodities": "No Commodities data available"
+      }
+    },
+    "Process": {
+      "about_us": "About Us",
+      "reputation": "Our reputation is built on",
+      "experience": "Experience",
+      "who_we_are": {
+        "title": "Who We Are",
+        "description": "As a brokerage firm or trading platform, we are dedicated to providing innovative and user-friendly trading."
+      },
+      "what_we_do": {
+        "title": "What We Do",
+        "description": "We are a professional forex trading platform dedicated to providing comprehensive forex investment services. With advanced technological support, a secure trading environment, and global market coverage, we offer clients flexible trading tools and high-quality customer service to help them achieve steady growth in the forex market."
+      },
+      "how_it_works": {
+        "title": "How It Works",
+        "description": "Through in-depth analysis and precise strategic guidance, we help clients make informed decisions in a complex market environment, maximizing their investment returns. Our goal is to provide practical solutions for each client, helping them maintain a competitive edge in an increasingly competitive industry."
+      }
+    }
+  },
+  "Account_Details": {
+    "title": "Account Details",
+    "professional_account": "Professional Account",
+    "professional_account_description": "Traders with professional accounts gain access to a wide",
+    "demo_account": "Demo Account",
+    "demo_account_description": "Trading demo accounts are particularly valuable for novice",
+    "account_overview": "Trading accounts can be categorized into professional accounts and demo accounts based on the trading needs and market experience of investors. Professional accounts are designed for experienced traders, offering faster execution speeds, deeper market liquidity, and more flexible trading conditions to facilitate the implementation of efficient strategies. Demo accounts, on the other hand, allow investors to test trading strategies, familiarize themselves with market fluctuations, and enhance their trading skills in a risk-free environment. Each trading account is assigned a unique identification number by the broker or financial institution, which is used for all transactions, fund settlements, and customer support related to that account, ensuring security and transparency.",
+    "professional_account_info": "Professional Account Info",
+    "info_list": {
+      "initial_deposit": "Initial Deposit",
+      "leverage": "Leverage",
+      "spread": "Spread",
+      "multi_language_cc": "Multi Language CC",
+      "order_volume": "Order Volume",
+      "support": "24/7 Support",
+      "friendly_expert": "Friendly & Expert",
+      "award_winner": "Award Winner"
+    },
+    "info_values": {
+      "initial_deposit": "$1000",
+      "leverage": "Upto 1:400",
+      "spread": "Fixed from 5 pis",
+      "multi_language_cc": "Yes",
+      "order_volume": "0.01 – 500 lots",
+      "support": "Yes",
+      "friendly_expert": "Yes",
+      "award_winner": "Big Bonus"
+    },
+    "benefits_title": "Benefits",
+    "benefits": {
+      "portfolio_diversification": "Portfolio Diversification",
+      "access_global_markets": "Access to Global Markets",
+      "flexibility_control": "Flexibility and Control",
+      "potential_profit": "Potential for Profit"
+    }
+  }
 }

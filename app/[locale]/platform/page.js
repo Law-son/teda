@@ -5,7 +5,12 @@ import Layout from "@/components/layout/Layout"
 import About from "@/components/sections/home2/About"
 import Apps from "@/components/sections/home2/Apps"
 import Subscribe from "@/components/sections/home1/Subscribe"
+import { useTranslations } from "next-intl";
+
 export default function Platform() {
+    const t = useTranslations("Platforms.Main");
+    const p = useTranslations("Platforms.Accounts");
+    const s = useTranslations('Navbar');
 
     const [activeIndex, setActiveIndex] = useState(1)
     const handleOnClick = (index) => {
@@ -14,15 +19,15 @@ export default function Platform() {
 
     return (
         <div className="boxed_wrapper">
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Platform">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle={s('platform')}>
 
                 <About />
 
                 <section className="trading-style-four pt_0 pb_100">
                     <div className="auto-container">
                         <div className="sec-title centred pb_60">
-                            <span className="sub-title mb_14">Learn More</span>
-                            <h2>What is Trading</h2>
+                            <span className="sub-title mb_14">{t('learn_more')}</span>
+                            <h2>{t('what_is_trading')}</h2>
                         </div>
                         <div className="tabs-box">
                             <div className="tabs-content">
@@ -31,9 +36,9 @@ export default function Platform() {
                                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
-                                                    <h2>Financial Markets</h2>
-                                                    <p>The financial markets are the cornerstone of global capital flows, offering diverse trading opportunities across equities, forex, and commodities. Our platform delivers real-time price discovery, deep liquidity access, and advanced execution technology, ensuring that traders and investors operate with maximum efficiency in a highly competitive landscape.</p>
-                                                    <p>Whether you are a seasoned institutional trader or an emerging market participant, our suite of cutting-edge analytical tools, AI-driven insights, and risk management solutions enables you to make data-driven decisions with confidence.</p>
+                                                    <h2>{t('financial_markets.title')}</h2>
+                                                    <p>{t('financial_markets.description_1')}</p>
+                                                    <p>{t('financial_markets.description_2')}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -49,13 +54,9 @@ export default function Platform() {
                                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
-                                                    <h2>What is Forex</h2>
-                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <p>Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    {/* <div className="btn-box">
-                                                        <Link href="/account-details" className="theme-btn btn-one mr_20">Start Trading</Link>
-                                                        <Link href="/index-2" className="theme-btn btn-two">Learn More</Link>
-                                                    </div> */}
+                                                    <h2>{t('what_is_forex.title')}</h2>
+                                                    <p>{t('what_is_forex.description_1')}</p>
+                                                    <p>{t('what_is_forex.description_2')}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -71,9 +72,9 @@ export default function Platform() {
                                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
-                                                    <h2>Tools Overview</h2>
-                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <p>Check out our handy platform comparison table which will show you all the differences.</p>
+                                                    <h2>{t('tools_overview.title')}</h2>
+                                                    <p>{t('tools_overview.description_1')}</p>
+                                                    <p>{t('tools_overview.description_2')}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -89,9 +90,9 @@ export default function Platform() {
                                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
-                                                    <h2>Platform Comparison</h2>
-                                                    <p>Not sure which is the right TEDA platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
-                                                    <p>Check out our handy platform comparison table which will show you all the differences.</p>
+                                                    <h2>{t('platform_comparison.title')}</h2>
+                                                    <p>{t('platform_comparison.description_1')}</p>
+                                                    <p>{t('platform_comparison.description_2')}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -116,14 +117,14 @@ export default function Platform() {
                                 <div className="content_block_eight">
                                     <div className="content-box mr_60">
                                         <div className="sec-title pb_20">
-                                            <span className="sub-title mb_14">Accounts</span>
-                                            <h2>Level up your trading with <span>Account</span></h2>
+                                            <span className="sub-title mb_14">{p("title")}</span>
+                                            <h2>{p("level_up_trading")}</h2>
                                         </div>
                                         <div className="text-box">
                                             <ul className="list-style-one mb_40 clearfix">
-                                                <li>Trade with one tap, anywhere, anytime</li>
-                                                <li>Seamlessly manage your account and portfolio</li>
-                                                <li>Stay ahead with real-time charts and indicators</li>
+                                                <li>{p("trade_anywhere")}</li>
+                                                <li>{p("manage_portfolio")}</li>
+                                                <li>{p("real_time_charts")}</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -133,20 +134,20 @@ export default function Platform() {
                                 <div className="inner-content">
                                     <div className="row clearfix">
                                         <div className="col-lg-6 col-md-6 col-sm-12 account-block">
-                                            <div className="account-block-one pb_1 wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                            <div className="account-block-one pb_1 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                                 <div className="inner-box">
                                                     <div className="icon-box"><i className="icon-01"></i></div>
-                                                    <h3><Link href="/account-details">Professional Account</Link></h3>
-                                                    <p>Traders with professional accounts gain access to a wide range of benefits, including enhanced trading platforms</p>
+                                                    <h3><Link href="/account-details">{p("professional_account")}</Link></h3>
+                                                    <p>{p("professional_account_description")}</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 account-block pt_75">
-                                            <div className="account-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                            <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                                 <div className="inner-box">
                                                     <div className="icon-box"><i className="icon-03"></i></div>
-                                                    <h3><Link href="/account-details">Demo Account</Link></h3>
-                                                    <p>Trading demo accounts are particularly valuable for novice traders who are new to the world of investing.</p>
+                                                    <h3><Link href="/account-details">{p("demo_account")}</Link></h3>
+                                                    <p>{p("demo_account_description")}</p>
                                                 </div>
                                             </div>
                                         </div>

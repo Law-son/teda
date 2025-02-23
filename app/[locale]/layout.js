@@ -6,7 +6,7 @@ import "./favicon.ico";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
-import { barlow, firaSans } from "@/lib/font";
+import { barlow, firaSans } from "@/lib/font"; 
 
 // Import all language message files
 import messagesEn from "@/messages/en.json";

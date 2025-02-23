@@ -5,6 +5,8 @@ import Layout from "@/components/layout/Layout"
 import Cta from "@/components/sections/home3/Cta"
 import News from "@/components/sections/home1/News"
 import Subscribe from "@/components/sections/home1/Subscribe"
+import { useTranslations } from "next-intl";
+
 export default function Markets() {
 
     const [activeIndex, setActiveIndex] = useState(1)
@@ -15,16 +17,20 @@ export default function Markets() {
     const disableClick = (event) => {
         event.preventDefault();
     };
+    const t = useTranslations("Market.Platforms");
+    const p = useTranslations("Market.Range");
+    const a = useTranslations("Market.Apps");
+    const s = useTranslations('Navbar');
 
     return (
         <div className="boxed_wrapper">
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Markets Place">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle={s('marketsPlace')}>
 
                 <section className="platform-section alternat-2 pt_90 pb_130">
                     <div className="auto-container">
                         <div className="sec-title centred pb_60">
-                            <span className="sub-title mb_14">Platforms</span>
-                            <h2>Trading Platforms</h2>
+                            <span className="sub-title mb_14">{t('sub_title')}</span>
+                            <h2>{t('section_title')}</h2>
                         </div>
                         <div className="tabs-box">
                             <div className="row clearfix">
@@ -33,27 +39,27 @@ export default function Markets() {
                                         <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                                             <div className="content-box">
                                                 <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
-                                                <h2>App</h2>
-                                                <p>Navigate the financial waves with the TEDA platform's trading application, designed to put the power of the market in your hands. Our cutting-edge app combines complex features with a user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
+                                                <h2>{t('app.title')}</h2>
+                                                <p>{t('app.description')}</p>
                                                 <ul className="list-style-one clearfix">
-                                                    <li>Trade with one tap, anywhere, anytime</li>
-                                                    <li>Seamlessly manage your account and portfolio</li>
-                                                    <li>Stay ahead with real-time charts and indicators</li>
-                                                    <li>Trade with confidence through encrypted</li>
+                                                    <li>{t('app.features.0')}</li>
+                                                    <li>{t('app.features.1')}</li>
+                                                    <li>{t('app.features.2')}</li>
+                                                    <li>{t('app.features.3')}</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        
-                                        <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="cpoy">
+
+                                        <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="copy">
                                             <div className="content-box">
                                                 <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
-                                                <h2>TEDA Copy</h2>
-                                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
+                                                <h2>{t('teda_copy.title')}</h2>
+                                                <p>{t('teda_copy.description')}</p>
                                                 <ul className="list-style-one clearfix">
-                                                    <li>Trade with one tap, anywhere, anytime</li>
-                                                    <li>Seamlessly manage your account and portfolio</li>
-                                                    <li>Stay ahead with real-time charts and indicators</li>
-                                                    <li>Trade with confidence through encrypted</li>
+                                                    <li>{t('teda_copy.features.0')}</li>
+                                                    <li>{t('teda_copy.features.1')}</li>
+                                                    <li>{t('teda_copy.features.2')}</li>
+                                                    <li>{t('teda_copy.features.3')}</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -61,9 +67,9 @@ export default function Markets() {
                                 </div>
                                 <div className="mt-5 col-xl-4 col-lg-12 col-md-12 btn-column">
                                     <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
-                                        <li className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>TEDA Webtrader</li>
-                                        <li style={{ display: "none" }} onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT4/MT</li>
-                                        <li className="tab-btn">TEDA Copy</li>
+                                        <li className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>{t('tab_buttons.webtrader')}</li>
+                                        <li style={{ display: "none" }} onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>{t('tab_buttons.mt4_mt')}</li>
+                                        <li className="tab-btn">{t('tab_buttons.copy')}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -76,8 +82,8 @@ export default function Markets() {
                 <section className="markets-section centred pt_130 pb_70">
                     <div className="auto-container">
                         <div className="sec-title pb_60">
-                            <span className="sub-title mb_14">Our Range</span>
-                            <h2>Our range of markets</h2>
+                            <span className="sub-title mb_14">{p('title')}</span>
+                            <h2>{p('subtitle')}</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="col-lg-3 col-md-6 col-sm-12 markets-block">
@@ -88,10 +94,9 @@ export default function Markets() {
                                             <figure className="overlay-image"><Link href="/markets-details"><img src="assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
                                         </div>
                                         <div className="lower-content">
-                                            <h3><a href="markets-details.html">Trade Forex</a></h3>
-                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <h3><a href="markets-details.html">{p('markets.forex.title')}</a></h3>
                                             <div className="btn-box mt-3">
-                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                                <Link href="/markets-details" className="theme-btn btn-two">{p('markets.forex.button')}</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -101,14 +106,13 @@ export default function Markets() {
                                 <div className="markets-block-one">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt="" /></a></figure>
-                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                                            <figure className="image"><Link href="/markets-details"><img src="assets/images/resource/markets-2.jpg" alt="" /></Link></figure>
+                                            <figure className="overlay-image"><Link href="/markets-details"><img src="assets/images/resource/markets-2.jpg" alt="" /></Link></figure>
                                         </div>
                                         <div className="lower-content">
-                                            <h3><a href="markets-details.html">Indices</a></h3>
-                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <h3><a href="markets-details.html">{p('markets.indices.title')}</a></h3>
                                             <div className="btn-box mt-3">
-                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                                <Link href="/markets-details" className="theme-btn btn-two">{p('markets.indices.button')}</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -118,14 +122,13 @@ export default function Markets() {
                                 <div className="markets-block-one">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt="" /></a></figure>
-                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                                            <figure className="image"><Link href="/markets-details"><img src="assets/images/resource/markets-3.jpg" alt="" /></Link></figure>
+                                            <figure className="overlay-image"><Link href="/markets-details"><img src="assets/images/resource/markets-3.jpg" alt="" /></Link></figure>
                                         </div>
                                         <div className="lower-content">
-                                            <h3><a href="markets-details.html">Cryptocurrenciesices</a></h3>
-                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <h3><a href="markets-details.html">{p('markets.cryptocurrencies.title')}</a></h3>
                                             <div className="btn-box mt-3">
-                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                                <Link href="/markets-details" className="theme-btn btn-two">{p('markets.cryptocurrencies.button')}</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -135,14 +138,13 @@ export default function Markets() {
                                 <div className="markets-block-one">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt="" /></a></figure>
-                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                                            <figure className="image"><Link href="/markets-details"><img src="assets/images/resource/markets-4.jpg" alt="" /></Link></figure>
+                                            <figure className="overlay-image"><Link href="/markets-details"><img src="assets/images/resource/markets-4.jpg" alt="" /></Link></figure>
                                         </div>
                                         <div className="lower-content">
-                                            <h3><a href="markets-details.html">Commodities</a></h3>
-                                            {/* <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</p> */}
+                                            <h3><a href="markets-details.html">{p('markets.commodities.title')}</a></h3>
                                             <div className="btn-box mt-3">
-                                                <Link href="/markets-details" className="theme-btn btn-two">Forex Trading</Link>
+                                                <Link href="/markets-details" className="theme-btn btn-two">{p('markets.commodities.button')}</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -161,15 +163,31 @@ export default function Markets() {
                         <div className="content_block_two">
                             <div className="content-box">
                                 <div className="sec-title light pb_40">
-                                    <span className="sub-title mb_14">Download App</span>
-                                    <h2>Download Trading App</h2>
-                                    <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
+                                    <span className="sub-title mb_14">{a("title")}</span>
+                                    <h2>{a("subtitle")}</h2>
+                                    <p>{a("description")}</p>
                                 </div>
                                 <ul className="download-list clearfix">
-                                    <li><Link href=" https://apps.apple.com/cn/app/exchangespaw/id6741582233"><i className="fab fa-apple"></i></Link></li>
-                                    <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt="" /></Link></li>
-                                    <li><Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"><i className="fab fa-android"></i></Link></li>
-                                    <li style={{ display: "none" }}><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt="" /></Link></li>
+                                    <li>
+                                        <Link href={a("download_links.apple_store")}>
+                                            <i className="fab fa-apple"></i>
+                                        </Link>
+                                    </li>
+                                    <li style={{ display: "none" }}>
+                                        <Link href="/markets">
+                                            <img src="assets/images/icons/icon-2.png" alt="" />
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={a("download_links.google_play")}>
+                                            <i className="fab fa-android"></i>
+                                        </Link>
+                                    </li>
+                                    <li style={{ display: "none" }}>
+                                        <Link href="/markets">
+                                            <img src="assets/images/icons/icon-6.png" alt="" />
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

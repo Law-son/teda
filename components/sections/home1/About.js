@@ -1,6 +1,9 @@
 'use client'
 import { useState } from "react"
+import { useTranslations } from 'next-intl';
+
 export default function About() {
+    const t = useTranslations('Home.Trading_Accounts');
 
     const [isActive, setIsActive] = useState({
         status: false,
@@ -29,40 +32,40 @@ export default function About() {
                             <div className="content_block_one">
                                 <div className="content-box mr_80">
                                     <div className="sec-title pb_30">
-                                        <span className="sub-title mb_14">Account</span>
-                                        <h2>Trading Accounts</h2>
+                                        <span className="sub-title mb_14">{t("subTitle")}</span>
+                                        <h2>{t("sectionTitle")}</h2>
                                     </div>
                                     <ul className="accordion-box">
                                         <li className="accordion block">
                                             <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>Who We Are</h3>
+                                                <h3>{t("questions.who_we_are.title")}</h3>
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>As a brokerage firm or trading platform. We are dedicated to providing innovative and user-friendly trading.</p>
+                                                    <p>{t("questions.who_we_are.answer")}</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="accordion block">
                                             <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>What We Do</h3>
+                                                <h3>{t("questions.what_we_do.title")}</h3>
                                             </div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>We are a professional forex trading platform dedicated to providing comprehensive forex investment services. With advanced technological support, a secure trading environment, and global market coverage, we offer flexible trading tools and high-quality customer service to help clients achieve steady growth in the forex market.</p>
+                                                    <p>{t("questions.what_we_do.answer")}</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="accordion block">
                                             <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>How It Works</h3>
+                                                <h3>{t("questions.how_it_works.title")}</h3>
                                             </div>
                                             <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Through in-depth analysis and precise strategic guidance, we help clients make informed decisions in complex market environments, maximizing their return on investment. Our goal is to provide each client with practical solutions, helping them maintain a leading position in increasingly competitive industries.</p>
+                                                    <p>{t("questions.how_it_works.answer")}</p>
                                                 </div>
                                             </div>
                                         </li>

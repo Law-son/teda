@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+        "home": "Startseite",
+        "trading": "Handel",
+        "platform": "Plattform",
+        "market": "Markt",
+        "marketsPlace": "Marktplatz",
+        "marketsDetails": "Marktdetails",
+        "aboutUs": "Über uns",
+        "contact": "Kontakt"
+    },
     "Home": {
         "Hero": {
-            "Title": "Handel für alle. Überall. Jederzeit.",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+            "title": "Handel für jedermann. Überall. Jederzeit.",
+            "description": "Handeln Sie mit einer breiten Palette von Instrumenten. Forex, CFDs auf Aktienindizes, Rohstoffe, Aktien, Metalle und Energien."
+        },
+        "Trading_Accounts": {
+            "sectionTitle": "Handelskonten",
+            "subTitle": "Konto",
+            "questions": {
+                "who_we_are": {
+                    "title": "Wer wir sind",
+                    "answer": "Als Maklerfirma oder Handelsplattform widmen wir uns der Bereitstellung von innovativem und benutzerfreundlichem Handel."
+                },
+                "what_we_do": {
+                    "title": "Was wir tun",
+                    "answer": "Wir sind eine professionelle Forex-Handelsplattform, die umfassende Forex-Investitionsdienstleistungen anbietet. Mit fortschrittlicher technologischer Unterstützung, einer sicheren Handelsumgebung und globaler Marktabdeckung bieten wir flexible Handelswerkzeuge und hochwertigen Kundenservice, um unseren Kunden ein stetiges Wachstum im Forex-Markt zu ermöglichen."
+                },
+                "how_it_works": {
+                    "title": "So funktioniert es",
+                    "answer": "Durch fundierte Analysen und präzise strategische Anleitung helfen wir unseren Kunden, in komplexen Marktsituationen fundierte Entscheidungen zu treffen und ihre Kapitalrendite zu maximieren. Unser Ziel ist es, jedem Kunden praktische Lösungen zu bieten, die ihm helfen, in einem zunehmend wettbewerbsintensiven Umfeld eine führende Position zu behaupten."
+                }
+            }
+        },
+        "Account": {
+            "sectionTitle": "Handelskonten",
+            "subTitle": "Konto",
+            "professionalAccount": {
+                "title": "Professionelles Konto",
+                "description": "Händler mit professionellen Konten erhalten Zugang zu einer Vielzahl von Vorteilen, einschließlich verbesserter Handelsplattformen."
+            },
+            "demoAccount": {
+                "title": "Demokonto",
+                "description": "Demokonten sind besonders wertvoll für Anfänger, die neu in der Welt des Investierens sind."
+            }
+        },
+        "Funfact": {
+            "countries": {
+                "count": "150+",
+                "label": "Länder",
+                "description": "Handelsrichtlinien und -abkommen prägen die Handelslandschaft der Länder."
+            },
+            "investment": {
+                "count": "40+",
+                "label": "Millionen investiert",
+                "description": "Eine Investition von einer Million Dollar im Handel stellt eine bedeutende Chance dar."
+            },
+            "awards": {
+                "count": "90+",
+                "label": "Auszeichnungen",
+                "description": "Handelsauszeichnungen würdigen Exzellenz und Leistung im Finanzsektor."
+            }
+        },
+        "ThingsWeTrade": {
+            "sectionTitle": "Was wir handeln",
+            "subTitle": "Handelsplattformen",
+            "crypto": {
+                "title": "Krypto-Handel",
+                "buttonText": "Jetzt handeln"
+            },
+            "shares": {
+                "title": "Aktienhandel",
+                "buttonText": "Jetzt handeln"
+            },
+            "gold": {
+                "title": "Goldhandel",
+                "buttonText": "Jetzt handeln"
+            },
+            "currency": {
+                "title": "Währungshandel",
+                "buttonText": "Jetzt handeln"
+            },
+            "silver": {
+                "title": "Silberhandel",
+                "buttonText": "Jetzt handeln"
+            }
+        },
+        "Process": {
+            "sectionTitle": "Der Prozess",
+            "subTitle": "So funktioniert es",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "Registrieren Sie sich, es ist kostenlos!",
+                    "description": "Unser Team richtet Ihr Konto ein und hilft Ihnen dabei, ein benutzerfreundliches Web-Dashboard zu erstellen."
+                },
+                {
+                    "step": "2",
+                    "title": "Finden Sie die besten Angebote und investieren Sie",
+                    "description": "Eröffnen und handeln Sie Positionen im Bereich von 1-100% mit nur wenigen Klicks. Passen Sie sie individuell an."
+                },
+                {
+                    "step": "3",
+                    "title": "Holen Sie sich Ihren Gewinn zurück",
+                    "description": "Mit Hilfe professioneller technischer Analysen und präziser Handelsstrategien unterstützen wir Sie dabei, Marktchancen zu ergreifen, das Risikomanagement zu optimieren, die Handelseffizienz zu steigern und eine kontinuierliche Rentabilität zu sichern."
+                }
+            ]
+        },
+        "Award": {
+            "sectionTitle": "AUSGEZEICHNET VON DEN BESTEN",
+            "subTitle": "Weltweit ausgezeichnet",
+            "awards": [
+                {
+                    "year": "2023",
+                    "title": "Die beste Handelsplattform, Großbritannien",
+                    "timesAwarded": "x1"
+                },
+                {
+                    "year": "2022",
+                    "title": "Die beste Handelsplattform, Großbritannien",
+                    "timesAwarded": "x4"
+                },
+                {
+                    "year": "2018",
+                    "title": "Die beste Handelsplattform, London",
+                    "timesAwarded": "x4"
+                }
+            ]
+        },
+        "Apps": {
+            "sectionTitle": "App herunterladen",
+            "subTitle": "Trading-App herunterladen",
+            "description": "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website nutzen, und um Ihnen das bestmögliche Erlebnis zu bieten.",
+            "downloadLinks": {
+                "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+                "web": "https://pc.tedafx.com/"
+            }
+        }
+    },
+    "Footer": {
+        "trading": "Handel",
+        "platforms": "Plattformen",
+        "market": "Markt",
+        "market_place": "Marktplatz",
+        "market_details": "Marktdetails",
+        "about": "Über",
+        "about_us": "Über uns",
+        "contact": "Kontakt",
+        "contact_us": "Kontaktieren Sie uns",
+        "company_info": "TEDA Global Limited ist ein Unternehmen, das in den Vereinigten Staaten von den Money Services Business (MSB) reguliert wird, mit der Registrierungsnummer 31000280102867. Der eingetragene Firmensitz befindet sich in der 7 Copperfield Road, Coventry, West Midlands, England, CV2 4AQ.",
+        "company_description": "TEDA bietet eine vielfältige Auswahl an Finanzinstrumenten für den Handel, einschließlich CFDs auf Währungspaare, Energien, Rohstoffe und Indizes. Unser Hauptziel ist es, zugängliche Dienstleistungen anzubieten, die den Handels- und Investitionsbedürfnissen unserer Kunden gerecht werden. Mit einem kundenorientierten Geschäftsmodell verpflichten wir uns, unser Angebot kontinuierlich basierend auf Kundenfeedback und -anforderungen zu verbessern.",
+        "copyright": "Copyright {year}",
+        "rights_reserved": "Alle Rechte vorbehalten."
+    },
+    "Platforms": {
+        "About": {
+            "platforms": "Plattformen",
+            "trading_platforms": "Handelsplattformen",
+            "tabs": {
+                "application": "Anwendung",
+                "web": "Web",
+                "fbs_personal_area": "FBS Persönlicher Bereich"
+            },
+            "content": {
+                "app": {
+                    "title": "App",
+                    "description": "Navigieren Sie durch die Finanzwelt mit einer erstklassigen Handels-App, die darauf ausgelegt ist, Ihnen die Macht der Märkte in die Hand zu legen."
+                },
+                "web": {
+                    "title": "Web",
+                    "description": "Meistern Sie die Finanzwelt mit einer erstklassigen Handelsplattform, die Ihnen die volle Kontrolle über die Märkte direkt zur Hand gibt."
+                },
+                "fbs_personal_area": {
+                    "title": "FBS Persönlicher Bereich",
+                    "description": "Navigieren Sie durch die Finanzwelt mit einer Elite-Handels-App, die entwickelt wurde, um Ihnen die Macht der Märkte direkt in die Hand zu legen."
+                }
+            }
+        },
+        "Main": {
+            "learn_more": "Mehr erfahren",
+            "what_is_trading": "Was ist Handel",
+            "financial_markets": {
+                "title": "Finanzmärkte",
+                "description_1": "Die Finanzmärkte sind das Fundament globaler Kapitalströme und bieten vielfältige Handelsmöglichkeiten in den Bereichen Aktien, Forex und Rohstoffe. Unsere Plattform liefert Echtzeit-Preisfindung, tiefen Liquiditätszugang und fortschrittliche Ausführungstechnologie, wodurch Händler und Investoren in einem hart umkämpften Umfeld mit maximaler Effizienz agieren können.",
+                "description_2": "Egal, ob Sie ein erfahrener institutioneller Händler oder ein neuer Marktteilnehmer sind, unser Portfolio an hochmodernen Analysetools, KI-gestützten Einblicken und Risikomanagementlösungen ermöglicht es Ihnen, fundierte, datengestützte Entscheidungen zu treffen."
+            },
+            "what_is_forex": {
+                "title": "Was ist Forex",
+                "description_1": "Sind Sie sich nicht sicher, welche TEDA-Plattform die richtige für Sie ist? Sehen Sie sich unsere praktische Plattformvergleichstabelle an, die Ihnen alle Unterschiede aufzeigt.",
+                "description_2": "Sehen Sie sich unsere praktische Plattformvergleichstabelle an, die Ihnen alle Unterschiede aufzeigt."
+            },
+            "tools_overview": {
+                "title": "Werkzeugübersicht",
+                "description_1": "Sind Sie sich nicht sicher, welche TEDA-Plattform die richtige für Sie ist? Schauen Sie sich unsere praktische Plattformvergleichstabelle an, die Ihnen alle Unterschiede aufzeigt.",
+                "description_2": "Schauen Sie sich unsere praktische Plattformvergleichstabelle an, die Ihnen alle Unterschiede aufzeigt."
+            },
+            "platform_comparison": {
+                "title": "Plattformvergleich",
+                "description_1": "Sind Sie sich nicht sicher, welche TEDA-Plattform die richtige für Sie ist? Sehen Sie sich unsere praktische Plattformvergleichstabelle an, die Ihnen alle Unterschiede aufzeigt.",
+                "description_2": "Sehen Sie sich unsere praktische Plattformvergleichstabelle an, die Ihnen alle Unterschiede aufzeigt."
+            }
+        },
+        "Apps": {
+            "download_app": "App herunterladen",
+            "download_trading_app": "Trading-App herunterladen",
+            "cookie_notice": "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website nutzen, und um Ihnen das bestmögliche Erlebnis zu bieten.",
+            "download_on": "Herunterladen auf",
+            "app_store": "App Store",
+            "get_it_on": "Erhältlich auf",
+            "google_play": "Google Play",
+            "access_on": "Zugriff über den",
+            "web": "Web"
+        },
+        "Accounts": {
+            "title": "Konten",
+            "level_up_trading": "Bringen Sie Ihren Handel mit einem Konto auf das nächste Level",
+            "trade_anywhere": "Handeln Sie mit einem Klick, überall und jederzeit",
+            "manage_portfolio": "Verwalten Sie Ihr Konto und Portfolio nahtlos",
+            "real_time_charts": "Bleiben Sie mit Echtzeit-Charts und Indikatoren stets einen Schritt voraus",
+            "professional_account": "Professionelles Konto",
+            "professional_account_description": "Händler mit professionellen Konten erhalten Zugang zu einer Vielzahl von Vorteilen, einschließlich verbesserter Handelsplattformen.",
+            "demo_account": "Demokonto",
+            "demo_account_description": "Demokonten sind besonders wertvoll für Anfänger, die neu in der Welt des Investierens sind."
+        }
+    },
+    "About": {
+        "AboutUs": {
+            "title": "Über uns",
+            "reputation_experience": "Unser Ruf basiert auf",
+            "experience": "Erfahrung",
+            "who_we_are": "Wer wir sind",
+            "who_we_are_description": "Ein Expertenteam, das leidenschaftlich in Kryptowährungsinvestitionen engagiert ist und sich dafür einsetzt, Einzelpersonen und Unternehmen im Bereich digitaler Assets zum Erfolg zu verhelfen.",
+            "what_we_do": "Was wir tun",
+            "what_we_do_description": "Wir bieten strategische Beratung und Einblicke, um unseren Kunden zu helfen, fundierte Entscheidungen zu treffen und Renditen im sich ständig weiterentwickelnden Kryptomarkt zu maximieren.",
+            "how_it_works": "So funktioniert es",
+            "how_it_works_description": "Durch datengesteuerte Analysen und maßgeschneiderte Strategien identifizieren wir rentable Chancen und optimieren Risiken, um die Krypto-Portfolios unserer Kunden zu vergrößern."
+        },
+        "FunFact": {
+            "clients_worldwide": {
+                "value": "M+",
+                "description": "Kunden weltweit"
+            },
+            "satisfied_clients": {
+                "value": "%",
+                "description": "Zufriedene Kunden"
+            },
+            "money_invested": {
+                "value": "M+",
+                "description": "Investiertes Geld"
+            },
+            "expert_traders": {
+                "value": "+",
+                "description": "Expertenhändler"
+            }
+        },
+        "CTA": {
+            "headline": "Handeln Sie günstiger, mit niedrigen Preisen und transparenten Gebühren"
+        },
+        "Accounts": {
+            "section_title": "Bringen Sie Ihren Handel mit einem Konto auf das nächste Level",
+            "sub_title": "Konten",
+            "professional_account": {
+                "title": "Professionelles Konto",
+                "description": "Händler mit professionellen Konten erhalten Zugang zu einer Vielzahl von Vorteilen, einschließlich verbesserter Handelsplattformen."
+            },
+            "demo_account": {
+                "title": "Demokonto",
+                "description": "Demokonten sind besonders wertvoll für Anfänger, die neu in der Welt des Investierens sind."
+            },
+            "features": {
+                "trade_anywhere": "Handeln Sie mit einem Klick, überall und jederzeit",
+                "manage_portfolio": "Verwalten Sie Ihr Konto und Portfolio nahtlos",
+                "real_time_charts": "Bleiben Sie mit Echtzeit-Charts und Indikatoren stets einen Schritt voraus"
+            }
+        },
+        "Team": {
+            "section_title": "Unser talentiertes Team",
+            "sub_title": "Unser Expertenteam",
+            "members": {
+                "olivia_quinn": {
+                    "name": "Olivia Quinn",
+                    "designation": "Forex-Traderin"
+                },
+                "nathan_hayes": {
+                    "name": "Nathan Hayes",
+                    "designation": "Berater"
+                },
+                "ava_jensen": {
+                    "name": "Ava Jensen",
+                    "designation": "Handelsassistentin"
+                },
+                "sophia_knight": {
+                    "name": "Sophia Knight",
+                    "designation": "Präsidentin des Handels"
+                },
+                "ethan_brooks": {
+                    "name": "Ethan Brooks",
+                    "designation": "Marketingkoordinator"
+                },
+                "aronic_kehan": {
+                    "name": "Aronic Kehan",
+                    "designation": "Geschäftsassistent"
+                }
+            }
+        },
+        "Apps": {
+            "section_title": "Trading-App herunterladen",
+            "sub_title": "App herunterladen",
+            "description": "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website nutzen, und um Ihnen das bestmögliche Erlebnis zu bieten.",
+            "download_buttons": {
+                "app_store": {
+                    "text": "Im App Store herunterladen",
+                    "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+                },
+                "google_play": {
+                    "text": "Auf Google Play verfügbar",
+                    "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+                }
+            }
+        },
+        "Testimonials": {
+            "section_title": "Kundenliebe",
+            "sub_title": "Testimonials",
+            "testimonial_1": {
+                "quote": "Krypto-Investor macht meine Investitionen effizient und angenehm",
+                "description": "Navigieren Sie durch die Finanzwelt mit einer erstklassigen Handels-App, die darauf ausgelegt ist, Ihnen die Macht der Märkte in die Hand zu legen. Unsere hochmoderne App vereint anspruchsvolle Funktionalität an jedem Ort."
+            }
+        }
+    },
+    "Market": {
+        "Platforms": {
+            "section_title": "Handelsplattformen",
+            "sub_title": "Plattformen",
+            "app": {
+                "title": "App",
+                "description": "Navigieren Sie durch die Finanzwelt mit der Handelsanwendung der TEDA-Plattform, die darauf ausgelegt ist, Ihnen die Macht des Marktes in die Hände zu legen. Unsere hochmoderne App kombiniert komplexe Funktionen mit einem benutzerfreundlichen Design, sodass Händler aller Erfahrungsstufen jederzeit und überall Marktchancen nutzen können.",
+                "features": [
+                    "Handeln Sie mit einem Klick, überall und jederzeit",
+                    "Verwalten Sie Ihr Konto und Portfolio nahtlos",
+                    "Bleiben Sie mit Echtzeit-Charts und Indikatoren stets einen Schritt voraus",
+                    "Handeln Sie mit Vertrauen dank verschlüsselter Sicherheit"
+                ]
+            },
+            "teda_copy": {
+                "title": "TEDA Copy",
+                "description": "Navigieren Sie durch die Finanzwelt mit der erstklassigen Handels-App von FXT, die darauf ausgelegt ist, Ihnen die Macht der Märkte in die Hand zu legen. Unsere hochmoderne App vereint anspruchsvolle Funktionalität mit einem benutzerfreundlichen Design, sodass Händler aller Erfahrungsstufen jederzeit und überall Marktchancen nutzen können.",
+                "features": [
+                    "Handeln Sie mit einem Klick, überall und jederzeit",
+                    "Verwalten Sie Ihr Konto und Portfolio nahtlos",
+                    "Bleiben Sie mit Echtzeit-Charts und Indikatoren stets einen Schritt voraus",
+                    "Handeln Sie mit Vertrauen dank verschlüsselter Sicherheit"
+                ]
+            },
+            "tab_buttons": {
+                "webtrader": "TEDA Webtrader",
+                "mt4_mt": "MT4/MT",
+                "copy": "TEDA Copy"
+            }
+        },
+        "Range": {
+            "title": "Unser Angebot",
+            "subtitle": "Unsere Auswahl an Märkten",
+            "markets": {
+                "forex": {
+                    "title": "Forex handeln",
+                    "button": "Forex-Handel"
+                },
+                "indices": {
+                    "title": "Indizes",
+                    "button": "Forex-Handel"
+                },
+                "cryptocurrencies": {
+                    "title": "Kryptowährungen",
+                    "button": "Forex-Handel"
+                },
+                "commodities": {
+                    "title": "Rohstoffe",
+                    "button": "Forex-Handel"
+                }
+            }
+        },
+        "Apps": {
+            "title": "App herunterladen",
+            "subtitle": "Trading-App herunterladen",
+            "description": "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website nutzen, und um Ihnen das bestmögliche Erlebnis zu bieten.",
+            "download_links": {
+                "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+            }
+        }
+    },
+    "Market_Details": {
+        "Details": {
+            "title": "Jetzt handeln",
+            "subtitle": "Marktspreads und Swaps",
+            "tabs": {
+                "cryptocurrency": "Kryptowährung",
+                "indices": "Indizes",
+                "metals": "Metalle",
+                "forex": "Forex",
+                "commodities": "Rohstoffe"
+            },
+            "table_headers": {
+                "markets": "Märkte",
+                "bid": "Geldkurs",
+                "ask": "Briefkurs",
+                "action": "Aktion",
+                "spread": "Spread"
+            },
+            "no_data_messages": {
+                "forex": "Keine Forex-Daten verfügbar",
+                "commodities": "Keine Rohstoffdaten verfügbar"
+            }
+        },
+        "Process": {
+            "about_us": "Über uns",
+            "reputation": "Unser Ruf basiert auf",
+            "experience": "Erfahrung",
+            "who_we_are": {
+                "title": "Wer wir sind",
+                "description": "Als Maklerfirma oder Handelsplattform widmen wir uns der Bereitstellung von innovativem und benutzerfreundlichem Handel."
+            },
+            "what_we_do": {
+                "title": "Was wir tun",
+                "description": "Wir sind eine professionelle Forex-Handelsplattform, die sich der Bereitstellung umfassender Forex-Investitionsdienstleistungen widmet. Mit fortschrittlicher technologischer Unterstützung, einer sicheren Handelsumgebung und globaler Marktabdeckung bieten wir unseren Kunden flexible Handelswerkzeuge und hochwertigen Kundenservice, um ihnen ein stetiges Wachstum im Forex-Markt zu ermöglichen."
+            },
+            "how_it_works": {
+                "title": "So funktioniert es",
+                "description": "Durch fundierte Analysen und präzise strategische Anleitung unterstützen wir unsere Kunden dabei, in einem komplexen Marktumfeld fundierte Entscheidungen zu treffen und ihre Investitionsrenditen zu maximieren. Unser Ziel ist es, jedem Kunden praktische Lösungen zu bieten, damit er sich in einem zunehmend wettbewerbsintensiven Markt behaupten kann."
+            }
+        }
+    },
+    "Account_Details": {
+        "title": "Kontodetails",
+        "professional_account": "Professionelles Konto",
+        "professional_account_description": "Händler mit professionellen Konten erhalten Zugang zu einer breiten Palette von Vorteilen.",
+        "demo_account": "Demokonto",
+        "demo_account_description": "Demokonten sind besonders wertvoll für Anfänger.",
+        "account_overview": "Handelskonto können in professionelle Konten und Demokonten unterteilt werden, basierend auf den Handelsbedürfnissen und der Markterfahrung der Investoren. Professionelle Konten sind für erfahrene Händler konzipiert und bieten schnellere Ausführungsgeschwindigkeiten, tiefere Marktliquidität und flexiblere Handelsbedingungen, um die Umsetzung effizienter Strategien zu erleichtern. Demokonten hingegen ermöglichen es Investoren, Handelsstrategien zu testen, sich mit Marktschwankungen vertraut zu machen und ihre Handelsfähigkeiten in einer risikofreien Umgebung zu verbessern. Jedem Handelskonto wird von der Bank oder dem Finanzinstitut eine eindeutige Identifikationsnummer zugewiesen, die für alle Transaktionen, Abrechnungen und den Kundensupport im Zusammenhang mit diesem Konto verwendet wird, um Sicherheit und Transparenz zu gewährleisten.",
+        "professional_account_info": "Informationen zum professionellen Konto",
+        "info_list": {
+            "initial_deposit": "Mindesteinzahlung",
+            "leverage": "Hebelwirkung",
+            "spread": "Spread",
+            "multi_language_cc": "Mehrsprachiger CC",
+            "order_volume": "Ordervolumen",
+            "support": "24/7 Support",
+            "friendly_expert": "Freundlich & kompetent",
+            "award_winner": "Ausgezeichnet"
+        },
+        "info_values": {
+            "initial_deposit": "$1000",
+            "leverage": "Bis zu 1:400",
+            "spread": "Fest ab 5 Pips",
+            "multi_language_cc": "Ja",
+            "order_volume": "0,01 – 500 Lots",
+            "support": "Ja",
+            "friendly_expert": "Ja",
+            "award_winner": "Großer Bonus"
+        },
+        "benefits_title": "Vorteile",
+        "benefits": {
+            "portfolio_diversification": "Portfoliodiversifikation",
+            "access_global_markets": "Zugang zu globalen Märkten",
+            "flexibility_control": "Flexibilität und Kontrolle",
+            "potential_profit": "Gewinnpotenzial"
         }
     }
 }

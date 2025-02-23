@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+        "home": "Home",
+        "trading": "Trading",
+        "platform": "Piattaforma",
+        "market": "Mercato",
+        "marketsPlace": "Marketplace",
+        "marketsDetails": "Dettagli Mercato",
+        "aboutUs": "Chi Siamo",
+        "contact": "Contatti"
+    },
     "Home": {
         "Hero": {
-            "Title": "Trading per chiunque. Ovunque. In qualsiasi momento.",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+            "title": "Trading per chiunque, ovunque, in qualsiasi momento.",
+            "description": "Opera con una vasta gamma di strumenti. Forex, CFD su indici azionari, materie prime, azioni, metalli ed energie."
+        },
+        "Trading_Accounts": {
+            "sectionTitle": "Conti di Trading",
+            "subTitle": "Conto",
+            "questions": {
+                "who_we_are": {
+                    "title": "Chi Siamo",
+                    "answer": "In qualità di società di brokeraggio o piattaforma di trading, ci dedichiamo a fornire soluzioni di trading innovative e intuitive."
+                },
+                "what_we_do": {
+                    "title": "Cosa Facciamo",
+                    "answer": "Siamo una piattaforma di trading forex professionale dedicata a fornire servizi di investimento forex completi. Grazie a un supporto tecnologico avanzato, un ambiente di trading sicuro e una copertura globale del mercato, offriamo strumenti di trading flessibili e un servizio clienti di alta qualità per aiutare i clienti a ottenere una crescita costante nel mercato forex."
+                },
+                "how_it_works": {
+                    "title": "Come Funziona",
+                    "answer": "Attraverso analisi approfondite e una guida strategica precisa, aiutiamo i clienti a prendere decisioni informate in ambienti di mercato complessi, massimizzando il ritorno sull'investimento. Il nostro obiettivo è fornire a ciascun cliente soluzioni pratiche, aiutandolo a mantenere una posizione di leadership in settori sempre più competitivi."
+                }
+            }
+        },
+        "Account": {
+            "sectionTitle": "Conti di Trading",
+            "subTitle": "Conto",
+            "professionalAccount": {
+                "title": "Conto Professionale",
+                "description": "I trader con conti professionali hanno accesso a una vasta gamma di benefici, inclusi piattaforme di trading potenziate."
+            },
+            "demoAccount": {
+                "title": "Conto Demo",
+                "description": "I conti demo sono particolarmente utili per i trader alle prime armi che si avvicinano al mondo degli investimenti."
+            }
+        },
+        "Funfact": {
+            "countries": {
+                "count": "150+",
+                "label": "Paesi",
+                "description": "Le politiche commerciali e gli accordi influenzano il panorama del trading nei paesi."
+            },
+            "investment": {
+                "count": "40+",
+                "label": "Milioni Investiti",
+                "description": "Investire un milione di dollari nel trading rappresenta un'opportunità significativa."
+            },
+            "awards": {
+                "count": "90+",
+                "label": "Premi",
+                "description": "I premi nel trading riconoscono l'eccellenza e il successo nel settore finanziario."
+            }
+        },
+        "ThingsWeTrade": {
+            "sectionTitle": "Asset che trattiamo",
+            "subTitle": "Piattaforme di Trading",
+            "crypto": {
+                "title": "Trading di Criptovalute",
+                "buttonText": "Inizia a fare trading ora"
+            },
+            "shares": {
+                "title": "Trading di Azioni",
+                "buttonText": "Inizia a fare trading ora"
+            },
+            "gold": {
+                "title": "Trading dell'Oro",
+                "buttonText": "Inizia a fare trading ora"
+            },
+            "currency": {
+                "title": "Trading di Valute",
+                "buttonText": "Inizia a fare trading ora"
+            },
+            "silver": {
+                "title": "Trading dell'Argento",
+                "buttonText": "Inizia a fare trading ora"
+            }
+        },
+        "Process": {
+            "sectionTitle": "Il Processo",
+            "subTitle": "Come Funziona",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "Registrati, è Gratis!",
+                    "description": "Il nostro team configurerà il tuo account e ti aiuterà a creare un cruscotto web facile da usare."
+                },
+                {
+                    "step": "2",
+                    "title": "Trova le Migliori Offerte e Investi",
+                    "description": "Crea e fai trading con aperture variabili dal 1 al 100% in pochi clic. Personalizza la tua esperienza."
+                },
+                {
+                    "step": "3",
+                    "title": "Recupera il tuo profitto",
+                    "description": "Affidandoci ad analisi tecniche professionali e strategie di trading precise, aiutiamo a cogliere le opportunità di mercato, ottimizzare la gestione del rischio, migliorare l'efficienza del trading e recuperare in modo costante, raggiungendo una redditività continua."
+                }
+            ]
+        },
+        "Award": {
+            "sectionTitle": "Premiati dai Migliori",
+            "subTitle": "Riconosciuti a livello globale",
+            "awards": [
+                {
+                    "year": "2023",
+                    "title": "La Migliore Piattaforma di Trading, Regno Unito",
+                    "timesAwarded": "x1"
+                },
+                {
+                    "year": "2022",
+                    "title": "La Migliore Piattaforma di Trading, Regno Unito",
+                    "timesAwarded": "x4"
+                },
+                {
+                    "year": "2018",
+                    "title": "La Migliore Piattaforma di Trading, Londra",
+                    "timesAwarded": "x4"
+                }
+            ]
+        },
+        "Apps": {
+            "sectionTitle": "Scarica l'App",
+            "subTitle": "Scarica l'App di Trading",
+            "description": "Utilizziamo i cookie per comprendere come usi il nostro sito web e offrirti la migliore esperienza possibile.",
+            "downloadLinks": {
+                "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+                "web": "https://pc.tedafx.com/"
+            }
         }
+    },
+    "Footer": {
+        "trading": "Trading",
+        "platforms": "Piattaforme",
+        "market": "Mercato",
+        "market_place": "Marketplace",
+        "market_details": "Dettagli Mercato",
+        "about": "Informazioni",
+        "about_us": "Chi Siamo",
+        "contact": "Contatti",
+        "contact_us": "Contattaci",
+        "company_info": "TEDA Global Limited è una società regolamentata dal Money Services Business (MSB) negli Stati Uniti, con numero di registrazione 31000280102867. La sua sede legale è situata in 7 Copperfield Road, Coventry, West Midlands, Inghilterra, CV2 4AQ.",
+        "company_description": "TEDA offre una vasta selezione di strumenti finanziari per il trading, inclusi CFD su coppie di valute, energie, materie prime e indici. Il nostro obiettivo principale è fornire servizi accessibili che soddisfino le esigenze di trading e investimento dei nostri clienti. Con un modello di business incentrato sul cliente, ci impegniamo a migliorare continuamente le nostre offerte in base ai feedback e alle richieste dei clienti.",
+        "copyright": "Copyright {year}",
+        "rights_reserved": "Tutti i diritti riservati."
+    },
+    "Platforms": {
+        "About": {
+            "platforms": "Piattaforme",
+            "trading_platforms": "Piattaforme di Trading",
+            "tabs": {
+                "application": "Applicazione",
+                "web": "Web",
+                "fbs_personal_area": "Area Personale FBS"
+            },
+            "content": {
+                "app": {
+                    "title": "App",
+                    "description": "Naviga le onde finanziarie con un'app di trading di prima qualità, progettata per mettere il potere dei mercati a portata di mano."
+                },
+                "web": {
+                    "title": "Web",
+                    "description": "Cavalca le onde finanziarie con una piattaforma di trading di alto livello, studiata per darti il pieno controllo dei mercati a portata di mano."
+                },
+                "fbs_personal_area": {
+                    "title": "Area Personale FBS",
+                    "description": "Guida le onde finanziarie con un'app di trading d'élite, creata per mettere il potere del mercato direttamente nelle tue mani."
+                }
+            }
+        },
+        "Main": {
+            "learn_more": "Scopri di più",
+            "what_is_trading": "Cos'è il Trading",
+            "financial_markets": {
+                "title": "Mercati Finanziari",
+                "description_1": "I mercati finanziari sono la pietra angolare dei flussi di capitale globali, offrendo diverse opportunità di trading in azioni, forex e materie prime. La nostra piattaforma garantisce la scoperta dei prezzi in tempo reale, un accesso profondo alla liquidità e una tecnologia avanzata di esecuzione, assicurando che trader e investitori operino con la massima efficienza in un contesto altamente competitivo.",
+                "description_2": "Che tu sia un trader istituzionale esperto o un partecipante emergente nel mercato, la nostra gamma di strumenti analitici all'avanguardia, approfondimenti basati sull'IA e soluzioni di gestione del rischio ti permette di prendere decisioni basate sui dati con fiducia."
+            },
+            "what_is_forex": {
+                "title": "Cos'è il Forex",
+                "description_1": "Non sei sicuro di quale sia la piattaforma TEDA giusta per te? Dai un'occhiata alla nostra comoda tabella comparativa delle piattaforme che ti mostrerà tutte le differenze.",
+                "description_2": "Consulta la nostra tabella comparativa delle piattaforme che evidenzia tutte le differenze."
+            },
+            "tools_overview": {
+                "title": "Panoramica degli Strumenti",
+                "description_1": "Non sei sicuro di quale sia la piattaforma TEDA giusta per te? Consulta la nostra tabella comparativa che ti mostra tutte le differenze.",
+                "description_2": "Consulta la nostra tabella comparativa che evidenzia tutte le differenze."
+            },
+            "platform_comparison": {
+                "title": "Confronto tra Piattaforme",
+                "description_1": "Non sei sicuro di quale sia la piattaforma TEDA più adatta a te? Dai un'occhiata alla nostra tabella comparativa che mostra tutte le differenze.",
+                "description_2": "Consulta la nostra tabella comparativa che evidenzia tutte le differenze."
+            }
+        },
+        "Apps": {
+            "download_app": "Scarica l'App",
+            "download_trading_app": "Scarica l'App di Trading",
+            "cookie_notice": "Utilizziamo i cookie per capire come utilizzi il nostro sito web e offrirti la migliore esperienza possibile.",
+            "download_on": "Scarica su",
+            "app_store": "App Store",
+            "get_it_on": "Disponibile su",
+            "google_play": "Google Play",
+            "access_on": "Accedi su",
+            "web": "Web"
+        },
+        "Accounts": {
+            "title": "Conti",
+            "level_up_trading": "Potenzia il tuo trading con un Conto",
+            "trade_anywhere": "Fai trading con un solo tocco, ovunque, in qualsiasi momento",
+            "manage_portfolio": "Gestisci senza sforzo il tuo conto e portafoglio",
+            "real_time_charts": "Rimani aggiornato con grafici e indicatori in tempo reale",
+            "professional_account": "Conto Professionale",
+            "professional_account_description": "I trader con conti professionali hanno accesso a una vasta gamma di benefici, inclusi piattaforme di trading avanzate.",
+            "demo_account": "Conto Demo",
+            "demo_account_description": "I conti demo sono particolarmente utili per i trader alle prime armi che si avvicinano al mondo degli investimenti."
+        }
+    },
+    "About": {
+    "AboutUs": {
+      "title": "Chi Siamo",
+      "reputation_experience": "La nostra reputazione si fonda su",
+      "experience": "Esperienza",
+      "who_we_are": "Chi Siamo",
+      "who_we_are_description": "Un team di esperti appassionati di investimenti in criptovalute, dedicati ad aiutare individui e aziende a prosperare nello spazio degli asset digitali.",
+      "what_we_do": "Cosa Facciamo",
+      "what_we_do_description": "Offriamo orientamento strategico e approfondimenti per aiutare i clienti a prendere decisioni informate e massimizzare i rendimenti in un mercato cripto in continua evoluzione.",
+      "how_it_works": "Come Funziona",
+      "how_it_works_description": "Attraverso analisi basate sui dati e strategie personalizzate, identifichiamo opportunità redditizie e ottimizziamo il rischio per far crescere i portafogli cripto dei nostri clienti."
+    },
+    "FunFact": {
+      "clients_worldwide": {
+        "value": "M+",
+        "description": "Clienti in tutto il mondo"
+      },
+      "satisfied_clients": {
+        "value": "%",
+        "description": "Clienti Soddisfatti"
+      },
+      "money_invested": {
+        "value": "M+",
+        "description": "Soldi Investiti"
+      },
+      "expert_traders": {
+        "value": "+",
+        "description": "Trader Esperti"
+      }
+    },
+    "CTA": {
+      "headline": "Fai trading spendendo meno, con prezzi bassi e commissioni trasparenti"
+    },
+    "Accounts": {
+      "section_title": "Potenzia il tuo trading con un Conto",
+      "sub_title": "Conti",
+      "professional_account": {
+        "title": "Conto Professionale",
+        "description": "I trader con conti professionali hanno accesso a una vasta gamma di vantaggi, inclusi piattaforme di trading avanzate."
+      },
+      "demo_account": {
+        "title": "Conto Demo",
+        "description": "I conti demo sono particolarmente utili per i trader alle prime armi che si avvicinano al mondo degli investimenti."
+      },
+      "features": {
+        "trade_anywhere": "Fai trading con un solo tocco, ovunque e in qualsiasi momento",
+        "manage_portfolio": "Gestisci il tuo conto e portafoglio in modo semplice",
+        "real_time_charts": "Rimani aggiornato con grafici e indicatori in tempo reale"
+      }
+    },
+    "Team": {
+      "section_title": "I nostri talentuosi membri del team",
+      "sub_title": "Il nostro team di esperti",
+      "members": {
+        "olivia_quinn": {
+          "name": "Olivia Quinn",
+          "designation": "Trader Forex"
+        },
+        "nathan_hayes": {
+          "name": "Nathan Hayes",
+          "designation": "Consulente"
+        },
+        "ava_jensen": {
+          "name": "Ava Jensen",
+          "designation": "Assistente di Trading"
+        },
+        "sophia_knight": {
+          "name": "Sophia Knight",
+          "designation": "Presidente del Trading"
+        },
+        "ethan_brooks": {
+          "name": "Ethan Brooks",
+          "designation": "Coordinatore Marketing"
+        },
+        "aronic_kehan": {
+          "name": "Aronic Kehan",
+          "designation": "Assistente Aziendale"
+        }
+      }
+    },
+    "Apps": {
+      "section_title": "Scarica l'App di Trading",
+      "sub_title": "Scarica l'App",
+      "description": "Utilizziamo i cookie per capire come usi il nostro sito web e offrirti la migliore esperienza possibile.",
+      "download_buttons": {
+        "app_store": {
+          "text": "Scarica su App Store",
+          "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+        },
+        "google_play": {
+          "text": "Scarica su Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+        }
+      }
+    },
+    "Testimonials": {
+      "section_title": "Amore dai Clienti",
+      "sub_title": "Testimonianze",
+      "testimonial_1": {
+        "quote": "L'investitore in criptovalute rende il mio investimento efficiente e piacevole",
+        "description": "Naviga le onde finanziarie con un'app di trading di alta qualità, progettata per mettere il potere dei mercati a portata di mano. La nostra app all'avanguardia unisce funzionalità sofisticate ovunque."
+      }
     }
+  },
+  "Market": {
+    "Platforms": {
+      "section_title": "Piattaforme di Trading",
+      "sub_title": "Piattaforme",
+      "app": {
+        "title": "App",
+        "description": "Naviga le onde finanziarie con l'applicazione di trading della piattaforma TEDA, progettata per mettere il potere del mercato nelle tue mani. La nostra app all'avanguardia combina funzionalità complesse con un design intuitivo, consentendo ai trader di ogni livello di cogliere le opportunità di mercato in qualsiasi momento e ovunque.",
+        "features": [
+          "Fai trading con un solo tocco, ovunque e in qualsiasi momento",
+          "Gestisci il tuo conto e portafoglio senza sforzo",
+          "Rimani aggiornato con grafici e indicatori in tempo reale",
+          "Fai trading con fiducia grazie alla sicurezza crittografata"
+        ]
+      },
+      "teda_copy": {
+        "title": "TEDA Copy",
+        "description": "Naviga le onde finanziarie con l'app di trading di prima scelta di FXT, progettata per mettere il potere dei mercati a portata di mano. La nostra app all'avanguardia unisce funzionalità sofisticate a un design intuitivo, consentendo ai trader di ogni livello di cogliere le opportunità di mercato in qualsiasi momento e ovunque.",
+        "features": [
+          "Fai trading con un solo tocco, ovunque e in qualsiasi momento",
+          "Gestisci il tuo conto e portafoglio senza sforzo",
+          "Rimani aggiornato con grafici e indicatori in tempo reale",
+          "Fai trading con fiducia grazie alla sicurezza crittografata"
+        ]
+      },
+      "tab_buttons": {
+        "webtrader": "TEDA Webtrader",
+        "mt4_mt": "MT4/MT",
+        "copy": "TEDA Copy"
+      }
+    },
+    "Range": {
+      "title": "La Nostra Gamma",
+      "subtitle": "La nostra gamma di mercati",
+      "markets": {
+        "forex": {
+          "title": "Fai trading sul Forex",
+          "button": "Trading Forex"
+        },
+        "indices": {
+          "title": "Indici",
+          "button": "Trading Forex"
+        },
+        "cryptocurrencies": {
+          "title": "Criptovalute",
+          "button": "Trading Forex"
+        },
+        "commodities": {
+          "title": "Materie Prime",
+          "button": "Trading Forex"
+        }
+      }
+    },
+    "Apps": {
+      "title": "Scarica l'App",
+      "subtitle": "Scarica l'App di Trading",
+      "description": "Utilizziamo i cookie per capire come usi il nostro sito web e offrirti la migliore esperienza possibile.",
+      "download_links": {
+        "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+        "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+      }
+    }
+  },
+  "Market_Details": {
+    "Details": {
+      "title": "Fai Trading Ora",
+      "subtitle": "Spread e Swap di Mercato",
+      "tabs": {
+        "cryptocurrency": "Criptovalute",
+        "indices": "Indici",
+        "metals": "Metalli",
+        "forex": "Forex",
+        "commodities": "Materie Prime"
+      },
+      "table_headers": {
+        "markets": "Mercati",
+        "bid": "Bid",
+        "ask": "Ask",
+        "action": "Azione",
+        "spread": "Spread"
+      },
+      "no_data_messages": {
+        "forex": "Nessun dato Forex disponibile",
+        "commodities": "Nessun dato sulle materie prime disponibile"
+      }
+    },
+    "Process": {
+      "about_us": "Chi Siamo",
+      "reputation": "La nostra reputazione si fonda su",
+      "experience": "Esperienza",
+      "who_we_are": {
+        "title": "Chi Siamo",
+        "description": "In qualità di società di brokeraggio o piattaforma di trading, ci dedichiamo a fornire soluzioni di trading innovative e intuitive."
+      },
+      "what_we_do": {
+        "title": "Cosa Facciamo",
+        "description": "Siamo una piattaforma di trading forex professionale dedicata a offrire servizi di investimento completi. Con supporto tecnologico avanzato, un ambiente di trading sicuro e una copertura globale del mercato, offriamo ai clienti strumenti di trading flessibili e un servizio clienti di alta qualità per aiutarli a ottenere una crescita costante nel mercato forex."
+      },
+      "how_it_works": {
+        "title": "Come Funziona",
+        "description": "Attraverso analisi approfondite e una guida strategica precisa, aiutiamo i clienti a prendere decisioni informate in un ambiente di mercato complesso, massimizzando i loro ritorni sugli investimenti. Il nostro obiettivo è fornire soluzioni pratiche per ogni cliente, aiutandoli a mantenere un vantaggio competitivo in un settore sempre più esigente."
+      }
+    }
+  },
+  "Account_Details": {
+    "title": "Dettagli del Conto",
+    "professional_account": "Conto Professionale",
+    "professional_account_description": "I trader con conti professionali hanno accesso a un'ampia",
+    "demo_account": "Conto Demo",
+    "demo_account_description": "I conti demo sono particolarmente utili per i trader alle prime armi",
+    "account_overview": "I conti di trading possono essere suddivisi in conti professionali e conti demo in base alle esigenze di trading e all'esperienza di mercato degli investitori. I conti professionali sono progettati per trader esperti, offrendo velocità di esecuzione maggiori, una liquidità di mercato più profonda e condizioni di trading più flessibili per facilitare l'implementazione di strategie efficienti. I conti demo, invece, permettono agli investitori di testare le strategie di trading, familiarizzare con le fluttuazioni del mercato e migliorare le loro competenze di trading in un ambiente privo di rischi. Ad ogni conto di trading viene assegnato un numero di identificazione unico dal broker o dall'istituzione finanziaria, utilizzato per tutte le transazioni, i regolamenti dei fondi e l'assistenza clienti correlata a quel conto, garantendo sicurezza e trasparenza.",
+    "professional_account_info": "Informazioni sul Conto Professionale",
+    "info_list": {
+      "initial_deposit": "Deposito Iniziale",
+      "leverage": "Leva",
+      "spread": "Spread",
+      "multi_language_cc": "Assistenza Clienti Multilingue",
+      "order_volume": "Volume degli Ordini",
+      "support": "Supporto 24/7",
+      "friendly_expert": "Amichevole & Esperto",
+      "award_winner": "Premiato"
+    },
+    "info_values": {
+      "initial_deposit": "$1000",
+      "leverage": "Fino a 1:400",
+      "spread": "Fisso da 5 pips",
+      "multi_language_cc": "Sì",
+      "order_volume": "0.01 – 500 lotti",
+      "support": "Sì",
+      "friendly_expert": "Sì",
+      "award_winner": "Grande Bonus"
+    },
+    "benefits_title": "Benefici",
+    "benefits": {
+      "portfolio_diversification": "Diversificazione del Portafoglio",
+      "access_global_markets": "Accesso ai Mercati Globali",
+      "flexibility_control": "Flessibilità e Controllo",
+      "potential_profit": "Potenziale di Profitto"
+    }
+  }
 }

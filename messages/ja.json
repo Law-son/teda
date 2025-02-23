@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+        "home": "ホーム",
+        "trading": "取引",
+        "platform": "プラットフォーム",
+        "market": "市場",
+        "marketsPlace": "マーケットプレイス",
+        "marketsDetails": "市場詳細",
+        "aboutUs": "私たちについて",
+        "contact": "お問い合わせ"
+    },
     "Home": {
         "Hero": {
-            "Title": "Next.js Internalization Demo",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+            "title": "誰でも、どこでも、いつでも取引可能。",
+            "description": "幅広い金融商品で取引可能。外国為替、株価指数CFD、商品、株式、金属、エネルギーなど。"
+        },
+        "Trading_Accounts": {
+            "sectionTitle": "取引口座",
+            "subTitle": "口座",
+            "questions": {
+                "who_we_are": {
+                    "title": "私たちについて",
+                    "answer": "私たちはブローカー企業または取引プラットフォームとして、革新的でユーザーフレンドリーな取引環境の提供に専念しています。"
+                },
+                "what_we_do": {
+                    "title": "私たちのサービス",
+                    "answer": "私たちは、包括的な外国為替投資サービスを提供することに専念するプロフェッショナルな外国為替取引プラットフォームです。先進的な技術サポート、安全な取引環境、そしてグローバルな市場カバレッジを備え、柔軟な取引ツールと高品質なカスタマーサービスを提供し、クライアントが外国為替市場で着実な成長を実現するのを支援します。"
+                },
+                "how_it_works": {
+                    "title": "仕組み",
+                    "answer": "徹底した分析と正確な戦略的指導を通じて、複雑な市場環境の中でクライアントが情報に基づいた意思決定を行えるよう支援し、投資収益率の最大化を図ります。私たちの目標は、各クライアントに実用的なソリューションを提供し、ますます競争が激化する業界でリーダーシップを維持できるようサポートすることです。"
+                }
+            }
+        },
+        "Account": {
+            "sectionTitle": "取引口座",
+            "subTitle": "口座",
+            "professionalAccount": {
+                "title": "プロフェッショナル口座",
+                "description": "プロフェッショナル口座をお持ちのトレーダーは、強化された取引プラットフォームを含む幅広い特典にアクセスできます。"
+            },
+            "demoAccount": {
+                "title": "デモ口座",
+                "description": "投資の世界に初めて足を踏み入れる初心者トレーダーにとって、デモ口座は特に有用です。"
+            }
+        },
+        "Funfact": {
+            "countries": {
+                "count": "150+",
+                "label": "国々",
+                "description": "貿易政策と協定が各国の取引環境を形作ります。"
+            },
+            "investment": {
+                "count": "40+",
+                "label": "百万ドル投資",
+                "description": "取引に100万ドルを投資することは、大きなチャンスを意味します。"
+            },
+            "awards": {
+                "count": "90+",
+                "label": "受賞歴",
+                "description": "取引の賞は、金融セクターにおける卓越性と実績を認めるものです。"
+            }
+        },
+        "ThingsWeTrade": {
+            "sectionTitle": "取引対象",
+            "subTitle": "取引プラットフォーム",
+            "crypto": {
+                "title": "暗号通貨取引",
+                "buttonText": "今すぐ取引開始"
+            },
+            "shares": {
+                "title": "株式取引",
+                "buttonText": "今すぐ取引開始"
+            },
+            "gold": {
+                "title": "金取引",
+                "buttonText": "今すぐ取引開始"
+            },
+            "currency": {
+                "title": "通貨取引",
+                "buttonText": "今すぐ取引開始"
+            },
+            "silver": {
+                "title": "銀取引",
+                "buttonText": "今すぐ取引開始"
+            }
+        },
+        "Process": {
+            "sectionTitle": "プロセス",
+            "subTitle": "仕組み",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "サインアップは無料！",
+                    "description": "当社のチームがあなたの口座を設定し、使いやすいウェブダッシュボードの構築をお手伝いします。"
+                },
+                {
+                    "step": "2",
+                    "title": "最適な取引を見つけ、投資する",
+                    "description": "数回のクリックで1〜100%のオープニングから取引を作成・実行。自分仕様にカスタマイズできます。"
+                },
+                {
+                    "step": "3",
+                    "title": "利益を手に入れよう",
+                    "description": "プロフェッショナルなテクニカル分析と正確な取引戦略に基づき、市場の機会を捉え、リスク管理を最適化し、取引効率を向上させながら、安定的な回復と継続的な収益性の達成を支援します。"
+                }
+            ]
+        },
+        "Award": {
+            "sectionTitle": "最高の評価を受けた",
+            "subTitle": "世界的に受賞",
+            "awards": [
+                {
+                    "year": "2023",
+                    "title": "英国 最優秀取引プラットフォーム",
+                    "timesAwarded": "x1"
+                },
+                {
+                    "year": "2022",
+                    "title": "英国 最優秀取引プラットフォーム",
+                    "timesAwarded": "x4"
+                },
+                {
+                    "year": "2018",
+                    "title": "ロンドン 最優秀取引プラットフォーム",
+                    "timesAwarded": "x4"
+                }
+            ]
+        },
+        "Apps": {
+            "sectionTitle": "アプリをダウンロード",
+            "subTitle": "取引アプリをダウンロード",
+            "description": "当社は、ウェブサイトの利用状況を把握し、最適な体験を提供するためにクッキーを使用しています。",
+            "downloadLinks": {
+                "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+                "web": "https://pc.tedafx.com/"
+            }
         }
+    },
+    "Footer": {
+        "trading": "取引",
+        "platforms": "プラットフォーム",
+        "market": "市場",
+        "market_place": "マーケットプレイス",
+        "market_details": "市場詳細",
+        "about": "概要",
+        "about_us": "私たちについて",
+        "contact": "お問い合わせ",
+        "contact_us": "お問い合わせ",
+        "company_info": "TEDA Global Limitedは、米国のマネーサービスビジネス（MSB）によって規制されている企業であり、登録番号は31000280102867です。本社はイングランド、ウエストミッドランズ州コベントリーの7 Copperfield Road, CV2 4AQに所在します。",
+        "company_description": "TEDAは、通貨ペア、エネルギー、商品、指数のCFDを含む多様な金融商品を提供しています。当社の主な目標は、クライアントの取引および投資ニーズに応えるアクセスしやすいサービスを提供することです。クライアント重視のビジネスモデルに基づき、フィードバックと要求に応じてサービスの向上に努めています。",
+        "copyright": "Copyright {year}",
+        "rights_reserved": "全著作権所有。"
+    },
+    "Platforms": {
+        "About": {
+            "platforms": "プラットフォーム",
+            "trading_platforms": "取引プラットフォーム",
+            "tabs": {
+                "application": "アプリケーション",
+                "web": "ウェブ",
+                "fbs_personal_area": "FBSパーソナルエリア"
+            },
+            "content": {
+                "app": {
+                    "title": "アプリ",
+                    "description": "先進的な取引アプリで金融の波を乗りこなし、市場の力をあなたの手に届けます。"
+                },
+                "web": {
+                    "title": "ウェブ",
+                    "description": "一流の取引プラットフォームで金融の波に乗り、市場を完全に掌握できます。"
+                },
+                "fbs_personal_area": {
+                    "title": "FBSパーソナルエリア",
+                    "description": "エリートトレーディングアプリで金融の波を乗りこなし、市場の力をあなたの手に直接届けます。"
+                }
+            }
+        },
+        "Main": {
+            "learn_more": "もっと知る",
+            "what_is_trading": "取引とは",
+            "financial_markets": {
+                "title": "金融市場",
+                "description_1": "金融市場は世界の資本フローの礎であり、株式、外国為替、商品など多様な取引機会を提供します。当社のプラットフォームは、リアルタイムの価格発見、豊富な流動性、先進の執行技術を提供し、トレーダーや投資家が非常に競争力のある環境で最大の効率を発揮できるよう支援します。",
+                "description_2": "経験豊富な機関投資家であろうと、新興市場の参加者であろうと、当社の最先端の分析ツール、AI駆動のインサイト、リスク管理ソリューションにより、データに基づいた自信ある意思決定が可能です。"
+            },
+            "what_is_forex": {
+                "title": "外国為替とは",
+                "description_1": "どのTEDAプラットフォームが最適かお分かりでないですか？使いやすいプラットフォーム比較表をご覧ください、すべての違いが分かります。",
+                "description_2": "使いやすいプラットフォーム比較表で、すべての違いをご確認ください。"
+            },
+            "tools_overview": {
+                "title": "ツール概要",
+                "description_1": "どのTEDAプラットフォームが最適かお分かりでないですか？使いやすいプラットフォーム比較表をご覧ください、すべての違いが分かります。",
+                "description_2": "使いやすいプラットフォーム比較表で、すべての違いをご確認ください。"
+            },
+            "platform_comparison": {
+                "title": "プラットフォーム比較",
+                "description_1": "どのTEDAプラットフォームが最適かお分かりでないですか？使いやすいプラットフォーム比較表をご覧ください、すべての違いが分かります。",
+                "description_2": "使いやすいプラットフォーム比較表で、すべての違いをご確認ください。"
+            }
+        },
+        "Apps": {
+            "download_app": "アプリをダウンロード",
+            "download_trading_app": "取引アプリをダウンロード",
+            "cookie_notice": "当社は、ウェブサイトの利用状況を把握し、最適な体験を提供するためにクッキーを使用しています。",
+            "download_on": "ダウンロード：",
+            "app_store": "App Store",
+            "get_it_on": "入手先：",
+            "google_play": "Google Play",
+            "access_on": "アクセス先：",
+            "web": "ウェブ"
+        },
+        "Accounts": {
+            "title": "口座",
+            "level_up_trading": "口座で取引力を向上させよう",
+            "trade_anywhere": "ワンタップで、どこでも、いつでも取引可能",
+            "manage_portfolio": "口座とポートフォリオをシームレスに管理",
+            "real_time_charts": "リアルタイムチャートと指標で先を行く",
+            "professional_account": "プロフェッショナル口座",
+            "professional_account_description": "プロフェッショナル口座をお持ちのトレーダーは、強化された取引プラットフォームを含む幅広い特典にアクセスできます.",
+            "demo_account": "デモ口座",
+            "demo_account_description": "投資の世界に初めて足を踏み入れる初心者トレーダーにとって、デモ口座は特に有用です."
+        }
+    },
+    "About": {
+    "AboutUs": {
+      "title": "私たちについて",
+      "reputation_experience": "私たちの評判は～に基づいています",
+      "experience": "経験",
+      "who_we_are": "私たちについて",
+      "who_we_are_description": "暗号通貨投資に情熱を注ぐ専門家チーム。個人や企業がデジタル資産分野で成功するための支援に尽力しています。",
+      "what_we_do": "私たちのサービス",
+      "what_we_do_description": "変化し続ける暗号通貨市場で、クライアントが情報に基づいた意思決定を行い、リターンを最大化できるよう、戦略的な指導と洞察を提供します。",
+      "how_it_works": "仕組み",
+      "how_it_works_description": "データに基づく分析とカスタマイズされた戦略を通じて、利益を生む機会を見極め、リスクを最適化し、クライアントの暗号通貨ポートフォリオの成長を促進します。"
+    },
+    "FunFact": {
+      "clients_worldwide": {
+        "value": "M+",
+        "description": "世界中のクライアント"
+      },
+      "satisfied_clients": {
+        "value": "%",
+        "description": "満足したクライアント"
+      },
+      "money_invested": {
+        "value": "M+",
+        "description": "投資額"
+      },
+      "expert_traders": {
+        "value": "+",
+        "description": "専門トレーダー"
+      }
+    },
+    "CTA": {
+      "headline": "低価格と透明な手数料で、よりお得に取引を"
+    },
+    "Accounts": {
+      "section_title": "口座で取引力を向上させよう",
+      "sub_title": "口座",
+      "professional_account": {
+        "title": "プロフェッショナル口座",
+        "description": "プロフェッショナル口座をお持ちのトレーダーは、強化された取引プラットフォームを含む幅広い特典にアクセスできます。"
+      },
+      "demo_account": {
+        "title": "デモ口座",
+        "description": "取引デモ口座は、投資初心者にとって特に有用です。"
+      },
+      "features": {
+        "trade_anywhere": "ワンタップで、どこでも、いつでも取引可能",
+        "manage_portfolio": "口座とポートフォリオをシームレスに管理",
+        "real_time_charts": "リアルタイムチャートと指標で先を行く"
+      }
+    },
+    "Team": {
+      "section_title": "私たちの優秀なチームメンバー",
+      "sub_title": "私たちの専門チーム",
+      "members": {
+        "olivia_quinn": {
+          "name": "Olivia Quinn",
+          "designation": "外国為替トレーダー"
+        },
+        "nathan_hayes": {
+          "name": "Nathan Hayes",
+          "designation": "コンサルタント"
+        },
+        "ava_jensen": {
+          "name": "Ava Jensen",
+          "designation": "トレーディングアシスタント"
+        },
+        "sophia_knight": {
+          "name": "Sophia Knight",
+          "designation": "取引部門社長"
+        },
+        "ethan_brooks": {
+          "name": "Ethan Brooks",
+          "designation": "マーケティングコーディネーター"
+        },
+        "aronic_kehan": {
+          "name": "Aronic Kehan",
+          "designation": "ビジネスアシスタント"
+        }
+      }
+    },
+    "Apps": {
+      "section_title": "取引アプリをダウンロード",
+      "sub_title": "アプリをダウンロード",
+      "description": "当社は、ウェブサイトの利用状況を把握し、最適な体験を提供するためにクッキーを使用しています。",
+      "download_buttons": {
+        "app_store": {
+          "text": "App Storeでダウンロード",
+          "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+        },
+        "google_play": {
+          "text": "Google Playで入手",
+          "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+        }
+      }
+    },
+    "Testimonials": {
+      "section_title": "クライアントからの愛の声",
+      "sub_title": "お客様の声",
+      "testimonial_1": {
+        "quote": "暗号通貨投資家のおかげで、私の投資が効率的で快適になりました",
+        "description": "先進的な取引アプリで金融の波を乗りこなし、市場の力をあなたの手に届けます。当社の最先端アプリは、洗練された機能性とどこでも使える利便性を兼ね備えています。"
+      }
     }
+  },
+  "Market": {
+    "Platforms": {
+      "section_title": "取引プラットフォーム",
+      "sub_title": "プラットフォーム",
+      "app": {
+        "title": "アプリ",
+        "description": "TEDAプラットフォームの取引アプリで金融の波を乗りこなし、市場の力をあなたの手に届けます。当社の最先端アプリは、複雑な機能と使いやすいデザインを融合し、あらゆるレベルのトレーダーがいつでもどこでも市場のチャンスを捉えることを可能にします。",
+        "features": [
+          "ワンタップで、どこでも、いつでも取引可能",
+          "口座とポートフォリオをシームレスに管理",
+          "リアルタイムチャートと指標で先を行く",
+          "暗号化されたセキュリティで安心して取引可能"
+        ]
+      },
+      "teda_copy": {
+        "title": "TEDAコピー",
+        "description": "FXTの最先端取引アプリ、TEDAコピーで金融の波を乗りこなし、市場の力をあなたの手に届けます。当社の最先端アプリは、洗練された機能性と使いやすいデザインを融合し、あらゆるレベルのトレーダーがいつでもどこでも市場のチャンスを捉えることを可能にします。",
+        "features": [
+          "ワンタップで、どこでも、いつでも取引可能",
+          "口座とポートフォリオをシームレスに管理",
+          "リアルタイムチャートと指標で先を行く",
+          "暗号化されたセキュリティで安心して取引可能"
+        ]
+      },
+      "tab_buttons": {
+        "webtrader": "TEDAウェブトレーダー",
+        "mt4_mt": "MT4/MT",
+        "copy": "TEDAコピー"
+      }
+    },
+    "Range": {
+      "title": "私たちの取り扱い範囲",
+      "subtitle": "私たちの市場の取り扱い範囲",
+      "markets": {
+        "forex": {
+          "title": "外国為替取引",
+          "button": "外国為替取引"
+        },
+        "indices": {
+          "title": "指数",
+          "button": "外国為替取引"
+        },
+        "cryptocurrencies": {
+          "title": "暗号通貨",
+          "button": "外国為替取引"
+        },
+        "commodities": {
+          "title": "商品",
+          "button": "外国為替取引"
+        }
+      }
+    },
+    "Apps": {
+      "title": "アプリをダウンロード",
+      "subtitle": "取引アプリをダウンロード",
+      "description": "当社は、ウェブサイトの利用状況を把握し、最適な体験を提供するためにクッキーを使用しています。",
+      "download_links": {
+        "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+        "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+      }
+    }
+  },
+  "Market_Details": {
+    "Details": {
+      "title": "今すぐ取引",
+      "subtitle": "市場のスプレッドとスワップ",
+      "tabs": {
+        "cryptocurrency": "暗号通貨",
+        "indices": "指数",
+        "metals": "金属",
+        "forex": "外国為替",
+        "commodities": "商品"
+      },
+      "table_headers": {
+        "markets": "市場",
+        "bid": "買値",
+        "ask": "売値",
+        "action": "操作",
+        "spread": "スプレッド"
+      },
+      "no_data_messages": {
+        "forex": "外国為替のデータが利用できません",
+        "commodities": "商品のデータが利用できません"
+      }
+    },
+    "Process": {
+      "about_us": "私たちについて",
+      "reputation": "私たちの評判は～に基づいています",
+      "experience": "経験",
+      "who_we_are": {
+        "title": "私たちについて",
+        "description": "ブローカー企業または取引プラットフォームとして、革新的で使いやすい取引環境の提供に努めています。"
+      },
+      "what_we_do": {
+        "title": "私たちのサービス",
+        "description": "私たちは包括的な外国為替投資サービスを提供することに専念するプロフェッショナルな外国為替取引プラットフォームです。先進的な技術サポート、安全な取引環境、グローバルな市場カバレッジを備え、クライアントに柔軟な取引ツールと高品質なカスタマーサービスを提供し、外国為替市場で着実な成長を実現するお手伝いをします。"
+      },
+      "how_it_works": {
+        "title": "仕組み",
+        "description": "徹底した分析と正確な戦略的指導により、複雑な市場環境でクライアントが情報に基づいた意思決定を行い、投資収益を最大化できるよう支援します。私たちの目標は、各クライアントに実用的なソリューションを提供し、ますます競争が激化する業界で競争優位性を維持できるようにすることです。"
+      }
+    }
+  },
+  "Account_Details": {
+    "title": "口座詳細",
+    "professional_account": "プロフェッショナル口座",
+    "professional_account_description": "プロフェッショナル口座をお持ちのトレーダーは、幅広い特典にアクセスできます。",
+    "demo_account": "デモ口座",
+    "demo_account_description": "取引デモ口座は、投資初心者にとって特に有用です。",
+    "account_overview": "取引口座は、投資家の取引ニーズと市場経験に基づき、プロフェッショナル口座とデモ口座に分類されます。プロフェッショナル口座は、経験豊富なトレーダー向けに設計され、より高速な注文執行、より深い市場流動性、そして柔軟な取引条件を提供し、効率的な戦略の実施を促進します。一方、デモ口座は、投資家が取引戦略を試し、市場の変動に慣れ、リスクのない環境で取引スキルを向上させるためのものです。各取引口座には、ブローカーまたは金融機関によって固有の識別番号が割り当てられ、すべての取引、資金決済、そしてその口座に関連するカスタマーサポートに使用されるため、セキュリティと透明性が確保されています。",
+    "professional_account_info": "プロフェッショナル口座情報",
+    "info_list": {
+      "initial_deposit": "初期預金",
+      "leverage": "レバレッジ",
+      "spread": "スプレッド",
+      "multi_language_cc": "多言語CC",
+      "order_volume": "注文量",
+      "support": "24時間365日サポート",
+      "friendly_expert": "親切で専門的",
+      "award_winner": "受賞歴あり"
+    },
+    "info_values": {
+      "initial_deposit": "$1000",
+      "leverage": "Upto 1:400",
+      "spread": "5ピップスから固定",
+      "multi_language_cc": "Yes",
+      "order_volume": "0.01 – 500 ロット",
+      "support": "Yes",
+      "friendly_expert": "Yes",
+      "award_winner": "Big Bonus"
+    },
+    "benefits_title": "特典",
+    "benefits": {
+      "portfolio_diversification": "ポートフォリオの分散",
+      "access_global_markets": "グローバル市場へのアクセス",
+      "flexibility_control": "柔軟性とコントロール",
+      "potential_profit": "利益の可能性"
+    }
+  }
 }

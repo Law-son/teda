@@ -1,8 +1,10 @@
 "use client";
-
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function Apps() {
+  const t = useTranslations('Home.Apps');
+
   const disableClick = (event) => {
     event.preventDefault();
   }; 
@@ -22,15 +24,13 @@ export default function Apps() {
             <div className="content_block_two">
               <div className="content-box">
                 <div className="sec-title light pb_40">
-                  <span className="sub-title mb_14">Download App</span>
-                  <h2>Download Trading App</h2>
-                  <p>
-                    We use cookies to understand how you use our website and to give you the best possible experience.
-                  </p>
+                  <span className="sub-title mb_14">{t('sectionTitle')}</span>
+                  <h2>{t('subTitle')}</h2>
+                  <p>{t('description')}</p>
                 </div>
                 <ul className="download-list clearfix">
                   <li>
-                    <Link href="https://apps.apple.com/cn/app/exchangespaw/id6741582233">
+                    <Link href={t('downloadLinks.apple')}>
                       <i className="fab fa-apple"></i>
                     </Link>
                   </li>
@@ -40,12 +40,12 @@ export default function Apps() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
+                    <Link href={t('downloadLinks.android')}>
                       <i className="fab fa-android"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://pc.tedafx.com/">
+                    <Link href={t('downloadLinks.web')}>
                       <i className="fas fa-globe"></i>
                     </Link>
                   </li>

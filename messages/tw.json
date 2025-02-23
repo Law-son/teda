@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+      "home": "首頁",
+      "trading": "交易",
+      "platform": "平台",
+      "market": "市場",
+      "marketsPlace": "市場廣場",
+      "marketsDetails": "市場詳細資訊",
+      "aboutUs": "關於我們",
+      "contact": "聯絡"
+    },
     "Home": {
-        "Hero": {
-            "Title": "交易適合任何人。隨時隨地。",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+      "Hero": {
+        "title": "為所有人，隨時、隨地的交易",
+        "description": "提供多樣化的交易工具，包括外匯、股票指數差價合約、商品、股票、金屬與能源。"
+      },
+      "Trading_Accounts": {
+        "sectionTitle": "交易帳戶",
+        "subTitle": "帳戶",
+        "questions": {
+          "who_we_are": {
+            "title": "我們是誰",
+            "answer": "作為一家經紀公司及交易平台，我們專注於提供創新且易於操作的交易服務。"
+          },
+          "what_we_do": {
+            "title": "我們做什麼",
+            "answer": "我們是一個專業的外匯交易平台，致力於提供全面的外匯投資服務。憑藉先進的技術支援、安全的交易環境及全球市場覆蓋，我們提供彈性交易工具與高品質客戶服務，助您在外匯市場穩健成長。"
+          },
+          "how_it_works": {
+            "title": "運作方式",
+            "answer": "透過深入的分析與精確的策略指引，我們協助客戶在複雜的市場環境中做出明智決策，最大化投資回報。我們的目標是為每位客戶提供實用的解決方案，協助他們在競爭日益激烈的產業中保持領先地位。"
+          }
         }
+      },
+      "Account": {
+        "sectionTitle": "交易帳戶",
+        "subTitle": "帳戶",
+        "professionalAccount": {
+          "title": "專業帳戶",
+          "description": "持有專業帳戶的交易者可享受多項優勢，包括升級的交易平台等。"
+        },
+        "demoAccount": {
+          "title": "模擬帳戶",
+          "description": "模擬交易帳戶對於剛踏入投資世界的新手來說尤為寶貴。"
+        }
+      },
+      "Funfact": {
+        "countries": {
+          "count": "150+",
+          "label": "國家",
+          "description": "交易政策與協議塑造了各國的交易環境。"
+        },
+        "investment": {
+          "count": "40+",
+          "label": "百萬美元投資",
+          "description": "投入百萬美元於交易代表著重大的機會。"
+        },
+        "awards": {
+          "count": "90+",
+          "label": "獎項",
+          "description": "交易獎項旨在表彰金融領域的卓越與成就。"
+        }
+      },
+      "ThingsWeTrade": {
+        "sectionTitle": "我們交易的標的",
+        "subTitle": "交易平台",
+        "crypto": {
+          "title": "加密貨幣交易",
+          "buttonText": "立即開始交易"
+        },
+        "shares": {
+          "title": "股票交易",
+          "buttonText": "立即開始交易"
+        },
+        "gold": {
+          "title": "黃金交易",
+          "buttonText": "立即開始交易"
+        },
+        "currency": {
+          "title": "貨幣交易",
+          "buttonText": "立即開始交易"
+        },
+        "silver": {
+          "title": "白銀交易",
+          "buttonText": "立即開始交易"
+        }
+      },
+      "Process": {
+        "sectionTitle": "流程",
+        "subTitle": "運作方式",
+        "steps": [
+          {
+            "step": "1",
+            "title": "註冊，免費！",
+            "description": "我們的團隊將為您設立帳戶，並協助您建立易用的網頁儀表板。"
+          },
+          {
+            "step": "2",
+            "title": "尋找最佳優惠並投資",
+            "description": "僅需點擊幾下，您就能在1%至100%的範圍內開倉交易，自訂屬於您的方案。"
+          },
+          {
+            "step": "3",
+            "title": "收回您的利潤",
+            "description": "依靠專業的技術分析和精確的交易策略，我們協助您把握市場機遇，優化風險管理，提高交易效率，穩步收回投資並持續獲利。"
+          }
+        ]
+      },
+      "Award": {
+        "sectionTitle": "榮獲業界最佳獎項",
+        "subTitle": "全球認證",
+        "awards": [
+          {
+            "year": "2023",
+            "title": "英國最佳交易平台",
+            "timesAwarded": "x1"
+          },
+          {
+            "year": "2022",
+            "title": "英國最佳交易平台",
+            "timesAwarded": "x4"
+          },
+          {
+            "year": "2018",
+            "title": "倫敦最佳交易平台",
+            "timesAwarded": "x4"
+          }
+        ]
+      },
+      "Apps": {
+        "sectionTitle": "下載應用程式",
+        "subTitle": "下載交易應用程式",
+        "description": "我們使用 Cookie 來了解您如何使用我們的網站，並為您提供最佳體驗。",
+        "downloadLinks": {
+          "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+          "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+          "web": "https://pc.tedafx.com/"
+        }
+      }
+    },
+    "Footer": {
+      "trading": "交易",
+      "platforms": "平台",
+      "market": "市場",
+      "market_place": "市場廣場",
+      "market_details": "市場詳細資訊",
+      "about": "關於",
+      "about_us": "關於我們",
+      "contact": "聯絡",
+      "contact_us": "聯絡我們",
+      "company_info": "TEDA Global Limited 是一家受美國貨幣服務業務（MSB）監管的公司，註冊號碼為 31000280102867。其註冊辦公室位於英國西米德蘭茲郡考文垂市 Copperfield 路 7 號，郵編 CV2 4AQ。",
+      "company_description": "TEDA 提供多樣化的金融交易工具，包括貨幣對差價合約、能源、商品及指數等。我們的主要目標是提供符合客戶交易與投資需求的便捷服務，並以客戶為中心，不斷根據反饋和需求優化我們的產品。",
+      "copyright": "版權所有 {year}",
+      "rights_reserved": "版權所有。"
+    },
+    "Platforms": {
+      "About": {
+        "platforms": "平台",
+        "trading_platforms": "交易平台",
+        "tabs": {
+          "application": "應用程式",
+          "web": "網頁",
+          "fbs_personal_area": "FBS 個人專區"
+        },
+        "content": {
+          "app": {
+            "title": "應用程式",
+            "description": "使用頂尖的交易應用程式，駕馭金融浪潮，將市場的力量握於掌中。"
+          },
+          "web": {
+            "title": "網頁",
+            "description": "利用頂級的網頁交易平台，掌握市場動態，隨時隨地操控金融市場。"
+          },
+          "fbs_personal_area": {
+            "title": "FBS 個人專區",
+            "description": "透過精英級的交易應用程式，駕馭金融浪潮，讓市場的力量盡在掌握。"
+          }
+        }
+      },
+      "Main": {
+        "learn_more": "了解更多",
+        "what_is_trading": "什麼是交易",
+        "financial_markets": {
+          "title": "金融市場",
+          "description_1": "金融市場是全球資本流動的基石，提供包括股票、外匯及商品在內的多元交易機會。我們的平台提供即時價格發現、深度流動性以及先進的交易執行技術，確保交易者和投資者在激烈競爭的環境中達到最高效率。",
+          "description_2": "無論您是經驗豐富的機構交易者還是新興市場的參與者，我們尖端的分析工具、AI 驅動的見解與風險管理方案，都能助您自信地做出數據驅動的決策。"
+        },
+        "what_is_forex": {
+          "title": "什麼是外匯",
+          "description_1": "不確定哪個 TEDA 平台最適合您？請參閱我們方便的平臺比較表，了解所有差異。",
+          "description_2": "請參閱我們方便的平臺比較表，了解所有差異。"
+        },
+        "tools_overview": {
+          "title": "工具總覽",
+          "description_1": "不確定哪個 TEDA 平台最適合您？請參閱我們方便的平臺比較表，了解所有差異。",
+          "description_2": "請參閱我們方便的平臺比較表，了解所有差異。"
+        },
+        "platform_comparison": {
+          "title": "平台比較",
+          "description_1": "不確定哪個 TEDA 平台最適合您？請參閱我們方便的平臺比較表，了解所有差異。",
+          "description_2": "請參閱我們方便的平臺比較表，了解所有差異。"
+        }
+      },
+      "Apps": {
+        "download_app": "下載應用程式",
+        "download_trading_app": "下載交易應用程式",
+        "cookie_notice": "我們使用 Cookie 來了解您如何使用我們的網站，並為您提供最佳體驗。",
+        "download_on": "下載於",
+        "app_store": "App Store",
+        "get_it_on": "獲取於",
+        "google_play": "Google Play",
+        "access_on": "透過以下方式存取",
+        "web": "網頁"
+      },
+      "Accounts": {
+        "title": "帳戶",
+        "level_up_trading": "透過帳戶提升您的交易水平",
+        "trade_anywhere": "只需輕觸一下，隨時隨地進行交易",
+        "manage_portfolio": "輕鬆管理您的帳戶及投資組合",
+        "real_time_charts": "透過即時圖表和指標保持領先",
+        "professional_account": "專業帳戶",
+        "professional_account_description": "持有專業帳戶的交易者可享受多項優勢，包括升級的交易平台等。",
+        "demo_account": "模擬帳戶",
+        "demo_account_description": "模擬交易帳戶對於剛進入投資世界的新手來說尤為寶貴。"
+      }
+    },
+    "About": {
+      "AboutUs": {
+        "title": "關於我們",
+        "reputation_experience": "我們的聲譽建立在",
+        "experience": "經驗",
+        "who_we_are": "我們是誰",
+        "who_we_are_description": "一支充滿熱情的加密貨幣投資專家團隊，致力於幫助個人和企業在數字資產領域蓬勃發展。",
+        "what_we_do": "我們的業務",
+        "what_we_do_description": "我們提供策略指導和見解，幫助客戶做出明智決策並在不斷變化的加密市場中最大化收益。",
+        "how_it_works": "運作方式",
+        "how_it_works_description": "透過數據驅動的分析和量身定制的策略，我們發掘有利可圖的機會並優化風險，以促進客戶的加密貨幣投資組合成長。"
+      },
+      "FunFact": {
+        "clients_worldwide": {
+          "value": "M+",
+          "description": "全球客戶"
+        },
+        "satisfied_clients": {
+          "value": "%",
+          "description": "滿意客戶"
+        },
+        "money_invested": {
+          "value": "M+",
+          "description": "投資金額"
+        },
+        "expert_traders": {
+          "value": "+",
+          "description": "專業交易者"
+        }
+      },
+      "CTA": {
+        "headline": "低價、透明費用，讓您輕鬆交易"
+      },
+      "Accounts": {
+        "section_title": "透過帳戶提升您的交易水準",
+        "sub_title": "帳戶",
+        "professional_account": {
+          "title": "專業帳戶",
+          "description": "持有專業帳戶的交易者可享有眾多優勢，包括升級的交易平台。"
+        },
+        "demo_account": {
+          "title": "模擬帳戶",
+          "description": "模擬交易帳戶對於投資新手來說尤其寶貴。"
+        },
+        "features": {
+          "trade_anywhere": "隨時隨地，一鍵交易",
+          "manage_portfolio": "輕鬆管理您的帳戶與投資組合",
+          "real_time_charts": "利用即時圖表與指標保持領先"
+        }
+      },
+      "Team": {
+        "section_title": "我們的優秀團隊成員",
+        "sub_title": "專業團隊",
+        "members": {
+          "olivia_quinn": {
+            "name": "Olivia Quinn",
+            "designation": "外匯交易員"
+          },
+          "nathan_hayes": {
+            "name": "Nathan Hayes",
+            "designation": "顧問"
+          },
+          "ava_jensen": {
+            "name": "Ava Jensen",
+            "designation": "交易助理"
+          },
+          "sophia_knight": {
+            "name": "Sophia Knight",
+            "designation": "交易總裁"
+          },
+          "ethan_brooks": {
+            "name": "Ethan Brooks",
+            "designation": "行銷協調員"
+          },
+          "aronic_kehan": {
+            "name": "Aronic Kehan",
+            "designation": "業務助理"
+          }
+        }
+      },
+      "Apps": {
+        "section_title": "下載交易應用程式",
+        "sub_title": "下載應用程式",
+        "description": "我們使用 Cookie 來了解您如何使用我們的網站，並為您提供最佳體驗。",
+        "download_buttons": {
+          "app_store": {
+            "text": "於 App Store 下載",
+            "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+          },
+          "google_play": {
+            "text": "於 Google Play 獲取",
+            "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+          }
+        }
+      },
+      "Testimonials": {
+        "section_title": "來自客戶的好評",
+        "sub_title": "客戶見證",
+        "testimonial_1": {
+          "quote": "加密貨幣投資者讓我的投資工作高效且愉快",
+          "description": "使用頂尖交易應用程式駕馭金融浪潮，將市場力量握於掌中。我們的先進應用程式結合了複雜功能與便捷性，讓交易無處不在。"
+        }
+      }
+    },
+    "Market": {
+      "Platforms": {
+        "section_title": "交易平台",
+        "sub_title": "平台",
+        "app": {
+          "title": "應用程式",
+          "description": "使用 TEDA 平台的交易應用程式，駕馭金融浪潮，將市場的力量握在手中。我們的先進應用程式結合了複雜功能與用戶友好的設計，使各級交易者都能隨時隨地把握市場機遇。",
+          "features": [
+            "隨時隨地，一鍵交易",
+            "輕鬆管理您的帳戶與投資組合",
+            "利用即時圖表與指標保持領先",
+            "藉由加密安全性，自信交易"
+          ]
+        },
+        "teda_copy": {
+          "title": "TEDA 複製",
+          "description": "使用 FXT 頂尖的交易應用程式駕馭金融浪潮，將市場力量握於掌中。我們的先進應用程式結合了複雜功能與用戶友好設計，使各級交易者都能隨時隨地把握市場機遇。",
+          "features": [
+            "隨時隨地，一鍵交易",
+            "輕鬆管理您的帳戶與投資組合",
+            "利用即時圖表與指標保持領先",
+            "藉由加密安全性，自信交易"
+          ]
+        },
+        "tab_buttons": {
+          "webtrader": "TEDA Webtrader",
+          "mt4_mt": "MT4/MT",
+          "copy": "TEDA 複製"
+        }
+      },
+      "Range": {
+        "title": "我們的交易範圍",
+        "subtitle": "我們的市場範圍",
+        "markets": {
+          "forex": {
+            "title": "交易外匯",
+            "button": "外匯交易"
+          },
+          "indices": {
+            "title": "指數",
+            "button": "外匯交易"
+          },
+          "cryptocurrencies": {
+            "title": "加密貨幣",
+            "button": "外匯交易"
+          },
+          "commodities": {
+            "title": "商品",
+            "button": "外匯交易"
+          }
+        }
+      },
+      "Apps": {
+        "title": "下載應用程式",
+        "subtitle": "下載交易應用程式",
+        "description": "我們使用 Cookie 來了解您如何使用我們的網站，並為您提供最佳體驗。",
+        "download_links": {
+          "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+          "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+        }
+      }
+    },
+    "Market_Details": {
+      "Details": {
+        "title": "立即交易",
+        "subtitle": "市場點差與互換費",
+        "tabs": {
+          "cryptocurrency": "加密貨幣",
+          "indices": "指數",
+          "metals": "金屬",
+          "forex": "外匯",
+          "commodities": "商品"
+        },
+        "table_headers": {
+          "markets": "市場",
+          "bid": "買價",
+          "ask": "賣價",
+          "action": "操作",
+          "spread": "點差"
+        },
+        "no_data_messages": {
+          "forex": "無外匯數據",
+          "commodities": "無商品數據"
+        }
+      },
+      "Process": {
+        "about_us": "關於我們",
+        "reputation": "我們的聲譽建立在",
+        "experience": "經驗",
+        "who_we_are": {
+          "title": "我們是誰",
+          "description": "作為一家經紀公司或交易平台，我們致力於提供創新且易於使用的交易服務。"
+        },
+        "what_we_do": {
+          "title": "我們的業務",
+          "description": "我們是一個專業的外匯交易平台，致力於提供全面的外匯投資服務。依托先進的技術支援、安全的交易環境以及全球市場覆蓋，我們為客戶提供靈活的交易工具和高品質的客戶服務，助他們在外匯市場穩健成長。"
+        },
+        "how_it_works": {
+          "title": "運作方式",
+          "description": "透過深入分析和精準的策略指引，我們協助客戶在複雜的市場環境中做出明智決策，最大化投資回報。我們的目標是為每位客戶提供實用解決方案，幫助他們在日益激烈的產業競爭中保持優勢。"
+        }
+      }
+    },
+    "Account_Details": {
+      "title": "帳戶詳情",
+      "professional_account": "專業帳戶",
+      "professional_account_description": "持有專業帳戶的交易者可享有廣泛",
+      "demo_account": "模擬帳戶",
+      "demo_account_description": "模擬交易帳戶對於新手交易者特別有價值",
+      "account_overview": "根據投資者的交易需求和市場經驗，交易帳戶可分為專業帳戶與模擬帳戶。專業帳戶為經驗豐富的交易者而設，提供更快的執行速度、更深的市場流動性以及更靈活的交易條件，以便實施高效策略。相對地，模擬帳戶允許投資者測試交易策略、熟悉市場波動，並在無風險環境中提升交易技巧。每個交易帳戶均由經紀商或金融機構分配一個獨特的識別號，用於所有交易、資金結算及客戶支援，確保安全與透明。",
+      "professional_account_info": "專業帳戶資訊",
+      "info_list": {
+        "initial_deposit": "初始存款",
+        "leverage": "槓桿",
+        "spread": "點差",
+        "multi_language_cc": "多語言客服",
+        "order_volume": "訂單量",
+        "support": "24/7 客服",
+        "friendly_expert": "友善且專業",
+        "award_winner": "獲獎者"
+      },
+      "info_values": {
+        "initial_deposit": "$1000",
+        "leverage": "最高 1:400",
+        "spread": "固定點差從 5 起",
+        "multi_language_cc": "是",
+        "order_volume": "0.01 – 500 手",
+        "support": "是",
+        "friendly_expert": "是",
+        "award_winner": "大獎金"
+      },
+      "benefits_title": "優點",
+      "benefits": {
+        "portfolio_diversification": "投資組合多樣化",
+        "access_global_markets": "進入全球市場",
+        "flexibility_control": "靈活性與控制",
+        "potential_profit": "盈利潛力"
+      }
     }
-}
+  }

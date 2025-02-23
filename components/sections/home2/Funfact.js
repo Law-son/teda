@@ -1,6 +1,8 @@
 import CounterUp from "@/components/elements/CounterUp"
+import { useTranslations } from "next-intl";
 
 export default function Funfact() {
+    const t = useTranslations("About.FunFact");
   return (
     <>
         <section className="funfact-style-two centred pb_70">
@@ -12,9 +14,9 @@ export default function Funfact() {
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={5} /><span>M+</span>
+                                        <CounterUp end={5} /><span>{t("clients_worldwide.value")}</span>
                                     </div>
-                                    <p>Client World Wide</p>
+                                    <p>{t("clients_worldwide.description")}</p>
                                 </div>
                             </div>
                         </div>
@@ -23,9 +25,9 @@ export default function Funfact() {
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={99} /><span>%</span>
+                                        <CounterUp end={99} /><span>{t("satisfied_clients.value")}</span>
                                     </div>
-                                    <p>Satisfied Clients</p>
+                                    <p>{t("satisfied_clients.description")}</p>
                                 </div>
                             </div>
                         </div>
@@ -34,9 +36,9 @@ export default function Funfact() {
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={80} /><span>M+</span>
+                                        <CounterUp end={80} /><span>{t("money_invested.value")}</span>
                                     </div>
-                                    <p>Money Invested</p>
+                                    <p>{t("money_invested.description")}</p>
                                 </div>
                             </div>
                         </div>
@@ -45,9 +47,9 @@ export default function Funfact() {
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={800} /><span>+</span>
+                                        <CounterUp end={800} /><span>{t("expert_traders.value")}</span>
                                     </div>
-                                    <p>Expert Traders</p>
+                                    <p>{t("expert_traders.description")}</p>
                                 </div>
                             </div>
                         </div>

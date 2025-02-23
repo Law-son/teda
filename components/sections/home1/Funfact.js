@@ -1,6 +1,9 @@
 import CounterUp from "@/components/elements/CounterUp"
+import { useTranslations } from 'next-intl';
 
 export default function Funfact() {
+    const t = useTranslations('Home.Funfact');
+
   return (
     <>
       <section className="funfact-section">
@@ -11,9 +14,9 @@ export default function Funfact() {
                             <div className="funfact-block-one">
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={150} />+<span className="text">Countries</span>
+                                        <CounterUp end={150} />+<span className="text">{t('countries.label')}</span>
                                     </div>
-                                    <p>Trade policies and agreements shape the trading landscape of countries</p>
+                                    <p>{t('countries.description')}</p>
                                 </div>
                             </div>
                         </div>
@@ -21,9 +24,9 @@ export default function Funfact() {
                             <div className="funfact-block-one">
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={40} />+<span className="text">Million Invest</span>
+                                        <CounterUp end={40} />+<span className="text">{t('investment.label')}</span>
                                     </div>
-                                    <p>Investing a million dollars in trading represents a significant opportunity and</p>
+                                    <p>{t('investment.description')}</p>
                                 </div>
                             </div>
                         </div>
@@ -31,9 +34,9 @@ export default function Funfact() {
                             <div className="funfact-block-one">
                                 <div className="inner-box">
                                     <div className="count-outer">
-                                        <CounterUp end={90} />+<span className="text">Awards</span>
+                                        <CounterUp end={90} />+<span className="text">{t('awards.label')}</span>
                                     </div>
-                                    <p>Trading awards recognize excellence and achievement within the financial</p>
+                                    <p>{t('awards.description')}</p>
                                 </div>
                             </div>
                         </div>
@@ -44,3 +47,4 @@ export default function Funfact() {
     </>
   )
 }
+
