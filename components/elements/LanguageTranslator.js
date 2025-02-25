@@ -3,6 +3,7 @@
 import * as React from "react";
 import Image from "next/image";
 import { useRouter, usePathname, locales } from "../../navigation";
+import { Tooltip } from 'react-tooltip';
 
 const languages = [
   { code: "en", name: "English" }, { code: "de", name: "German" },
@@ -108,7 +109,9 @@ export function LanguageSelector() {
                     key={lang.code}
                     onClick={() => switchLanguage(lang.code)}
                     className="btn d-flex align-items-center px-2 py-1 text-start text-gray-700 focus-bg-gray-100 flex-grow-1"
-                    style={{ minWidth: "50px" }} // Ensure buttons are wide enough
+                    style={{ minWidth: "50px" }}
+                    data-tooltip-id={`tooltip-${lang.code}`}
+                    data-tooltip-content={lang.name}
                   >
                     <Image
                       src={`/flags/${lang.code}.png`}
@@ -117,6 +120,7 @@ export function LanguageSelector() {
                       height={32}
                       className="rounded-circle object-cover me-2"
                     />
+                    <Tooltip id={`tooltip-${lang.code}`} place="top" />
                   </button>
                 ))}
               </div>
@@ -124,7 +128,7 @@ export function LanguageSelector() {
           </div>
         </div>
       )}
-
     </div>
   );
 }
+
