@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+        "home": "홈",
+        "trading": "거래",
+        "platform": "플랫폼",
+        "market": "마켓",
+        "marketsPlace": "마켓 플레이스",
+        "marketsDetails": "마켓 상세 정보",
+        "aboutUs": "회사 소개",
+        "contact": "문의"
+    },
     "Home": {
         "Hero": {
-            "Title": "Next.js Internalization Demo",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+            "title": "누구나, 어디서나, 언제든 거래할 수 있습니다.",
+            "description": "다양한 금융 상품을 이용해 거래하세요. 외환, 주가지수 CFD, 원자재, 주식, 금속, 에너지 등을 포함합니다."
+        },
+        "Trading_Accounts": {
+            "sectionTitle": "거래 계좌",
+            "subTitle": "계좌",
+            "questions": {
+                "who_we_are": {
+                    "title": "우리가 누구인가요",
+                    "answer": "중개 회사 또는 거래 플랫폼으로서, 우리는 혁신적이고 사용자 친화적인 거래 서비스를 제공하는 데 전념하고 있습니다."
+                },
+                "what_we_do": {
+                    "title": "우리가 하는 일",
+                    "answer": "우리는 전문 외환 거래 플랫폼으로, 포괄적인 외환 투자 서비스를 제공하는 데 전념하고 있습니다. 첨단 기술 지원, 안전한 거래 환경, 그리고 글로벌 시장 커버리지를 바탕으로, 유연한 거래 도구와 고품질 고객 서비스를 제공하여 고객이 외환 시장에서 꾸준한 성장을 이룰 수 있도록 돕습니다."
+                },
+                "how_it_works": {
+                    "title": "작동 방식",
+                    "answer": "심도 있는 분석과 정밀한 전략적 지침을 통해, 복잡한 시장 환경에서 고객이 정보에 입각한 결정을 내릴 수 있도록 도와드리며, 투자 수익률을 극대화합니다. 우리의 목표는 각 고객에게 실용적인 솔루션을 제공하여, 점점 치열해지는 경쟁 시장에서 선도적인 위치를 유지할 수 있도록 지원하는 것입니다."
+                }
+            }
+        },
+        "Account": {
+            "sectionTitle": "거래 계좌",
+            "subTitle": "계좌",
+            "professionalAccount": {
+                "title": "전문 계좌",
+                "description": "전문 계좌를 가진 거래자들은 향상된 거래 플랫폼을 포함한 다양한 혜택을 누릴 수 있습니다."
+            },
+            "demoAccount": {
+                "title": "데모 계좌",
+                "description": "데모 계좌는 투자 세계에 처음 입문하는 초보 거래자들에게 특히 유용합니다."
+            }
+        },
+        "Funfact": {
+            "countries": {
+                "count": "150+",
+                "label": "국가",
+                "description": "거래 정책과 협정이 각 국가의 거래 환경을 형성합니다."
+            },
+            "investment": {
+                "count": "40+",
+                "label": "백만 투자",
+                "description": "거래에 백만 달러를 투자하는 것은 상당한 기회를 의미합니다."
+            },
+            "awards": {
+                "count": "90+",
+                "label": "수상",
+                "description": "거래 관련 수상은 금융 분야의 우수성과 성취를 인정합니다."
+            }
+        },
+        "ThingsWeTrade": {
+            "sectionTitle": "우리가 거래하는 것들",
+            "subTitle": "거래 플랫폼",
+            "crypto": {
+                "title": "암호화폐 거래",
+                "buttonText": "지금 거래 시작하기"
+            },
+            "shares": {
+                "title": "주식 거래",
+                "buttonText": "지금 거래 시작하기"
+            },
+            "gold": {
+                "title": "금 거래",
+                "buttonText": "지금 거래 시작하기"
+            },
+            "currency": {
+                "title": "통화 거래",
+                "buttonText": "지금 거래 시작하기"
+            },
+            "silver": {
+                "title": "은 거래",
+                "buttonText": "지금 거래 시작하기"
+            }
+        },
+        "Process": {
+            "sectionTitle": "프로세스",
+            "subTitle": "작동 방식",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "가입하세요, 무료입니다!",
+                    "description": "저희 팀이 귀하의 계좌를 설정하고 사용하기 쉬운 웹 대시보드를 구축하는 데 도움을 드립니다."
+                },
+                {
+                    "step": "2",
+                    "title": "최고의 거래를 찾아 투자하세요",
+                    "description": "몇 번의 클릭만으로 1~100% 오프닝에서 거래를 생성하고 거래하세요. 나만의 방식으로 맞춤 설정해보세요."
+                },
+                {
+                    "step": "3",
+                    "title": "수익을 돌려받으세요",
+                    "description": "전문적인 기술 분석과 정밀한 거래 전략을 통해, 시장 기회를 포착하고 위험 관리를 최적화하며 거래 효율성을 개선, 꾸준한 수익과 함께 안정적인 회복을 도모할 수 있도록 돕습니다."
+                }
+            ]
+        },
+        "Award": {
+            "sectionTitle": "최고의 전문가로부터 수상",
+            "subTitle": "전 세계 수상 경력",
+            "awards": [
+                {
+                    "year": "2023",
+                    "title": "영국 최고의 거래 플랫폼",
+                    "timesAwarded": "x1"
+                },
+                {
+                    "year": "2022",
+                    "title": "영국 최고의 거래 플랫폼",
+                    "timesAwarded": "x4"
+                },
+                {
+                    "year": "2018",
+                    "title": "런던 최고의 거래 플랫폼",
+                    "timesAwarded": "x4"
+                }
+            ]
+        },
+        "Apps": {
+            "sectionTitle": "앱 다운로드",
+            "subTitle": "거래 앱 다운로드",
+            "description": "저희는 귀하의 웹사이트 이용 방식을 이해하고 최상의 경험을 제공하기 위해 쿠키를 사용합니다.",
+            "downloadLinks": {
+                "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+                "web": "https://pc.tedafx.com/"
+            }
+        }
+    },
+    "Footer": {
+        "trading": "거래",
+        "platforms": "플랫폼",
+        "market": "마켓",
+        "market_place": "마켓 플레이스",
+        "market_details": "마켓 상세 정보",
+        "about": "소개",
+        "about_us": "회사 소개",
+        "contact": "문의",
+        "contact_us": "문의하기",
+        "company_info": "TEDA Global Limited는 미국의 머니 서비스 비즈니스(MSB) 규제를 받는 회사로, 등록 번호는 31000280102867입니다. 등록 사무소는 영국 웨스트 미들랜즈 코번트리의 7 Copperfield Road, CV2 4AQ에 위치해 있습니다.",
+        "company_description": "TEDA는 통화 쌍, 에너지, 원자재, 지수를 포함한 다양한 금융 상품 거래 서비스를 제공합니다. 당사의 주요 목표는 고객의 거래 및 투자 요구에 부응하는 접근 가능한 서비스를 제공하는 것입니다. 고객 중심의 비즈니스 모델을 바탕으로, 고객의 피드백과 요구에 따라 지속적으로 서비스를 향상시키기 위해 노력하고 있습니다.",
+        "copyright": "저작권 {year}",
+        "rights_reserved": "판권 소유."
+    },
+    "Platforms": {
+        "About": {
+            "platforms": "플랫폼",
+            "trading_platforms": "거래 플랫폼",
+            "tabs": {
+                "application": "애플리케이션",
+                "web": "웹",
+                "fbs_personal_area": "FBS 개인 영역"
+            },
+            "content": {
+                "app": {
+                    "title": "앱",
+                    "description": "최고의 거래 앱과 함께 금융의 파도를 헤쳐나가세요. 이 앱은 시장의 힘을 당신의 손안에 전달하도록 설계되었습니다."
+                },
+                "web": {
+                    "title": "웹",
+                    "description": "최상급 거래 플랫폼과 함께 금융의 파도를 타세요. 이 플랫폼은 손끝에서 시장을 완벽하게 제어할 수 있도록 제작되었습니다."
+                },
+                "fbs_personal_area": {
+                    "title": "FBS 개인 영역",
+                    "description": "정예 거래 앱과 함께 금융의 파도를 주도하세요. 이 앱은 시장의 힘을 바로 당신의 손에 쥐도록 구축되었습니다."
+                }
+            }
+        },
+        "Main": {
+            "learn_more": "더 알아보기",
+            "what_is_trading": "거래란 무엇인가요?",
+            "financial_markets": {
+                "title": "금융 시장",
+                "description_1": "금융 시장은 글로벌 자본 흐름의 초석으로, 주식, 외환, 원자재 등 다양한 거래 기회를 제공합니다. 당사 플랫폼은 실시간 가격 발견, 깊은 유동성 접근성, 첨단 실행 기술을 통해 치열한 경쟁 속에서도 거래자와 투자자가 최대 효율로 운영될 수 있도록 보장합니다.",
+                "description_2": "숙련된 기관 거래자이든 신흥 시장 참가자이든, 당사의 최첨단 분석 도구, AI 기반 인사이트 및 위험 관리 솔루션을 통해 자신 있게 데이터 기반 의사 결정을 내릴 수 있습니다."
+            },
+            "what_is_forex": {
+                "title": "외환이란?",
+                "description_1": "어떤 TEDA 플랫폼이 적합한지 잘 모르시겠나요? 다양한 차이점을 확인할 수 있는 플랫폼 비교 표를 참고하세요.",
+                "description_2": "다양한 차이점을 확인할 수 있는 플랫폼 비교 표를 참고하세요."
+            },
+            "tools_overview": {
+                "title": "도구 개요",
+                "description_1": "어떤 TEDA 플랫폼이 적합한지 잘 모르시겠나요? 다양한 차이점을 확인할 수 있는 플랫폼 비교 표를 참고하세요.",
+                "description_2": "다양한 차이점을 확인할 수 있는 플랫폼 비교 표를 참고하세요."
+            },
+            "platform_comparison": {
+                "title": "플랫폼 비교",
+                "description_1": "어떤 TEDA 플랫폼이 적합한지 잘 모르시겠나요? 다양한 차이점을 확인할 수 있는 플랫폼 비교 표를 참고하세요.",
+                "description_2": "다양한 차이점을 확인할 수 있는 플랫폼 비교 표를 참고하세요."
+            }
+        },
+        "Apps": {
+            "download_app": "앱 다운로드",
+            "download_trading_app": "거래 앱 다운로드",
+            "cookie_notice": "저희는 귀하의 웹사이트 이용 방식을 이해하고 최상의 경험을 제공하기 위해 쿠키를 사용합니다.",
+            "download_on": "다운로드:",
+            "app_store": "앱 스토어",
+            "get_it_on": "사용 가능:",
+            "google_play": "구글 플레이",
+            "access_on": "접속하기:",
+            "web": "웹"
+        },
+        "Accounts": {
+            "title": "계좌",
+            "level_up_trading": "계좌로 거래 실력을 높이세요",
+            "trade_anywhere": "한 번의 터치로 언제 어디서나 거래하세요",
+            "manage_portfolio": "계좌와 포트폴리오를 원활하게 관리하세요",
+            "real_time_charts": "실시간 차트와 지표로 앞서 나가세요",
+            "professional_account": "전문 계좌",
+            "professional_account_description": "전문 계좌 거래자는 향상된 거래 플랫폼을 포함한 다양한 혜택을 누릴 수 있습니다.",
+            "demo_account": "데모 계좌",
+            "demo_account_description": "데모 계좌는 투자 세계에 처음 입문하는 초보 거래자들에게 특히 유용합니다."
+        }
+    },
+    "About": {
+        "AboutUs": {
+            "title": "회사 소개",
+            "reputation_experience": "우리의 명성은 다음에 기반합니다",
+            "experience": "경험",
+            "who_we_are": "우리가 누구인가요",
+            "who_we_are_description": "암호화폐 투자에 열정을 가진 전문가 팀으로, 개인과 기업이 디지털 자산 분야에서 번창할 수 있도록 돕습니다.",
+            "what_we_do": "우리가 하는 일",
+            "what_we_do_description": "끊임없이 변화하는 암호화폐 시장에서 고객이 정보에 입각한 결정을 내리고 수익을 극대화할 수 있도록 전략적 지침과 인사이트를 제공합니다.",
+            "how_it_works": "작동 방식",
+            "how_it_works_description": "데이터 기반 분석과 맞춤 전략을 통해 수익성 있는 기회를 식별하고 위험을 최적화하여 고객의 암호화폐 포트폴리오를 성장시킵니다."
+        },
+        "FunFact": {
+            "clients_worldwide": {
+                "value": "M+",
+                "description": "전 세계 고객"
+            },
+            "satisfied_clients": {
+                "value": "%",
+                "description": "만족한 고객"
+            },
+            "money_invested": {
+                "value": "M+",
+                "description": "투자 금액"
+            },
+            "expert_traders": {
+                "value": "+",
+                "description": "전문 트레이더"
+            }
+        },
+        "CTA": {
+            "headline": "낮은 가격과 투명한 수수료로 더 적은 비용으로 거래하세요"
+        },
+        "Accounts": {
+            "section_title": "계좌로 거래 실력을 높이세요",
+            "sub_title": "계좌",
+            "professional_account": {
+                "title": "전문 계좌",
+                "description": "전문 계좌를 가진 거래자들은 향상된 거래 플랫폼을 포함한 다양한 혜택을 누릴 수 있습니다."
+            },
+            "demo_account": {
+                "title": "데모 계좌",
+                "description": "데모 계좌는 투자 세계에 처음 입문하는 초보 거래자들에게 특히 유용합니다."
+            },
+            "features": {
+                "trade_anywhere": "언제 어디서나 한 번의 터치로 거래하세요",
+                "manage_portfolio": "계좌와 포트폴리오를 원활하게 관리하세요",
+                "real_time_charts": "실시간 차트와 지표로 앞서 나가세요"
+            }
+        },
+        "Team": {
+            "section_title": "우리의 재능 있는 팀 멤버",
+            "sub_title": "전문 팀",
+            "members": {
+                "olivia_quinn": {
+                    "name": "Olivia Quinn",
+                    "designation": "외환 트레이더"
+                },
+                "nathan_hayes": {
+                    "name": "Nathan Hayes",
+                    "designation": "컨설턴트"
+                },
+                "ava_jensen": {
+                    "name": "Ava Jensen",
+                    "designation": "거래 어시스턴트"
+                },
+                "sophia_knight": {
+                    "name": "Sophia Knight",
+                    "designation": "거래 총괄"
+                },
+                "ethan_brooks": {
+                    "name": "Ethan Brooks",
+                    "designation": "마케팅 코디네이터"
+                },
+                "aronic_kehan": {
+                    "name": "Aronic Kehan",
+                    "designation": "비즈니스 어시스턴트"
+                }
+            }
+        },
+        "Apps": {
+            "section_title": "거래 앱 다운로드",
+            "sub_title": "앱 다운로드",
+            "description": "저희는 쿠키를 사용하여 웹사이트 사용 방식을 이해하고 최상의 경험을 제공하기 위해 노력합니다.",
+            "download_buttons": {
+                "app_store": {
+                    "text": "앱 스토어에서 다운로드",
+                    "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+                },
+                "google_play": {
+                    "text": "구글 플레이에서 받기",
+                    "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+                }
+            }
+        },
+        "Testimonials": {
+            "section_title": "고객의 사랑",
+            "sub_title": "고객 평가",
+            "testimonial_1": {
+                "quote": "암호화폐 투자자가 제 투자를 효율적이고 쾌적하게 만들어줍니다",
+                "description": "최고의 거래 앱과 함께 금융의 파도를 헤쳐나가세요. 이 최첨단 앱은 복잡한 기능과 세련된 디자인을 결합하여 언제 어디서나 시장 기회를 포착할 수 있도록 합니다."
+            }
+        }
+    },
+    "Market": {
+        "Platforms": {
+            "section_title": "거래 플랫폼",
+            "sub_title": "플랫폼",
+            "app": {
+                "title": "앱",
+                "description": "TEDA 플랫폼의 거래 애플리케이션으로 금융의 파도를 헤쳐나가세요. 이 최첨단 앱은 복잡한 기능과 사용자 친화적인 디자인을 결합하여 모든 수준의 거래자가 언제 어디서나 시장 기회를 포착할 수 있도록 합니다.",
+                "features": [
+                    "언제 어디서나 한 번의 터치로 거래",
+                    "계좌와 포트폴리오를 원활하게 관리",
+                    "실시간 차트와 지표로 앞서 나가기",
+                    "암호화된 보안을 통해 자신감 있게 거래"
+                ]
+            },
+            "teda_copy": {
+                "title": "TEDA Copy",
+                "description": "FXT의 최고의 거래 앱과 함께 금융의 파도를 헤쳐나가세요. 이 최첨단 앱은 세련된 기능과 사용자 친화적인 디자인을 결합하여 모든 수준의 거래자가 언제 어디서나 시장 기회를 포착할 수 있도록 합니다.",
+                "features": [
+                    "언제 어디서나 한 번의 터치로 거래",
+                    "계좌와 포트폴리오를 원활하게 관리",
+                    "실시간 차트와 지표로 앞서 나가기",
+                    "암호화된 보안을 통해 자신감 있게 거래"
+                ]
+            },
+            "tab_buttons": {
+                "webtrader": "TEDA Webtrader",
+                "mt4_mt": "MT4/MT",
+                "copy": "TEDA Copy"
+            }
+        },
+        "Range": {
+            "title": "우리의 범위",
+            "subtitle": "시장 범위",
+            "markets": {
+                "forex": {
+                    "title": "외환 거래",
+                    "button": "외환 거래"
+                },
+                "indices": {
+                    "title": "지수",
+                    "button": "외환 거래"
+                },
+                "cryptocurrencies": {
+                    "title": "암호화폐",
+                    "button": "외환 거래"
+                },
+                "commodities": {
+                    "title": "원자재",
+                    "button": "외환 거래"
+                }
+            }
+        },
+        "Apps": {
+            "title": "앱 다운로드",
+            "subtitle": "거래 앱 다운로드",
+            "description": "저희는 쿠키를 사용하여 웹사이트 사용 방식을 이해하고 최상의 경험을 제공하기 위해 노력합니다.",
+            "download_links": {
+                "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+            }
+        }
+    },
+    "Market_Details": {
+        "Details": {
+            "title": "지금 거래하세요",
+            "subtitle": "시장 스프레드 및 스왑",
+            "tabs": {
+                "cryptocurrency": "암호화폐",
+                "indices": "지수",
+                "metals": "금속",
+                "forex": "외환",
+                "commodities": "원자재"
+            },
+            "table_headers": {
+                "markets": "시장",
+                "bid": "매도",
+                "ask": "매수",
+                "action": "액션",
+                "spread": "스프레드"
+            },
+            "no_data_messages": {
+                "forex": "외환 데이터가 없습니다",
+                "commodities": "원자재 데이터가 없습니다"
+            }
+        },
+        "Process": {
+            "about_us": "회사 소개",
+            "reputation": "우리의 명성은 다음에 기반합니다",
+            "experience": "경험",
+            "who_we_are": {
+                "title": "우리가 누구인가요",
+                "description": "중개 회사 또는 거래 플랫폼으로서, 우리는 혁신적이고 사용자 친화적인 거래 서비스를 제공하는 데 전념하고 있습니다."
+            },
+            "what_we_do": {
+                "title": "우리가 하는 일",
+                "description": "우리는 전문 외환 거래 플랫폼으로, 포괄적인 외환 투자 서비스를 제공하는 데 전념하고 있습니다. 첨단 기술 지원, 안전한 거래 환경, 그리고 글로벌 시장 커버리지를 바탕으로, 고객에게 유연한 거래 도구와 고품질 고객 서비스를 제공하여 외환 시장에서 꾸준한 성장을 도모합니다."
+            },
+            "how_it_works": {
+                "title": "작동 방식",
+                "description": "심도 있는 분석과 정밀한 전략적 지침을 통해, 복잡한 시장 환경에서 고객이 정보에 입각한 결정을 내릴 수 있도록 도와 투자 수익을 극대화합니다. 우리의 목표는 각 고객에게 실용적인 솔루션을 제공하여, 점점 치열해지는 경쟁 속에서도 경쟁 우위를 유지할 수 있도록 지원하는 것입니다."
+            }
+        }
+    },
+    "Account_Details": {
+        "title": "계좌 상세 정보",
+        "professional_account": "전문 계좌",
+        "professional_account_description": "전문 계좌를 가진 거래자들은 다양한 혜택을 누릴 수 있습니다.",
+        "demo_account": "데모 계좌",
+        "demo_account_description": "데모 계좌는 투자에 익숙하지 않은 초보자들에게 특히 유용합니다.",
+        "account_overview": "거래 계좌는 투자자의 거래 필요와 시장 경험에 따라 전문 계좌와 데모 계좌로 구분됩니다. 전문 계좌는 경험이 풍부한 거래자를 위해 설계되었으며, 더 빠른 실행 속도, 깊은 시장 유동성, 그리고 보다 유연한 거래 조건을 제공하여 효율적인 전략 실행을 지원합니다. 반면 데모 계좌는 투자자들이 거래 전략을 시험하고, 시장 변동에 익숙해지며, 위험 부담 없이 거래 기술을 향상시킬 수 있도록 합니다. 각 거래 계좌에는 중개 회사나 금융 기관에서 발급하는 고유 식별 번호가 할당되며, 이 번호는 모든 거래, 자금 정산, 고객 지원에 사용되어 보안과 투명성을 보장합니다.",
+        "professional_account_info": "전문 계좌 정보",
+        "info_list": {
+            "initial_deposit": "최초 예치금",
+            "leverage": "레버리지",
+            "spread": "스프레드",
+            "multi_language_cc": "다국어 CC",
+            "order_volume": "주문량",
+            "support": "24/7 지원",
+            "friendly_expert": "친절하고 전문적인",
+            "award_winner": "수상 경력"
+        },
+        "info_values": {
+            "initial_deposit": "$1000",
+            "leverage": "최대 1:400",
+            "spread": "최소 5 핍부터 고정",
+            "multi_language_cc": "예",
+            "order_volume": "0.01 – 500 랏",
+            "support": "예",
+            "friendly_expert": "예",
+            "award_winner": "큰 보너스"
+        },
+        "benefits_title": "혜택",
+        "benefits": {
+            "portfolio_diversification": "포트폴리오 다각화",
+            "access_global_markets": "글로벌 시장 접근",
+            "flexibility_control": "유연성 및 통제",
+            "potential_profit": "잠재적 수익"
         }
     }
 }

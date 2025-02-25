@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+        "home": "Trang chủ",
+        "trading": "Giao dịch",
+        "platform": "Nền tảng",
+        "market": "Thị trường",
+        "marketsPlace": "Chợ giao dịch",
+        "marketsDetails": "Chi tiết thị trường",
+        "aboutUs": "Về chúng tôi",
+        "contact": "Liên hệ"
+    },
     "Home": {
         "Hero": {
-            "Title": "Next.js Internalization Demo",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+            "title": "Giao dịch cho mọi người, bất cứ nơi đâu, bất cứ lúc nào.",
+            "description": "Giao dịch với một loạt các công cụ đa dạng. Forex, CFD trên các chỉ số chứng khoán, hàng hóa, cổ phiếu, kim loại và năng lượng."
+        },
+        "Trading_Accounts": {
+            "sectionTitle": "Tài khoản giao dịch",
+            "subTitle": "Tài khoản",
+            "questions": {
+                "who_we_are": {
+                    "title": "Chúng tôi là ai",
+                    "answer": "Là một công ty môi giới hoặc nền tảng giao dịch, chúng tôi cam kết cung cấp các giải pháp giao dịch sáng tạo và dễ sử dụng."
+                },
+                "what_we_do": {
+                    "title": "Chúng tôi làm gì",
+                    "answer": "Chúng tôi là một nền tảng giao dịch forex chuyên nghiệp, cam kết cung cấp các dịch vụ đầu tư forex toàn diện. Với hỗ trợ công nghệ tiên tiến, môi trường giao dịch an toàn và sự bao phủ toàn cầu, chúng tôi cung cấp các công cụ giao dịch linh hoạt và dịch vụ khách hàng chất lượng cao, giúp khách hàng đạt được sự tăng trưởng ổn định trên thị trường forex."
+                },
+                "how_it_works": {
+                    "title": "Cách thức hoạt động",
+                    "answer": "Thông qua phân tích chuyên sâu và hướng dẫn chiến lược chính xác, chúng tôi giúp khách hàng đưa ra các quyết định thông minh trong môi trường thị trường phức tạp, tối đa hóa lợi nhuận đầu tư. Mục tiêu của chúng tôi là cung cấp các giải pháp thực tiễn cho từng khách hàng, giúp họ duy trì vị thế dẫn đầu trong các ngành công nghiệp ngày càng cạnh tranh."
+                }
+            }
+        },
+        "Account": {
+            "sectionTitle": "Tài khoản giao dịch",
+            "subTitle": "Tài khoản",
+            "professionalAccount": {
+                "title": "Tài khoản chuyên nghiệp",
+                "description": "Các nhà giao dịch với tài khoản chuyên nghiệp được hưởng nhiều lợi ích, bao gồm cả các nền tảng giao dịch nâng cao."
+            },
+            "demoAccount": {
+                "title": "Tài khoản demo",
+                "description": "Tài khoản demo giao dịch đặc biệt có giá trị đối với những nhà giao dịch mới bắt đầu bước chân vào thế giới đầu tư."
+            }
+        },
+        "Funfact": {
+            "countries": {
+                "count": "150+",
+                "label": "Quốc gia",
+                "description": "Chính sách giao dịch và các hiệp định định hình cảnh quan giao dịch của các quốc gia."
+            },
+            "investment": {
+                "count": "40+",
+                "label": "Triệu USD đầu tư",
+                "description": "Việc đầu tư một triệu đô la vào giao dịch mang lại cơ hội đáng kể."
+            },
+            "awards": {
+                "count": "90+",
+                "label": "Giải thưởng",
+                "description": "Các giải thưởng giao dịch công nhận sự xuất sắc và thành tựu trong lĩnh vực tài chính."
+            }
+        },
+        "ThingsWeTrade": {
+            "sectionTitle": "Những thứ chúng tôi giao dịch",
+            "subTitle": "Các nền tảng giao dịch",
+            "crypto": {
+                "title": "Giao dịch tiền mã hóa",
+                "buttonText": "Bắt đầu giao dịch ngay"
+            },
+            "shares": {
+                "title": "Giao dịch cổ phiếu",
+                "buttonText": "Bắt đầu giao dịch ngay"
+            },
+            "gold": {
+                "title": "Giao dịch vàng",
+                "buttonText": "Bắt đầu giao dịch ngay"
+            },
+            "currency": {
+                "title": "Giao dịch tiền tệ",
+                "buttonText": "Bắt đầu giao dịch ngay"
+            },
+            "silver": {
+                "title": "Giao dịch bạc",
+                "buttonText": "Bắt đầu giao dịch ngay"
+            }
+        },
+        "Process": {
+            "sectionTitle": "Quy trình",
+            "subTitle": "Cách thức hoạt động",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "Đăng ký, hoàn toàn miễn phí!",
+                    "description": "Đội ngũ của chúng tôi sẽ thiết lập tài khoản cho bạn và giúp bạn xây dựng một bảng điều khiển web dễ sử dụng."
+                },
+                {
+                    "step": "2",
+                    "title": "Tìm các ưu đãi tốt nhất và đầu tư",
+                    "description": "Tạo và giao dịch với tỷ lệ mở từ 1-100% chỉ với vài cú nhấp chuột. Tùy chỉnh theo ý bạn."
+                },
+                {
+                    "step": "3",
+                    "title": "Nhận lại lợi nhuận của bạn",
+                    "description": "Dựa trên phân tích kỹ thuật chuyên nghiệp và chiến lược giao dịch chính xác, chúng tôi giúp bạn nắm bắt cơ hội thị trường, tối ưu hóa quản lý rủi ro, cải thiện hiệu quả giao dịch, và phục hồi một cách ổn định trong khi đạt được lợi nhuận liên tục."
+                }
+            ]
+        },
+        "Award": {
+            "sectionTitle": "ĐƯỢC TRAO GIẢI BỞI NHỮNG ƯU TÚ NHẤT",
+            "subTitle": "Được trao giải trên toàn cầu",
+            "awards": [
+                {
+                    "year": "2023",
+                    "title": "Nền tảng giao dịch tốt nhất, Vương quốc Anh",
+                    "timesAwarded": "x1"
+                },
+                {
+                    "year": "2022",
+                    "title": "Nền tảng giao dịch tốt nhất, Vương quốc Anh",
+                    "timesAwarded": "x4"
+                },
+                {
+                    "year": "2018",
+                    "title": "Nền tảng giao dịch tốt nhất, London",
+                    "timesAwarded": "x4"
+                }
+            ]
+        },
+        "Apps": {
+            "sectionTitle": "Tải ứng dụng",
+            "subTitle": "Tải ứng dụng giao dịch",
+            "description": "Chúng tôi sử dụng cookie để hiểu cách bạn sử dụng trang web và mang đến cho bạn trải nghiệm tốt nhất có thể.",
+            "downloadLinks": {
+                "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+                "web": "https://pc.tedafx.com/"
+            }
+        }
+    },
+    "Footer": {
+        "trading": "Giao dịch",
+        "platforms": "Nền tảng",
+        "market": "Thị trường",
+        "market_place": "Chợ giao dịch",
+        "market_details": "Chi tiết thị trường",
+        "about": "Về",
+        "about_us": "Về chúng tôi",
+        "contact": "Liên hệ",
+        "contact_us": "Liên hệ với chúng tôi",
+        "company_info": "TEDA Global Limited là một công ty được điều chỉnh bởi Money Services Business (MSB) tại Hoa Kỳ, với số đăng ký 31000280102867. Văn phòng đăng ký của công ty tọa lạc tại 7 Copperfield Road, Coventry, West Midlands, England, CV2 4AQ.",
+        "company_description": "TEDA cung cấp một loạt các công cụ tài chính đa dạng để giao dịch, bao gồm cả CFD trên các cặp tiền tệ, năng lượng, hàng hóa và chỉ số. Mục tiêu chính của chúng tôi là cung cấp các dịch vụ dễ tiếp cận nhằm đáp ứng nhu cầu giao dịch và đầu tư của khách hàng. Với mô hình kinh doanh lấy khách hàng làm trung tâm, chúng tôi cam kết không ngừng nâng cao các dịch vụ dựa trên phản hồi và nhu cầu của khách hàng.",
+        "copyright": "Bản quyền {year}",
+        "rights_reserved": "Mọi quyền được bảo lưu."
+    },
+    "Platforms": {
+        "About": {
+            "platforms": "Nền tảng",
+            "trading_platforms": "Nền tảng giao dịch",
+            "tabs": {
+                "application": "Ứng dụng",
+                "web": "Web",
+                "fbs_personal_area": "Khu vực cá nhân FBS"
+            },
+            "content": {
+                "app": {
+                    "title": "Ứng dụng",
+                    "description": "Lướt qua làn sóng tài chính với ứng dụng giao dịch hàng đầu, được thiết kế để mang sức mạnh của thị trường vào lòng bàn tay bạn."
+                },
+                "web": {
+                    "title": "Web",
+                    "description": "Lướt theo làn sóng tài chính với nền tảng giao dịch hàng đầu, được tạo ra để mang đến cho bạn quyền kiểm soát hoàn toàn thị trường ngay trong tầm tay."
+                },
+                "fbs_personal_area": {
+                    "title": "Khu vực cá nhân FBS",
+                    "description": "Lái qua làn sóng tài chính với ứng dụng giao dịch ưu tú, được xây dựng để mang sức mạnh của thị trường ngay vào tay bạn."
+                }
+            }
+        },
+        "Main": {
+            "learn_more": "Tìm hiểu thêm",
+            "what_is_trading": "Giao dịch là gì",
+            "financial_markets": {
+                "title": "Thị trường tài chính",
+                "description_1": "Thị trường tài chính là nền tảng của dòng chảy vốn toàn cầu, mang đến nhiều cơ hội giao dịch đa dạng trên cổ phiếu, forex và hàng hóa. Nền tảng của chúng tôi cung cấp khám phá giá theo thời gian thực, truy cập thanh khoản sâu và công nghệ thực hiện tiên tiến, đảm bảo rằng các nhà giao dịch và nhà đầu tư hoạt động với hiệu quả tối đa trong một môi trường cạnh tranh cao.",
+                "description_2": "Dù bạn là nhà giao dịch tổ chức dày dặn kinh nghiệm hay một người tham gia thị trường mới nổi, bộ công cụ phân tích hiện đại, thông tin do AI cung cấp và các giải pháp quản lý rủi ro của chúng tôi sẽ giúp bạn đưa ra quyết định dựa trên dữ liệu một cách tự tin."
+            },
+            "what_is_forex": {
+                "title": "Forex là gì",
+                "description_1": "Không chắc nền tảng TEDA nào phù hợp với bạn? Hãy xem bảng so sánh nền tảng tiện lợi của chúng tôi để biết tất cả các điểm khác biệt.",
+                "description_2": "Hãy xem bảng so sánh nền tảng tiện lợi của chúng tôi để biết tất cả các điểm khác biệt."
+            },
+            "tools_overview": {
+                "title": "Tổng quan công cụ",
+                "description_1": "Không chắc nền tảng TEDA nào phù hợp với bạn? Hãy xem bảng so sánh nền tảng tiện lợi của chúng tôi để biết tất cả các điểm khác biệt.",
+                "description_2": "Hãy xem bảng so sánh nền tảng tiện lợi của chúng tôi để biết tất cả các điểm khác biệt."
+            },
+            "platform_comparison": {
+                "title": "So sánh nền tảng",
+                "description_1": "Không chắc nền tảng TEDA nào phù hợp với bạn? Hãy xem bảng so sánh nền tảng tiện lợi của chúng tôi để biết tất cả các điểm khác biệt.",
+                "description_2": "Hãy xem bảng so sánh nền tảng tiện lợi của chúng tôi để biết tất cả các điểm khác biệt."
+            }
+        },
+        "Apps": {
+            "download_app": "Tải ứng dụng",
+            "download_trading_app": "Tải ứng dụng giao dịch",
+            "cookie_notice": "Chúng tôi sử dụng cookie để hiểu cách bạn sử dụng trang web và mang đến cho bạn trải nghiệm tốt nhất.",
+            "download_on": "Tải trên",
+            "app_store": "App Store",
+            "get_it_on": "Tải trên",
+            "google_play": "Google Play",
+            "access_on": "Truy cập trên",
+            "web": "Web"
+        },
+        "Accounts": {
+            "title": "Tài khoản",
+            "level_up_trading": "Nâng tầm giao dịch của bạn với Tài khoản",
+            "trade_anywhere": "Giao dịch chỉ với một cú chạm, ở bất cứ đâu, bất cứ lúc nào",
+            "manage_portfolio": "Quản lý tài khoản và danh mục đầu tư của bạn một cách liền mạch",
+            "real_time_charts": "Luôn dẫn đầu với biểu đồ và chỉ báo theo thời gian thực",
+            "professional_account": "Tài khoản chuyên nghiệp",
+            "professional_account_description": "Các nhà giao dịch với tài khoản chuyên nghiệp được hưởng nhiều lợi ích, bao gồm cả các nền tảng giao dịch nâng cao.",
+            "demo_account": "Tài khoản demo",
+            "demo_account_description": "Tài khoản demo giao dịch đặc biệt có giá trị đối với những nhà giao dịch mới bắt đầu bước chân vào thế giới đầu tư."
+        }
+    },
+    "About": {
+        "AboutUs": {
+            "title": "Về chúng tôi",
+            "reputation_experience": "Danh tiếng của chúng tôi được xây dựng trên",
+            "experience": "Kinh nghiệm",
+            "who_we_are": "Chúng tôi là ai",
+            "who_we_are_description": "Một đội ngũ chuyên gia đam mê đầu tư tiền mã hóa, tận tâm giúp cá nhân và doanh nghiệp phát triển mạnh mẽ trong lĩnh vực tài sản kỹ thuật số.",
+            "what_we_do": "Chúng tôi làm gì",
+            "what_we_do_description": "Chúng tôi cung cấp hướng dẫn chiến lược và những thông tin chi tiết để giúp khách hàng đưa ra quyết định sáng suốt và tối đa hóa lợi nhuận trên thị trường tiền mã hóa luôn thay đổi.",
+            "how_it_works": "Cách thức hoạt động",
+            "how_it_works_description": "Thông qua phân tích dựa trên dữ liệu và các chiến lược được tùy chỉnh, chúng tôi xác định các cơ hội sinh lời và tối ưu hóa rủi ro để phát triển danh mục tiền mã hóa của khách hàng."
+        },
+        "FunFact": {
+            "clients_worldwide": {
+                "value": "M+",
+                "description": "Khách hàng trên toàn thế giới"
+            },
+            "satisfied_clients": {
+                "value": "%",
+                "description": "Khách hàng hài lòng"
+            },
+            "money_invested": {
+                "value": "M+",
+                "description": "Số tiền đầu tư"
+            },
+            "expert_traders": {
+                "value": "+",
+                "description": "Nhà giao dịch chuyên nghiệp"
+            }
+        },
+        "CTA": {
+            "headline": "Giao dịch với chi phí thấp, giá cả cạnh tranh và phí minh bạch"
+        },
+        "Accounts": {
+            "section_title": "Nâng tầm giao dịch của bạn với Tài khoản",
+            "sub_title": "Tài khoản",
+            "professional_account": {
+                "title": "Tài khoản chuyên nghiệp",
+                "description": "Các nhà giao dịch với tài khoản chuyên nghiệp được hưởng nhiều lợi ích, bao gồm cả các nền tảng giao dịch nâng cao."
+            },
+            "demo_account": {
+                "title": "Tài khoản demo",
+                "description": "Tài khoản demo giao dịch đặc biệt có giá trị đối với những nhà giao dịch mới bắt đầu bước chân vào thế giới đầu tư."
+            },
+            "features": {
+                "trade_anywhere": "Giao dịch chỉ với một cú chạm, ở bất cứ đâu, bất cứ lúc nào",
+                "manage_portfolio": "Quản lý tài khoản và danh mục đầu tư của bạn một cách liền mạch",
+                "real_time_charts": "Luôn dẫn đầu với biểu đồ và chỉ báo theo thời gian thực"
+            }
+        },
+        "Team": {
+            "section_title": "Đội ngũ tài năng của chúng tôi",
+            "sub_title": "Đội ngũ chuyên gia của chúng tôi",
+            "members": {
+                "olivia_quinn": {
+                    "name": "Olivia Quinn",
+                    "designation": "Nhà giao dịch Forex"
+                },
+                "nathan_hayes": {
+                    "name": "Nathan Hayes",
+                    "designation": "Tư vấn viên"
+                },
+                "ava_jensen": {
+                    "name": "Ava Jensen",
+                    "designation": "Trợ lý giao dịch"
+                },
+                "sophia_knight": {
+                    "name": "Sophia Knight",
+                    "designation": "Chủ tịch giao dịch"
+                },
+                "ethan_brooks": {
+                    "name": "Ethan Brooks",
+                    "designation": "Điều phối viên Marketing"
+                },
+                "aronic_kehan": {
+                    "name": "Aronic Kehan",
+                    "designation": "Trợ lý kinh doanh"
+                }
+            }
+        },
+        "Apps": {
+            "section_title": "Tải ứng dụng giao dịch",
+            "sub_title": "Tải ứng dụng",
+            "description": "Chúng tôi sử dụng cookie để hiểu cách bạn sử dụng trang web và mang đến cho bạn trải nghiệm tốt nhất.",
+            "download_buttons": {
+                "app_store": {
+                    "text": "Tải trên App Store",
+                    "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+                },
+                "google_play": {
+                    "text": "Tải trên Google Play",
+                    "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+                }
+            }
+        },
+        "Testimonials": {
+            "section_title": "Lời khen ngợi từ khách hàng",
+            "sub_title": "Đánh giá",
+            "testimonial_1": {
+                "quote": "Nhà đầu tư tiền mã hóa giúp cho đầu tư của tôi trở nên hiệu quả và thú vị",
+                "description": "Lướt qua làn sóng tài chính với ứng dụng giao dịch hàng đầu, được thiết kế để mang sức mạnh của thị trường vào lòng bàn tay bạn. Ứng dụng tiên tiến của chúng tôi kết hợp các tính năng tinh vi ở bất cứ đâu."
+            }
+        }
+    },
+    "Market": {
+        "Platforms": {
+            "section_title": "Nền tảng giao dịch",
+            "sub_title": "Nền tảng",
+            "app": {
+                "title": "Ứng dụng",
+                "description": "Lướt qua làn sóng tài chính với ứng dụng giao dịch của nền tảng TEDA, được thiết kế để mang sức mạnh của thị trường vào tay bạn. Ứng dụng tiên tiến của chúng tôi kết hợp các tính năng phức tạp với thiết kế thân thiện với người dùng, cho phép các nhà giao dịch ở mọi cấp độ nắm bắt cơ hội thị trường bất cứ lúc nào, ở bất cứ đâu.",
+                "features": [
+                    "Giao dịch chỉ với một cú chạm, ở bất cứ đâu, bất cứ lúc nào",
+                    "Quản lý tài khoản và danh mục đầu tư của bạn một cách liền mạch",
+                    "Luôn dẫn đầu với biểu đồ và chỉ báo theo thời gian thực",
+                    "Giao dịch tự tin với bảo mật mã hóa"
+                ]
+            },
+            "teda_copy": {
+                "title": "TEDA Copy",
+                "description": "Lướt qua làn sóng tài chính với ứng dụng giao dịch hàng đầu của FXT, được thiết kế để mang sức mạnh của thị trường vào lòng bàn tay bạn. Ứng dụng tiên tiến của chúng tôi kết hợp các tính năng tinh vi với thiết kế thân thiện với người dùng, cho phép các nhà giao dịch ở mọi cấp độ nắm bắt cơ hội thị trường bất cứ lúc nào, ở bất cứ đâu.",
+                "features": [
+                    "Giao dịch chỉ với một cú chạm, ở bất cứ đâu, bất cứ lúc nào",
+                    "Quản lý tài khoản và danh mục đầu tư của bạn một cách liền mạch",
+                    "Luôn dẫn đầu với biểu đồ và chỉ báo theo thời gian thực",
+                    "Giao dịch tự tin với bảo mật mã hóa"
+                ]
+            },
+            "tab_buttons": {
+                "webtrader": "TEDA Webtrader",
+                "mt4_mt": "MT4/MT",
+                "copy": "TEDA Copy"
+            }
+        },
+        "Range": {
+            "title": "Sản phẩm của chúng tôi",
+            "subtitle": "Phạm vi thị trường của chúng tôi",
+            "markets": {
+                "forex": {
+                    "title": "Giao dịch Forex",
+                    "button": "Giao dịch Forex"
+                },
+                "indices": {
+                    "title": "Chỉ số",
+                    "button": "Giao dịch Forex"
+                },
+                "cryptocurrencies": {
+                    "title": "Tiền mã hóa",
+                    "button": "Giao dịch Forex"
+                },
+                "commodities": {
+                    "title": "Hàng hóa",
+                    "button": "Giao dịch Forex"
+                }
+            }
+        },
+        "Apps": {
+            "title": "Tải ứng dụng",
+            "subtitle": "Tải ứng dụng giao dịch",
+            "description": "Chúng tôi sử dụng cookie để hiểu cách bạn sử dụng trang web và mang đến cho bạn trải nghiệm tốt nhất.",
+            "download_links": {
+                "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+            }
+        }
+    },
+    "Market_Details": {
+        "Details": {
+            "title": "Giao dịch ngay",
+            "subtitle": "Chênh lệch và Swap trên thị trường",
+            "tabs": {
+                "cryptocurrency": "Tiền mã hóa",
+                "indices": "Chỉ số",
+                "metals": "Kim loại",
+                "forex": "Forex",
+                "commodities": "Hàng hóa"
+            },
+            "table_headers": {
+                "markets": "Thị trường",
+                "bid": "Giá mua",
+                "ask": "Giá bán",
+                "action": "Hành động",
+                "spread": "Chênh lệch"
+            },
+            "no_data_messages": {
+                "forex": "Không có dữ liệu Forex",
+                "commodities": "Không có dữ liệu Hàng hóa"
+            }
+        },
+        "Process": {
+            "about_us": "Về chúng tôi",
+            "reputation": "Danh tiếng của chúng tôi được xây dựng trên",
+            "experience": "Kinh nghiệm",
+            "who_we_are": {
+                "title": "Chúng tôi là ai",
+                "description": "Là một công ty môi giới hoặc nền tảng giao dịch, chúng tôi cam kết cung cấp dịch vụ giao dịch sáng tạo và dễ sử dụng."
+            },
+            "what_we_do": {
+                "title": "Chúng tôi làm gì",
+                "description": "Chúng tôi là một nền tảng giao dịch forex chuyên nghiệp, cam kết cung cấp dịch vụ đầu tư forex toàn diện. Với sự hỗ trợ của công nghệ tiên tiến, môi trường giao dịch an toàn và sự bao phủ toàn cầu, chúng tôi cung cấp cho khách hàng các công cụ giao dịch linh hoạt và dịch vụ khách hàng chất lượng cao giúp họ đạt được sự tăng trưởng ổn định trên thị trường forex."
+            },
+            "how_it_works": {
+                "title": "Cách thức hoạt động",
+                "description": "Thông qua phân tích sâu sắc và hướng dẫn chiến lược chính xác, chúng tôi giúp khách hàng đưa ra quyết định thông minh trong môi trường thị trường phức tạp, tối đa hóa lợi nhuận đầu tư. Mục tiêu của chúng tôi là cung cấp các giải pháp thực tiễn cho từng khách hàng, giúp họ duy trì lợi thế cạnh tranh trong một ngành công nghiệp ngày càng khốc liệt."
+            }
+        }
+    },
+    "Account_Details": {
+        "title": "Chi tiết tài khoản",
+        "professional_account": "Tài khoản chuyên nghiệp",
+        "professional_account_description": "Các nhà giao dịch với tài khoản chuyên nghiệp được hưởng một loạt các lợi ích",
+        "demo_account": "Tài khoản demo",
+        "demo_account_description": "Tài khoản demo giao dịch đặc biệt có giá trị đối với những người mới bắt đầu",
+        "account_overview": "Các tài khoản giao dịch có thể được phân loại thành tài khoản chuyên nghiệp và tài khoản demo dựa trên nhu cầu giao dịch và kinh nghiệm thị trường của các nhà đầu tư. Tài khoản chuyên nghiệp được thiết kế cho các nhà giao dịch có kinh nghiệm, cung cấp tốc độ thực hiện giao dịch nhanh hơn, thanh khoản thị trường sâu hơn và điều kiện giao dịch linh hoạt hơn để hỗ trợ việc thực hiện các chiến lược hiệu quả. Ngược lại, tài khoản demo cho phép nhà đầu tư thử nghiệm các chiến lược giao dịch, làm quen với biến động thị trường và nâng cao kỹ năng giao dịch của họ trong môi trường không rủi ro. Mỗi tài khoản giao dịch được gán một số nhận dạng duy nhất bởi công ty môi giới hoặc tổ chức tài chính, được sử dụng cho tất cả các giao dịch, thanh toán quỹ và hỗ trợ khách hàng liên quan đến tài khoản đó, đảm bảo an ninh và minh bạch.",
+        "professional_account_info": "Thông tin Tài khoản chuyên nghiệp",
+        "info_list": {
+            "initial_deposit": "Số tiền gửi ban đầu",
+            "leverage": "Đòn bẩy",
+            "spread": "Chênh lệch",
+            "multi_language_cc": "Hỗ trợ đa ngôn ngữ",
+            "order_volume": "Khối lượng lệnh",
+            "support": "Hỗ trợ 24/7",
+            "friendly_expert": "Thân thiện & Chuyên nghiệp",
+            "award_winner": "Người nhận giải thưởng"
+        },
+        "info_values": {
+            "initial_deposit": "$1000",
+            "leverage": "Lên đến 1:400",
+            "spread": "Cố định từ 5 pips",
+            "multi_language_cc": "Có",
+            "order_volume": "0.01 – 500 lô",
+            "support": "Có",
+            "friendly_expert": "Có",
+            "award_winner": "Phần thưởng lớn"
+        },
+        "benefits_title": "Lợi ích",
+        "benefits": {
+            "portfolio_diversification": "Đa dạng hóa danh mục đầu tư",
+            "access_global_markets": "Truy cập thị trường toàn cầu",
+            "flexibility_control": "Tính linh hoạt và kiểm soát",
+            "potential_profit": "Tiềm năng sinh lời"
         }
     }
 }
