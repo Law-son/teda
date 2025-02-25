@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+        "home": "Ana Sayfa",
+        "trading": "Ticaret",
+        "platform": "Platform",
+        "market": "Piyasa",
+        "marketsPlace": "Piyasalar Yeri",
+        "marketsDetails": "Piyasa Detayları",
+        "aboutUs": "Hakkımızda",
+        "contact": "İletişim"
+    },
     "Home": {
         "Hero": {
-            "Title": "Next.js Internalization Demo",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+            "title": "Herkes İçin Ticaret. Her Yerde. Her Zaman.",
+            "description": "Geniş enstrüman yelpazesiyle ticaret yapın. Forex, Borsa Endeksleri CFD'leri, Emtialar, Hisse Senetleri, Metaller ve Enerjiler."
+        },
+        "Trading_Accounts": {
+            "sectionTitle": "Ticaret Hesapları",
+            "subTitle": "Hesap",
+            "questions": {
+                "who_we_are": {
+                    "title": "Biz Kimiz",
+                    "answer": "Bir komisyoncu firması veya ticaret platformu olarak, yenilikçi ve kullanıcı dostu ticarete adanmış durumdayız."
+                },
+                "what_we_do": {
+                    "title": "Ne Yapıyoruz",
+                    "answer": "Kapsamlı forex yatırım hizmetleri sunmaya adanmış profesyonel bir forex ticaret platformuyuz. Gelişmiş teknolojik destek, güvenli ticaret ortamı ve küresel piyasa erişimi ile, müşterilerimizin forex piyasasında istikrarlı büyüme elde etmelerine yardımcı olmak için esnek ticaret araçları ve yüksek kaliteli müşteri hizmetleri sunuyoruz."
+                },
+                "how_it_works": {
+                    "title": "Nasıl Çalışır",
+                    "answer": "Derinlemesine analiz ve hassas stratejik rehberlik yoluyla, müşterilerimizin karmaşık piyasa ortamlarında bilinçli kararlar almasına yardımcı oluyor, yatırım getirilerini maksimize ediyoruz. Amacımız, her müşteriye pratik çözümler sunarak, giderek rekabetçi hale gelen sektörlerde lider pozisyonlarını korumalarına yardımcı olmaktır."
+                }
+            }
+        },
+        "Account": {
+            "sectionTitle": "Ticaret Hesapları",
+            "subTitle": "Hesap",
+            "professionalAccount": {
+                "title": "Profesyonel Hesap",
+                "description": "Profesyonel hesaplara sahip tacirler, gelişmiş ticaret platformları dahil olmak üzere geniş bir yelpazede avantajlara erişim sağlar."
+            },
+            "demoAccount": {
+                "title": "Demo Hesap",
+                "description": "Yatırım dünyasına yeni adım atan tacirler için ticaret demo hesapları özellikle değerlidir."
+            }
+        },
+        "Funfact": {
+            "countries": {
+                "count": "150+",
+                "label": "Ülke",
+                "description": "Ticaret politikaları ve anlaşmaları, ülkelerin ticaret ortamını şekillendirir."
+            },
+            "investment": {
+                "count": "40+",
+                "label": "Milyon Yatırım",
+                "description": "Ticarette bir milyon dolar yatırım yapmak önemli bir fırsatı temsil eder."
+            },
+            "awards": {
+                "count": "90+",
+                "label": "Ödüller",
+                "description": "Ticaret ödülleri, finans sektöründeki mükemmeliyeti ve başarıyı tanır."
+            }
+        },
+        "ThingsWeTrade": {
+            "sectionTitle": "Ticaret Yaptığımız Ürünler",
+            "subTitle": "Ticaret Platformları",
+            "crypto": {
+                "title": "Kripto Ticaret",
+                "buttonText": "Hemen Ticarete Başla"
+            },
+            "shares": {
+                "title": "Hisse Senedi Ticareti",
+                "buttonText": "Hemen Ticarete Başla"
+            },
+            "gold": {
+                "title": "Altın Ticareti",
+                "buttonText": "Hemen Ticarete Başla"
+            },
+            "currency": {
+                "title": "Döviz Ticareti",
+                "buttonText": "Hemen Ticarete Başla"
+            },
+            "silver": {
+                "title": "Gümüş Ticareti",
+                "buttonText": "Hemen Ticarete Başla"
+            }
+        },
+        "Process": {
+            "sectionTitle": "Süreç",
+            "subTitle": "Nasıl Çalışır",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "Kaydol, Ücretsiz!",
+                    "description": "Ekibimiz hesabınızı oluşturacak ve kullanımı kolay web kontrol panelinizi kurmanıza yardımcı olacaktır."
+                },
+                {
+                    "step": "2",
+                    "title": "En İyi Fırsatları Bul ve Yatırım Yap",
+                    "description": "Sadece birkaç tıklama ile %1-100 arası açılışlarla her yerden ticaret yapın. Kendi ayarlarınızı özelleştirin."
+                },
+                {
+                    "step": "3",
+                    "title": "Kârınızı Geri Alın",
+                    "description": "Profesyonel teknik analiz ve hassas ticaret stratejilerine dayanarak, piyasa fırsatlarını yakalamanıza, risk yönetimini optimize etmenize, ticaret verimliliğinizi artırmanıza ve sürekli kârlılık elde etmenize yardımcı oluyoruz."
+                }
+            ]
+        },
+        "Award": {
+            "sectionTitle": "EN İYİLER TARAFINDAN ÖDÜLLENDİ",
+            "subTitle": "Küresel Olarak Ödüllendirildi",
+            "awards": [
+                {
+                    "year": "2023",
+                    "title": "En İyi Ticaret Platformu, Birleşik Krallık",
+                    "timesAwarded": "x1"
+                },
+                {
+                    "year": "2022",
+                    "title": "En İyi Ticaret Platformu, Birleşik Krallık",
+                    "timesAwarded": "x4"
+                },
+                {
+                    "year": "2018",
+                    "title": "En İyi Ticaret Platformu, Londra",
+                    "timesAwarded": "x4"
+                }
+            ]
+        },
+        "Apps": {
+            "sectionTitle": "Uygulamayı İndir",
+            "subTitle": "Ticaret Uygulamasını İndir",
+            "description": "Sitemizi nasıl kullandığınızı anlamak ve size en iyi deneyimi sunmak için çerezler kullanıyoruz.",
+            "downloadLinks": {
+                "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+                "web": "https://pc.tedafx.com/"
+            }
+        }
+    },
+    "Footer": {
+        "trading": "Ticaret",
+        "platforms": "Platformlar",
+        "market": "Piyasa",
+        "market_place": "Piyasa Yeri",
+        "market_details": "Piyasa Detayları",
+        "about": "Hakkında",
+        "about_us": "Hakkımızda",
+        "contact": "İletişim",
+        "contact_us": "Bizimle İletişime Geçin",
+        "company_info": "TEDA Global Limited, Amerika Birleşik Devletleri'nde Para Hizmetleri İşletmesi (MSB) tarafından düzenlenen, 31000280102867 kayıt numaralı bir şirkettir. Kayıtlı ofisi 7 Copperfield Road, Coventry, West Midlands, England, CV2 4AQ adresinde bulunmaktadır.",
+        "company_description": "TEDA, döviz çiftleri, enerjiler, emtialar ve endeksler üzerindeki CFD'ler dahil olmak üzere çeşitli finansal enstrümanları içeren geniş bir ticaret seçeneği sunar. Ana hedefimiz, müşterilerimizin ticaret ve yatırım ihtiyaçlarına uygun hizmetler sunmaktır. Müşteri odaklı iş modelimizle, müşterilerimizin geri bildirimleri ve talepleri doğrultusunda sunduğumuz hizmetleri sürekli olarak geliştirmeye kararlıyız.",
+        "copyright": "Telif Hakkı {year}",
+        "rights_reserved": "Tüm Hakları Saklıdır."
+    },
+    "Platforms": {
+        "About": {
+            "platforms": "Platformlar",
+            "trading_platforms": "Ticaret Platformları",
+            "tabs": {
+                "application": "Uygulama",
+                "web": "Web",
+                "fbs_personal_area": "FBS Kişisel Alanı"
+            },
+            "content": {
+                "app": {
+                    "title": "Uygulama",
+                    "description": "Piyasa gücünü avucunuzda hissetmenizi sağlayan birinci sınıf ticaret uygulamasıyla finansal dalgaları yönetin."
+                },
+                "web": {
+                    "title": "Web",
+                    "description": "Piyasa kontrolünüzü elinizde tutmanızı sağlayan üst düzey bir ticaret platformuyla finansal dalgaları aşın."
+                },
+                "fbs_personal_area": {
+                    "title": "FBS Kişisel Alanı",
+                    "description": "Piyasanın gücünü ellerinizde hissetmenizi sağlayan seçkin ticaret uygulamasıyla finansal dalgaları yönetin."
+                }
+            }
+        },
+        "Main": {
+            "learn_more": "Daha Fazla Bilgi",
+            "what_is_trading": "Ticaret Nedir",
+            "financial_markets": {
+                "title": "Finansal Piyasalar",
+                "description_1": "Finansal piyasalar, küresel sermaye akışının temelidir ve hisse senetleri, forex ve emtialar arasında çeşitli ticaret fırsatları sunar. Platformumuz, gerçek zamanlı fiyat keşfi, derin likidite erişimi ve gelişmiş işlem teknolojisi ile tacirlerin ve yatırımcıların son derece rekabetçi bir ortamda maksimum verimlilikle çalışmalarını sağlar.",
+                "description_2": "İster tecrübeli bir kurumsal tacir olun, ister gelişmekte olan bir piyasa katılımcısı; en son analitik araçlarımız, yapay zeka destekli öngörülerimiz ve risk yönetimi çözümlerimiz sayesinde veriye dayalı kararlar alabilirsiniz."
+            },
+            "what_is_forex": {
+                "title": "Forex Nedir",
+                "description_1": "Hangi TEDA platformunun size uygun olduğundan emin değilseniz, tüm farkları gösterecek kullanışlı platform karşılaştırma tablomuzu inceleyin.",
+                "description_2": "Tüm farkları gösterecek kullanışlı platform karşılaştırma tablomuzu inceleyin."
+            },
+            "tools_overview": {
+                "title": "Araçlar Genel Bakış",
+                "description_1": "Hangi TEDA platformunun size uygun olduğundan emin değilseniz, tüm farkları gösterecek kullanışlı platform karşılaştırma tablomuzu inceleyin.",
+                "description_2": "Tüm farkları gösterecek kullanışlı platform karşılaştırma tablomuzu inceleyin."
+            },
+            "platform_comparison": {
+                "title": "Platform Karşılaştırması",
+                "description_1": "Hangi TEDA platformunun size uygun olduğundan emin değilseniz, tüm farkları gösterecek kullanışlı platform karşılaştırma tablomuzu inceleyin.",
+                "description_2": "Tüm farkları gösterecek kullanışlı platform karşılaştırma tablomuzu inceleyin."
+            }
+        },
+        "Apps": {
+            "download_app": "Uygulamayı İndir",
+            "download_trading_app": "Ticaret Uygulamasını İndir",
+            "cookie_notice": "Sitemizi nasıl kullandığınızı anlamak ve size en iyi deneyimi sunmak için çerezler kullanıyoruz.",
+            "download_on": "İndir",
+            "app_store": "App Store",
+            "get_it_on": "Edinin",
+            "google_play": "Google Play",
+            "access_on": "Erişin",
+            "web": "Web"
+        },
+        "Accounts": {
+            "title": "Hesaplar",
+            "level_up_trading": "Hesap ile ticaretinizi geliştirin",
+            "trade_anywhere": "Her yerde, her zaman tek dokunuşla ticaret yapın",
+            "manage_portfolio": "Hesabınızı ve portföyünüzü sorunsuzca yönetin",
+            "real_time_charts": "Gerçek zamanlı grafikler ve göstergelerle önde olun",
+            "professional_account": "Profesyonel Hesap",
+            "professional_account_description": "Profesyonel hesaplara sahip tacirler, gelişmiş ticaret platformları dahil olmak üzere geniş avantajlara erişim sağlar.",
+            "demo_account": "Demo Hesap",
+            "demo_account_description": "Yatırım dünyasına yeni başlayan tacirler için ticaret demo hesapları özellikle değerlidir."
+        }
+    },
+    "About": {
+        "AboutUs": {
+            "title": "Hakkımızda",
+            "reputation_experience": "İtibarımızın temeli",
+            "experience": "Deneyim",
+            "who_we_are": "Biz Kimiz",
+            "who_we_are_description": "Kripto para yatırımlarına tutkulu uzmanlardan oluşan bir ekip, bireylerin ve işletmelerin dijital varlık alanında başarılı olmalarına yardımcı olmaya adanmıştır.",
+            "what_we_do": "Ne Yaparız",
+            "what_we_do_description": "Müşterilerimizin bilinçli kararlar almasına ve sürekli değişen kripto piyasasında getirilerini maksimize etmesine yardımcı olmak için stratejik rehberlik ve içgörüler sunuyoruz.",
+            "how_it_works": "Nasıl Çalışır",
+            "how_it_works_description": "Veri odaklı analiz ve kişiye özel stratejilerle, karlı fırsatları belirleyip riskleri optimize ederek müşterilerimizin kripto portföylerini büyütüyoruz."
+        },
+        "FunFact": {
+            "clients_worldwide": {
+                "value": "M+",
+                "description": "Dünya Çapında Müşteriler"
+            },
+            "satisfied_clients": {
+                "value": "%",
+                "description": "Memnun Müşteriler"
+            },
+            "money_invested": {
+                "value": "M+",
+                "description": "Yatırılan Para"
+            },
+            "expert_traders": {
+                "value": "+",
+                "description": "Uzman Tüccarlar"
+            }
+        },
+        "CTA": {
+            "headline": "Daha az ödeyin, düşük fiyatlar ve şeffaf ücretlerle işlem yapın"
+        },
+        "Accounts": {
+            "section_title": "Hesap ile ticaretinizi bir üst seviyeye taşıyın",
+            "sub_title": "Hesaplar",
+            "professional_account": {
+                "title": "Profesyonel Hesap",
+                "description": "Profesyonel hesaplara sahip işlemciler, geliştirilmiş ticaret platformları dahil olmak üzere geniş bir avantaj yelpazesine erişim sağlar."
+            },
+            "demo_account": {
+                "title": "Demo Hesap",
+                "description": "Ticaret demo hesapları, yatırım dünyasına yeni adım atan acemi işlemciler için özellikle değerlidir."
+            },
+            "features": {
+                "trade_anywhere": "Her yerden, her zaman tek dokunuşla işlem yapın",
+                "manage_portfolio": "Hesabınızı ve portföyünüzü sorunsuzca yönetin",
+                "real_time_charts": "Gerçek zamanlı grafikler ve göstergelerle önde kalın"
+            }
+        },
+        "Team": {
+            "section_title": "Yetenekli Takım Üyelerimiz",
+            "sub_title": "Uzman ekibimiz",
+            "members": {
+                "olivia_quinn": {
+                    "name": "Olivia Quinn",
+                    "designation": "Forex İşlemcisi"
+                },
+                "nathan_hayes": {
+                    "name": "Nathan Hayes",
+                    "designation": "Danışman"
+                },
+                "ava_jensen": {
+                    "name": "Ava Jensen",
+                    "designation": "İşlem Asistanı"
+                },
+                "sophia_knight": {
+                    "name": "Sophia Knight",
+                    "designation": "Ticaret Başkanı"
+                },
+                "ethan_brooks": {
+                    "name": "Ethan Brooks",
+                    "designation": "Pazarlama Koordinatörü"
+                },
+                "aronic_kehan": {
+                    "name": "Aronic Kehan",
+                    "designation": "İş Asistanı"
+                }
+            }
+        },
+        "Apps": {
+            "section_title": "Ticaret Uygulamasını İndir",
+            "sub_title": "Uygulamayı İndir",
+            "description": "Web sitemizi nasıl kullandığınızı anlamak ve size en iyi deneyimi sunmak için çerezleri kullanıyoruz.",
+            "download_buttons": {
+                "app_store": {
+                    "text": "App Store'dan İndir",
+                    "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+                },
+                "google_play": {
+                    "text": "Google Play'de Edinin",
+                    "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+                }
+            }
+        },
+        "Testimonials": {
+            "section_title": "Müşterilerden Gelen Sevgi",
+            "sub_title": "Müşteri Yorumları",
+            "testimonial_1": {
+                "quote": "Kripto yatırımcısı, yatırım süreçlerimi verimli ve keyifli hale getiriyor",
+                "description": "Piyasaların gücünü elinize getirmek için tasarlanmış birinci sınıf ticaret uygulaması ile finansal dalgaları yönetin. Son teknoloji uygulamamız, her yerde sofistike işlevselliği bir araya getiriyor."
+            }
+        }
+    },
+    "Market": {
+        "Platforms": {
+            "section_title": "Ticaret Platformları",
+            "sub_title": "Platformlar",
+            "app": {
+                "title": "Uygulama",
+                "description": "TEDA platformunun ticaret uygulaması ile finansal dalgaları yönetin, piyasaların gücünü elinize getirmek için tasarlanmıştır. Son teknoloji uygulamamız, karmaşık özellikleri kullanıcı dostu bir tasarımla birleştirerek her seviyeden işlemcinin her an, her yerde piyasa fırsatlarını değerlendirmesine olanak tanır.",
+                "features": [
+                    "Her yerden, her zaman tek dokunuşla işlem yapın",
+                    "Hesabınızı ve portföyünüzü sorunsuzca yönetin",
+                    "Gerçek zamanlı grafikler ve göstergelerle önde kalın",
+                    "Şifrelenmiş güvenlikle güvenle işlem yapın"
+                ]
+            },
+            "teda_copy": {
+                "title": "TEDA Copy",
+                "description": "FXT’nin birinci sınıf ticaret uygulaması ile finansal dalgaları yönetin, piyasaların gücünü avucunuza getirmek için tasarlanmıştır. Son teknoloji uygulamamız, sofistike işlevselliği kullanıcı dostu tasarımla harmanlayarak her seviyeden işlemcinin her an, her yerde piyasa fırsatlarını değerlendirmesine olanak tanır.",
+                "features": [
+                    "Her yerden, her zaman tek dokunuşla işlem yapın",
+                    "Hesabınızı ve portföyünüzü sorunsuzca yönetin",
+                    "Gerçek zamanlı grafikler ve göstergelerle önde kalın",
+                    "Şifrelenmiş güvenlikle güvenle işlem yapın"
+                ]
+            },
+            "tab_buttons": {
+                "webtrader": "TEDA Webtrader",
+                "mt4_mt": "MT4/MT",
+                "copy": "TEDA Copy"
+            }
+        },
+        "Range": {
+            "title": "Piyasa Yelpazemiz",
+            "subtitle": "Piyasalarımızın Çeşitliliği",
+            "markets": {
+                "forex": {
+                    "title": "Forex Ticareti Yapın",
+                    "button": "Forex Ticareti"
+                },
+                "indices": {
+                    "title": "Endeksler",
+                    "button": "Forex Ticareti"
+                },
+                "cryptocurrencies": {
+                    "title": "Kripto Paralar",
+                    "button": "Forex Ticareti"
+                },
+                "commodities": {
+                    "title": "Emtialar",
+                    "button": "Forex Ticareti"
+                }
+            }
+        },
+        "Apps": {
+            "title": "Uygulamayı İndir",
+            "subtitle": "Ticaret Uygulamasını İndir",
+            "description": "Web sitemizi nasıl kullandığınızı anlamak ve size en iyi deneyimi sunmak için çerezleri kullanıyoruz.",
+            "download_links": {
+                "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+            }
+        }
+    },
+    "Market_Details": {
+        "Details": {
+            "title": "Hemen İşlem Yapın",
+            "subtitle": "Piyasa Spreadleri ve Swapları",
+            "tabs": {
+                "cryptocurrency": "Kripto Para",
+                "indices": "Endeksler",
+                "metals": "Metaller",
+                "forex": "Forex",
+                "commodities": "Emtialar"
+            },
+            "table_headers": {
+                "markets": "Piyasalar",
+                "bid": "Alış",
+                "ask": "Satış",
+                "action": "İşlem",
+                "spread": "Spread"
+            },
+            "no_data_messages": {
+                "forex": "Forex verisi mevcut değil",
+                "commodities": "Emtia verisi mevcut değil"
+            }
+        },
+        "Process": {
+            "about_us": "Hakkımızda",
+            "reputation": "İtibarımızın temeli",
+            "experience": "Deneyim",
+            "who_we_are": {
+                "title": "Biz Kimiz",
+                "description": "Bir aracılık firması veya ticaret platformu olarak, yenilikçi ve kullanıcı dostu ticaret hizmetleri sunmaya adanmış durumdayız."
+            },
+            "what_we_do": {
+                "title": "Ne Yaparız",
+                "description": "Kapsamlı forex yatırım hizmetleri sunmaya adanmış profesyonel bir forex ticaret platformuyuz. Gelişmiş teknolojik destek, güvenli ticaret ortamı ve küresel piyasa erişimi ile müşterilerimize esnek ticaret araçları ve yüksek kaliteli müşteri hizmetleri sunarak forex piyasasında istikrarlı büyümelerine yardımcı oluyoruz."
+            },
+            "how_it_works": {
+                "title": "Nasıl Çalışır",
+                "description": "Derinlemesine analiz ve hassas stratejik rehberlik sayesinde, karmaşık piyasa ortamında müşterilerimizin bilinçli kararlar almasına ve yatırım getirilerini maksimize etmelerine yardımcı oluyoruz. Amacımız, her müşteriye pratik çözümler sunarak, giderek rekabetin arttığı sektörde rekabet avantajlarını korumalarına yardımcı olmaktır."
+            }
+        }
+    },
+    "Account_Details": {
+        "title": "Hesap Detayları",
+        "professional_account": "Profesyonel Hesap",
+        "professional_account_description": "Profesyonel hesaplara sahip işlemciler geniş bir yelpazeye erişim sağlar",
+        "demo_account": "Demo Hesap",
+        "demo_account_description": "Ticaret demo hesapları, acemi işlemciler için özellikle değerlidir",
+        "account_overview": "Ticaret hesapları, yatırımcıların ticaret ihtiyaçları ve piyasa deneyimlerine bağlı olarak profesyonel hesaplar ve demo hesaplar olarak kategorize edilebilir. Profesyonel hesaplar, deneyimli işlemciler için tasarlanmış olup, daha hızlı işlem gerçekleştirme, daha derin piyasa likiditesi ve daha esnek ticaret koşulları sunarak verimli stratejilerin uygulanmasını kolaylaştırır. Öte yandan, demo hesaplar yatırımcıların ticaret stratejilerini test etmelerine, piyasa dalgalanmalarına aşina olmalarına ve risk içermeyen bir ortamda ticaret becerilerini geliştirmelerine olanak tanır. Her ticaret hesabına, güvenlik ve şeffaflık sağlamak amacıyla, aracı kurum veya finans kuruluşu tarafından tüm işlemler, fon ödemeleri ve müşteri desteği için kullanılan benzersiz bir kimlik numarası atanır.",
+        "professional_account_info": "Profesyonel Hesap Bilgileri",
+        "info_list": {
+            "initial_deposit": "İlk Mevduat",
+            "leverage": "Kaldıraç",
+            "spread": "Spread",
+            "multi_language_cc": "Çok Dilli CC",
+            "order_volume": "Emir Hacmi",
+            "support": "24/7 Destek",
+            "friendly_expert": "Samimi & Uzman",
+            "award_winner": "Ödül Sahibi"
+        },
+        "info_values": {
+            "initial_deposit": "$1000",
+            "leverage": "1:400'e Kadar",
+            "spread": "5 pis'den başlayan sabit",
+            "multi_language_cc": "Evet",
+            "order_volume": "0.01 – 500 lot",
+            "support": "Evet",
+            "friendly_expert": "Evet",
+            "award_winner": "Büyük Bonus"
+        },
+        "benefits_title": "Faydalar",
+        "benefits": {
+            "portfolio_diversification": "Portföy Çeşitlendirmesi",
+            "access_global_markets": "Küresel Piyasalara Erişim",
+            "flexibility_control": "Esneklik ve Kontrol",
+            "potential_profit": "Kâr Potansiyeli"
         }
     }
 }

@@ -1,9 +1,470 @@
 {
+    "Navbar": {
+        "home": "Início",
+        "trading": "Negociação",
+        "platform": "Plataforma",
+        "market": "Mercado",
+        "marketsPlace": "Mercado",
+        "marketsDetails": "Detalhes do Mercado",
+        "aboutUs": "Sobre Nós",
+        "contact": "Contato"
+    },
     "Home": {
         "Hero": {
-            "Title": "Next.js Internalization Demo",
-            "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-            "CallToAction": "Read about us"
+            "title": "Negociação para Todos. Em Qualquer Lugar. A Qualquer Momento.",
+            "description": "Negocie com uma ampla gama de instrumentos. Forex, CFDs sobre Índices de Ações, Commodities, Ações, Metais e Energias."
+        },
+        "Trading_Accounts": {
+            "sectionTitle": "Contas de Negociação",
+            "subTitle": "Conta",
+            "questions": {
+                "who_we_are": {
+                    "title": "Quem Somos",
+                    "answer": "Como uma corretora ou plataforma de negociação, estamos comprometidos em oferecer serviços de negociação inovadores e fáceis de usar."
+                },
+                "what_we_do": {
+                    "title": "O que Fazemos",
+                    "answer": "Somos uma plataforma de negociação de forex profissional dedicada a fornecer serviços abrangentes de investimento em forex. Com suporte tecnológico avançado, um ambiente de negociação seguro e cobertura global de mercado, oferecemos ferramentas de negociação flexíveis e um atendimento ao cliente de alta qualidade para ajudar os clientes a alcançar um crescimento constante no mercado de forex."
+                },
+                "how_it_works": {
+                    "title": "Como Funciona",
+                    "answer": "Através de análises aprofundadas e orientações estratégicas precisas, ajudamos os clientes a tomar decisões informadas em ambientes de mercado complexos, maximizando seu retorno sobre o investimento. Nosso objetivo é fornecer a cada cliente soluções práticas, ajudando-os a manter uma posição de liderança em indústrias cada vez mais competitivas."
+                }
+            }
+        },
+        "Account": {
+            "sectionTitle": "Contas de Negociação",
+            "subTitle": "Conta",
+            "professionalAccount": {
+                "title": "Conta Profissional",
+                "description": "Operadores com contas profissionais têm acesso a uma ampla variedade de benefícios, incluindo plataformas de negociação aprimoradas."
+            },
+            "demoAccount": {
+                "title": "Conta Demo",
+                "description": "Contas demo de negociação são particularmente valiosas para operadores iniciantes que estão ingressando no mundo dos investimentos."
+            }
+        },
+        "Funfact": {
+            "countries": {
+                "count": "150+",
+                "label": "Países",
+                "description": "Políticas e acordos comerciais moldam o cenário de negociação dos países."
+            },
+            "investment": {
+                "count": "40+",
+                "label": "Milhões Investidos",
+                "description": "Investir um milhão de dólares em negociação representa uma oportunidade significativa."
+            },
+            "awards": {
+                "count": "90+",
+                "label": "Prêmios",
+                "description": "Prêmios de negociação reconhecem a excelência e as conquistas no setor financeiro."
+            }
+        },
+        "ThingsWeTrade": {
+            "sectionTitle": "Coisas que Negociamos",
+            "subTitle": "Plataformas de Negociação",
+            "crypto": {
+                "title": "Negociação de Criptomoedas",
+                "buttonText": "Comece a Negociar Agora"
+            },
+            "shares": {
+                "title": "Negociação de Ações",
+                "buttonText": "Comece a Negociar Agora"
+            },
+            "gold": {
+                "title": "Negociação de Ouro",
+                "buttonText": "Comece a Negociar Agora"
+            },
+            "currency": {
+                "title": "Negociação de Moedas",
+                "buttonText": "Comece a Negociar Agora"
+            },
+            "silver": {
+                "title": "Negociação de Prata",
+                "buttonText": "Comece a Negociar Agora"
+            }
+        },
+        "Process": {
+            "sectionTitle": "O Processo",
+            "subTitle": "Como Funciona",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "Cadastre-se, é Grátis!",
+                    "description": "Nossa equipe configurará sua conta e ajudará você a criar um painel web fácil de usar."
+                },
+                {
+                    "step": "2",
+                    "title": "Encontre as Melhores Ofertas e Invista",
+                    "description": "Crie e negocie em oportunidades de 1-100% com apenas alguns cliques. Personalize a sua experiência."
+                },
+                {
+                    "step": "3",
+                    "title": "Recupere seu Lucro",
+                    "description": "Baseando-se em análises técnicas profissionais e estratégias de negociação precisas, ajudamos a aproveitar as oportunidades de mercado, otimizar a gestão de riscos, melhorar a eficiência da negociação e recuperar de forma constante enquanto alcançamos rentabilidade contínua."
+                }
+            ]
+        },
+        "Award": {
+            "sectionTitle": "Premiado pelos Melhores",
+            "subTitle": "Premiado Globalmente",
+            "awards": [
+                {
+                    "year": "2023",
+                    "title": "A Melhor Plataforma de Negociação, Reino Unido",
+                    "timesAwarded": "x1"
+                },
+                {
+                    "year": "2022",
+                    "title": "A Melhor Plataforma de Negociação, Reino Unido",
+                    "timesAwarded": "x4"
+                },
+                {
+                    "year": "2018",
+                    "title": "A Melhor Plataforma de Negociação, Londres",
+                    "timesAwarded": "x4"
+                }
+            ]
+        },
+        "Apps": {
+            "sectionTitle": "Baixar App",
+            "subTitle": "Baixe o App de Negociação",
+            "description": "Utilizamos cookies para entender como você usa nosso site e oferecer a melhor experiência possível.",
+            "downloadLinks": {
+                "apple": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "android": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5",
+                "web": "https://pc.tedafx.com/"
+            }
+        }
+    },
+    "Footer": {
+        "trading": "Negociação",
+        "platforms": "Plataformas",
+        "market": "Mercado",
+        "market_place": "Mercado",
+        "market_details": "Detalhes do Mercado",
+        "about": "Sobre",
+        "about_us": "Sobre Nós",
+        "contact": "Contato",
+        "contact_us": "Fale Conosco",
+        "company_info": "A TEDA Global Limited é uma empresa regulada pelo Money Services Business (MSB) nos Estados Unidos, com o número de registro 31000280102867. Sua sede está localizada em 7 Copperfield Road, Coventry, West Midlands, Inglaterra, CV2 4AQ.",
+        "company_description": "A TEDA oferece uma seleção diversificada de instrumentos financeiros para negociação, incluindo CFDs de pares de moedas, energias, commodities e índices. Nosso objetivo principal é fornecer serviços acessíveis que atendam às necessidades de negociação e investimento de nossos clientes. Com um modelo de negócios focado no cliente, estamos comprometidos em aprimorar continuamente nossas ofertas com base no feedback e nas demandas dos clientes.",
+        "copyright": "Copyright {year}",
+        "rights_reserved": "Todos os Direitos Reservados."
+    },
+    "Platforms": {
+        "About": {
+            "platforms": "Plataformas",
+            "trading_platforms": "Plataformas de Negociação",
+            "tabs": {
+                "application": "Aplicativo",
+                "web": "Web",
+                "fbs_personal_area": "Área Pessoal FBS"
+            },
+            "content": {
+                "app": {
+                    "title": "Aplicativo",
+                    "description": "Navegue nas ondas financeiras com um aplicativo de negociação de primeira linha, projetado para colocar o poder dos mercados na sua palma."
+                },
+                "web": {
+                    "title": "Web",
+                    "description": "Surfe nas ondas financeiras com uma plataforma de negociação de alto nível, desenvolvida para lhe dar controle total dos mercados na ponta dos dedos."
+                },
+                "fbs_personal_area": {
+                    "title": "Área Pessoal FBS",
+                    "description": "Navegue pelas ondas financeiras com um aplicativo de negociação de elite, criado para colocar o poder do mercado diretamente em suas mãos."
+                }
+            }
+        },
+        "Main": {
+            "learn_more": "Saiba Mais",
+            "what_is_trading": "O que é Negociação",
+            "financial_markets": {
+                "title": "Mercados Financeiros",
+                "description_1": "Os mercados financeiros são a pedra angular dos fluxos de capital globais, oferecendo diversas oportunidades de negociação em ações, forex e commodities. Nossa plataforma proporciona descoberta de preços em tempo real, acesso a uma liquidez profunda e tecnologia avançada de execução, garantindo que operadores e investidores operem com máxima eficiência em um cenário altamente competitivo.",
+                "description_2": "Seja você um trader institucional experiente ou um participante de mercado em ascensão, nosso conjunto de ferramentas analíticas de ponta, insights impulsionados por IA e soluções de gestão de riscos permite que você tome decisões baseadas em dados com confiança."
+            },
+            "what_is_forex": {
+                "title": "O que é Forex",
+                "description_1": "Não tem certeza de qual é a plataforma TEDA certa para você? Confira nossa prática tabela de comparação de plataformas que mostrará todas as diferenças.",
+                "description_2": "Confira nossa prática tabela de comparação de plataformas que mostrará todas as diferenças."
+            },
+            "tools_overview": {
+                "title": "Visão Geral das Ferramentas",
+                "description_1": "Não tem certeza de qual é a plataforma TEDA certa para você? Confira nossa prática tabela de comparação de plataformas que mostrará todas as diferenças.",
+                "description_2": "Confira nossa prática tabela de comparação de plataformas que mostrará todas as diferenças."
+            },
+            "platform_comparison": {
+                "title": "Comparação de Plataformas",
+                "description_1": "Não tem certeza de qual é a plataforma TEDA certa para você? Confira nossa prática tabela de comparação de plataformas que mostrará todas as diferenças.",
+                "description_2": "Confira nossa prática tabela de comparação de plataformas que mostrará todas as diferenças."
+            }
+        },
+        "Apps": {
+            "download_app": "Baixar App",
+            "download_trading_app": "Baixar App de Negociação",
+            "cookie_notice": "Utilizamos cookies para entender como você usa nosso site e oferecer a melhor experiência possível.",
+            "download_on": "Baixar em",
+            "app_store": "App Store",
+            "get_it_on": "Obtenha em",
+            "google_play": "Google Play",
+            "access_on": "Acesse pelo",
+            "web": "Web"
+        },
+        "Accounts": {
+            "title": "Contas",
+            "level_up_trading": "Eleve sua negociação com uma Conta",
+            "trade_anywhere": "Negocie com um toque, em qualquer lugar, a qualquer momento",
+            "manage_portfolio": "Gerencie sua conta e portfólio de forma integrada",
+            "real_time_charts": "Fique à frente com gráficos e indicadores em tempo real",
+            "professional_account": "Conta Profissional",
+            "professional_account_description": "Operadores com contas profissionais têm acesso a uma ampla variedade de benefícios, incluindo plataformas de negociação aprimoradas.",
+            "demo_account": "Conta Demo",
+            "demo_account_description": "Contas demo de negociação são particularmente valiosas para operadores iniciantes que estão ingressando no mundo dos investimentos."
+        }
+    },
+    "About": {
+        "AboutUs": {
+            "title": "Sobre Nós",
+            "reputation_experience": "Nossa reputação é construída com base em",
+            "experience": "Experiência",
+            "who_we_are": "Quem Somos",
+            "who_we_are_description": "Uma equipe de especialistas apaixonados por investimentos em criptomoedas, dedicados a ajudar indivíduos e empresas a prosperar no espaço dos ativos digitais.",
+            "what_we_do": "O que Fazemos",
+            "what_we_do_description": "Oferecemos orientações estratégicas e insights para ajudar os clientes a tomar decisões informadas e maximizar os retornos no mercado de criptomoedas em constante evolução.",
+            "how_it_works": "Como Funciona",
+            "how_it_works_description": "Através de análises baseadas em dados e estratégias personalizadas, identificamos oportunidades lucrativas e otimizamos riscos para aumentar as carteiras de criptomoedas dos nossos clientes."
+        },
+        "FunFact": {
+            "clients_worldwide": {
+                "value": "M+",
+                "description": "Clientes em Todo o Mundo"
+            },
+            "satisfied_clients": {
+                "value": "%",
+                "description": "Clientes Satisfeitos"
+            },
+            "money_invested": {
+                "value": "M+",
+                "description": "Dinheiro Investido"
+            },
+            "expert_traders": {
+                "value": "+",
+                "description": "Traders Especializados"
+            }
+        },
+        "CTA": {
+            "headline": "Negocie por menos, com preços baixos e taxas transparentes"
+        },
+        "Accounts": {
+            "section_title": "Eleve seu nível de negociação com a Conta",
+            "sub_title": "Contas",
+            "professional_account": {
+                "title": "Conta Profissional",
+                "description": "Negociadores com contas profissionais têm acesso a uma ampla gama de benefícios, incluindo plataformas de negociação aprimoradas."
+            },
+            "demo_account": {
+                "title": "Conta Demo",
+                "description": "Contas demo de negociação são particularmente valiosas para traders iniciantes que estão se familiarizando com o mundo dos investimentos."
+            },
+            "features": {
+                "trade_anywhere": "Negocie com um toque, em qualquer lugar, a qualquer hora",
+                "manage_portfolio": "Gerencie sua conta e portfólio sem complicações",
+                "real_time_charts": "Mantenha-se à frente com gráficos e indicadores em tempo real"
+            }
+        },
+        "Team": {
+            "section_title": "Nossa Equipe Talentosa",
+            "sub_title": "Nossa equipe de especialistas",
+            "members": {
+                "olivia_quinn": {
+                    "name": "Olivia Quinn",
+                    "designation": "Trader Forex"
+                },
+                "nathan_hayes": {
+                    "name": "Nathan Hayes",
+                    "designation": "Consultor"
+                },
+                "ava_jensen": {
+                    "name": "Ava Jensen",
+                    "designation": "Assistente de Negociação"
+                },
+                "sophia_knight": {
+                    "name": "Sophia Knight",
+                    "designation": "Presidente de Negociações"
+                },
+                "ethan_brooks": {
+                    "name": "Ethan Brooks",
+                    "designation": "Coordenador de Marketing"
+                },
+                "aronic_kehan": {
+                    "name": "Aronic Kehan",
+                    "designation": "Assistente de Negócios"
+                }
+            }
+        },
+        "Apps": {
+            "section_title": "Baixe o App de Negociação",
+            "sub_title": "Baixe o App",
+            "description": "Utilizamos cookies para entender como você usa nosso site e oferecer a melhor experiência possível.",
+            "download_buttons": {
+                "app_store": {
+                    "text": "Baixar na App Store",
+                    "url": "https://apps.apple.com/at/app/easelaundry/id6740855121"
+                },
+                "google_play": {
+                    "text": "Disponível no Google Play",
+                    "url": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+                }
+            }
+        },
+        "Testimonials": {
+            "section_title": "Depoimentos de Clientes",
+            "sub_title": "Depoimentos",
+            "testimonial_1": {
+                "quote": "Investidor de criptomoedas torna meu investimento eficiente e agradável",
+                "description": "Navegue pelas ondas financeiras com um aplicativo de negociação de primeira linha, projetado para colocar o poder dos mercados na sua mão. Nosso app de última geração combina funcionalidades sofisticadas em qualquer lugar."
+            }
+        }
+    },
+    "Market": {
+        "Platforms": {
+            "section_title": "Plataformas de Negociação",
+            "sub_title": "Plataformas",
+            "app": {
+                "title": "Aplicativo",
+                "description": "Navegue pelas ondas financeiras com o aplicativo de negociação da plataforma TEDA, projetado para colocar o poder do mercado em suas mãos. Nosso aplicativo de última geração combina recursos complexos com um design intuitivo, permitindo que traders de todos os níveis aproveitem as oportunidades do mercado a qualquer hora, em qualquer lugar.",
+                "features": [
+                    "Negocie com um toque, em qualquer lugar, a qualquer hora",
+                    "Gerencie sua conta e portfólio sem complicações",
+                    "Fique à frente com gráficos e indicadores em tempo real",
+                    "Negocie com confiança por meio de segurança criptografada"
+                ]
+            },
+            "teda_copy": {
+                "title": "TEDA Copy",
+                "description": "Navegue pelas ondas financeiras com o aplicativo de negociação de primeira linha da FXT, projetado para colocar o poder dos mercados em sua mão. Nosso aplicativo de última geração combina funcionalidades sofisticadas com um design intuitivo, permitindo que traders de todos os níveis aproveitem as oportunidades do mercado a qualquer hora, em qualquer lugar.",
+                "features": [
+                    "Negocie com um toque, em qualquer lugar, a qualquer hora",
+                    "Gerencie sua conta e portfólio sem complicações",
+                    "Fique à frente com gráficos e indicadores em tempo real",
+                    "Negocie com confiança por meio de segurança criptografada"
+                ]
+            },
+            "tab_buttons": {
+                "webtrader": "TEDA Webtrader",
+                "mt4_mt": "MT4/MT",
+                "copy": "TEDA Copy"
+            }
+        },
+        "Range": {
+            "title": "Nossa Gama",
+            "subtitle": "Nossa gama de mercados",
+            "markets": {
+                "forex": {
+                    "title": "Negocie Forex",
+                    "button": "Negociação Forex"
+                },
+                "indices": {
+                    "title": "Índices",
+                    "button": "Negociação Forex"
+                },
+                "cryptocurrencies": {
+                    "title": "Criptomoedas",
+                    "button": "Negociação Forex"
+                },
+                "commodities": {
+                    "title": "Commodities",
+                    "button": "Negociação Forex"
+                }
+            }
+        },
+        "Apps": {
+            "title": "Baixar App",
+            "subtitle": "Baixar App de Negociação",
+            "description": "Utilizamos cookies para entender como você usa nosso site e oferecer a melhor experiência possível.",
+            "download_links": {
+                "apple_store": "https://apps.apple.com/cn/app/exchangespaw/id6741582233",
+                "google_play": "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5"
+            }
+        }
+    },
+    "Market_Details": {
+        "Details": {
+            "title": "Negocie Agora",
+            "subtitle": "Spreads e Swaps do Mercado",
+            "tabs": {
+                "cryptocurrency": "Criptomoeda",
+                "indices": "Índices",
+                "metals": "Metais",
+                "forex": "Forex",
+                "commodities": "Commodities"
+            },
+            "table_headers": {
+                "markets": "Mercados",
+                "bid": "Compra",
+                "ask": "Venda",
+                "action": "Ação",
+                "spread": "Spread"
+            },
+            "no_data_messages": {
+                "forex": "Nenhum dado de Forex disponível",
+                "commodities": "Nenhum dado de Commodities disponível"
+            }
+        },
+        "Process": {
+            "about_us": "Sobre Nós",
+            "reputation": "Nossa reputação é construída com base em",
+            "experience": "Experiência",
+            "who_we_are": {
+                "title": "Quem Somos",
+                "description": "Como uma corretora ou plataforma de negociação, estamos dedicados a fornecer negociações inovadoras e fáceis de usar."
+            },
+            "what_we_do": {
+                "title": "O que Fazemos",
+                "description": "Somos uma plataforma de negociação forex profissional dedicada a fornecer serviços abrangentes de investimento em forex. Com suporte tecnológico avançado, um ambiente de negociação seguro e cobertura de mercado global, oferecemos aos clientes ferramentas de negociação flexíveis e um atendimento ao cliente de alta qualidade para ajudá-los a alcançar um crescimento constante no mercado forex."
+            },
+            "how_it_works": {
+                "title": "Como Funciona",
+                "description": "Através de análises aprofundadas e orientações estratégicas precisas, ajudamos os clientes a tomar decisões informadas em um ambiente de mercado complexo, maximizando seus retornos de investimento. Nosso objetivo é fornecer soluções práticas para cada cliente, ajudando-os a manter uma vantagem competitiva em um setor cada vez mais disputado."
+            }
+        }
+    },
+    "Account_Details": {
+        "title": "Detalhes da Conta",
+        "professional_account": "Conta Profissional",
+        "professional_account_description": "Negociadores com contas profissionais têm acesso a uma ampla",
+        "demo_account": "Conta Demo",
+        "demo_account_description": "Contas demo de negociação são particularmente valiosas para iniciantes",
+        "account_overview": "As contas de negociação podem ser categorizadas em contas profissionais e contas demo com base nas necessidades de negociação e na experiência de mercado dos investidores. As contas profissionais são projetadas para traders experientes, oferecendo velocidades de execução mais rápidas, maior liquidez de mercado e condições de negociação mais flexíveis para facilitar a implementação de estratégias eficientes. Por outro lado, as contas demo permitem que os investidores testem estratégias de negociação, se familiarizem com as flutuações do mercado e aprimorem suas habilidades de negociação em um ambiente sem riscos. Cada conta de negociação recebe um número de identificação único pelo corretor ou instituição financeira, que é utilizado em todas as transações, liquidações de fundos e suporte ao cliente relacionado a essa conta, garantindo segurança e transparência.",
+        "professional_account_info": "Informações da Conta Profissional",
+        "info_list": {
+            "initial_deposit": "Depósito Inicial",
+            "leverage": "Alavancagem",
+            "spread": "Spread",
+            "multi_language_cc": "Atendimento Multilíngue",
+            "order_volume": "Volume de Ordem",
+            "support": "Suporte 24/7",
+            "friendly_expert": "Amigável e Especializado",
+            "award_winner": "Premiado"
+        },
+        "info_values": {
+            "initial_deposit": "$1000",
+            "leverage": "Até 1:400",
+            "spread": "Fixo a partir de 5 pips",
+            "multi_language_cc": "Sim",
+            "order_volume": "0,01 – 500 lotes",
+            "support": "Sim",
+            "friendly_expert": "Sim",
+            "award_winner": "Grande Bônus"
+        },
+        "benefits_title": "Benefícios",
+        "benefits": {
+            "portfolio_diversification": "Diversificação de Portfólio",
+            "access_global_markets": "Acesso a Mercados Globais",
+            "flexibility_control": "Flexibilidade e Controle",
+            "potential_profit": "Potencial de Lucro"
         }
     }
 }
