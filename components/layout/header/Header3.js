@@ -7,7 +7,6 @@ import { LanguageSelector } from "@/components/elements/LanguageTranslator"
 export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
         <>
-
             {/* main header */}
             <header className={`main-header header-style-one ${scroll ? "fixed-header" : ""}`}>
                 {/* header lower */}
