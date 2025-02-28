@@ -54,7 +54,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         </div>
                     </div>
                 </div>
-
                 <MobileMenu handleMobileMenu={handleMobileMenu} />
             </header>
         </>
