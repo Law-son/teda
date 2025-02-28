@@ -20,14 +20,17 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 </Link>
                             </figure>
                             <div className="d-flex flex-row align-items-center">
-                                    <LanguageSelector />
-                                    <div style={{ marginRight: '20px' }}></div>
+                                <LanguageSelector />
+                                <div style={{ marginRight: '20px' }}></div>
                                 <div className="menu-area clearfix">
                                     {/* mobile navigation toggler */}
                                     <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
                                         <i className="icon-bar"></i>
                                         <i className="icon-bar"></i>
                                         <i className="icon-bar"></i>
+                                    </div>
+                                    <div className="position-relative z-index-1000" style={{ marginRight: '20px' }}>
+                                        <LanguageSelector />
                                     </div>
                                     <nav className="main-menu navbar-expand-md navbar-light">
                                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">

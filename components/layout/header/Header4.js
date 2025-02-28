@@ -66,6 +66,9 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     <i className="icon-bar"></i>
                                     <i className="icon-bar"></i>
                                 </div>
+                                <div className="position-relative z-index-1000" style={{ marginRight: '20px' }}>
+                                    <LanguageSelector />
+                                </div>
                                 <nav className="main-menu navbar-expand-md navbar-light">
                                     <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <Menu />

@@ -42,16 +42,15 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
                             <div className="menu-area clearfix">
+                                <div className="position-relative z-index-1000" style={{ marginRight: '20px' }}>
+                                    <LanguageSelector />
+                                </div>
                                 <nav className="main-menu clearfix">
                                     <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <Menu />
                                     </div>
                                 </nav>
                             </div>
-                            {/* <div className="menu-right-content">
-                            <div className="search-btn mr_25"><div className="search-toggler" onClick={handlePopup}><i className="icon-10"></i></div></div>
-                            <div className="btn-box"><Link href="/index-5" className="theme-btn btn-one">Open Account</Link></div>
-                        </div> */}
                         </div>
                     </div>
                 </div>
